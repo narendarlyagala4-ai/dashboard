@@ -1,0 +1,876 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>E-Commerce Enterprise BI & Customer Analytics Dashboard</title>
+  
+  <!-- Google Fonts: Inter -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+  
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  
+  <!-- Chart.js -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body class="theme-light">
+  <div class="app-layout">
+    
+    <!-- SIDEBAR NAVIGATION -->
+    <aside class="sidebar">
+      <div class="sidebar-brand">
+        <div class="brand-icon"><i class="fa-solid fa-chart-line"></i></div>
+        <div class="brand-text">
+          <span class="brand-title">OmniCommerce</span>
+          <span class="brand-subtitle">Business Intelligence 360</span>
+        </div>
+      </div>
+      
+      <div class="sidebar-section-title">ANALYTICS PAGES</div>
+      <nav class="sidebar-nav">
+        <button class="nav-item active" data-page="page-executive">
+          <i class="fa-solid fa-gauge-high"></i>
+          <span>1. Executive Overview</span>
+        </button>
+        <button class="nav-item" data-page="page-sales">
+          <i class="fa-solid fa-arrow-trend-up"></i>
+          <span>2. Sales Performance</span>
+        </button>
+        <button class="nav-item" data-page="page-profit">
+          <i class="fa-solid fa-sack-dollar"></i>
+          <span>3. Profitability Analysis</span>
+        </button>
+        <button class="nav-item" data-page="page-customer">
+          <i class="fa-solid fa-users-gear"></i>
+          <span>4. Customer Analytics (RFM)</span>
+        </button>
+        <button class="nav-item" data-page="page-product">
+          <i class="fa-solid fa-boxes-stacked"></i>
+          <span>5. Product Performance</span>
+        </button>
+        <button class="nav-item" data-page="page-regional">
+          <i class="fa-solid fa-map-location-dot"></i>
+          <span>6. Regional & Geospatial</span>
+        </button>
+        
+        <div class="sidebar-divider"></div>
+        <div class="sidebar-section-title">STRATEGIC MEMO</div>
+        <button class="nav-item" data-page="page-insights">
+          <i class="fa-solid fa-lightbulb"></i>
+          <span>Executive Insights & Strategy</span>
+        </button>
+      </nav>
+      
+      <div class="sidebar-footer">
+        <div class="user-badge">
+          <div class="avatar"><i class="fa-solid fa-user-tie"></i></div>
+          <div class="user-info">
+            <span class="name">Senior BI Analyst</span>
+            <span class="role">Portfolio Project Suite</span>
+          </div>
+        </div>
+      </div>
+    </aside>
+
+    <!-- MAIN CONTENT CONTAINER -->
+    <main class="main-wrapper">
+      
+      <!-- TOP GLOBAL HEADER & FILTER BAR -->
+      <header class="top-header">
+        <div class="header-left">
+          <h1 id="dynamic-dashboard-title">Executive Performance Dashboard</h1>
+          <p class="subtitle" id="dynamic-subtitle">Real-time enterprise metrics, multi-dimensional drill-downs & customer RFM intelligence</p>
+        </div>
+        
+        <div class="header-right">
+          <button id="theme-toggle" class="btn-icon" title="Toggle Light/Dark Theme">
+            <i class="fa-solid fa-moon"></i>
+          </button>
+          <button id="btn-export-summary" class="btn btn-secondary">
+            <i class="fa-solid fa-file-arrow-down"></i> Export Summary
+          </button>
+        </div>
+      </header>
+
+      <!-- GLOBAL INTERACTIVE SLICERS BAR -->
+      <section class="slicers-bar">
+        <div class="slicer-group">
+          <label><i class="fa-regular fa-calendar"></i> Year</label>
+          <select id="filter-year">
+            <option value="ALL">All Years</option>
+            <option value="2026">2026</option>
+            <option value="2025">2025</option>
+            <option value="2024">2024</option>
+            <option value="2023">2023</option>
+            <option value="2022">2022</option>
+          </select>
+        </div>
+
+        <div class="slicer-group">
+          <label><i class="fa-solid fa-globe"></i> Region</label>
+          <select id="filter-region">
+            <option value="ALL">All Regions</option>
+            <option value="West">West</option>
+            <option value="East">East</option>
+            <option value="Central">Central</option>
+            <option value="South">South</option>
+          </select>
+        </div>
+
+        <div class="slicer-group">
+          <label><i class="fa-solid fa-layer-group"></i> Category</label>
+          <select id="filter-category">
+            <option value="ALL">All Categories</option>
+            <option value="Technology">Technology</option>
+            <option value="Furniture">Furniture</option>
+            <option value="Office Supplies">Office Supplies</option>
+          </select>
+        </div>
+
+        <div class="slicer-group">
+          <label><i class="fa-solid fa-users"></i> Customer Segment</label>
+          <select id="filter-segment">
+            <option value="ALL">All Segments</option>
+            <option value="Consumer">Consumer</option>
+            <option value="Corporate">Corporate</option>
+            <option value="Home Office">Home Office</option>
+          </select>
+        </div>
+
+        <div class="slicer-actions">
+          <button id="btn-reset-filters" class="btn btn-sm btn-outline">
+            <i class="fa-solid fa-rotate-left"></i> Reset Slicers
+          </button>
+        </div>
+      </section>
+
+      <!-- ACTIVE FILTERS BADGES -->
+      <div class="active-filter-tags" id="active-filter-tags">
+        <!-- Rendered dynamically -->
+      </div>
+
+      <!-- ========================================================================= -->
+      <!-- PAGE 1: EXECUTIVE OVERVIEW -->
+      <!-- ========================================================================= -->
+      <section id="page-executive" class="dashboard-page active">
+        <!-- TOP KPI CARDS -->
+        <div class="kpi-grid">
+          <div class="kpi-card" id="kpi-sales-card">
+            <div class="kpi-header">
+              <span class="kpi-title">Total Sales Revenue</span>
+              <span class="kpi-icon blue"><i class="fa-solid fa-dollar-sign"></i></span>
+            </div>
+            <div class="kpi-value" id="kpi-total-sales">$0</div>
+            <div class="kpi-footer">
+              <span class="badge positive" id="kpi-sales-growth"><i class="fa-solid fa-arrow-trend-up"></i> +12.4%</span>
+              <span class="kpi-subtext">vs previous period</span>
+            </div>
+          </div>
+
+          <div class="kpi-card" id="kpi-profit-card">
+            <div class="kpi-header">
+              <span class="kpi-title">Total Net Profit</span>
+              <span class="kpi-icon green"><i class="fa-solid fa-wallet"></i></span>
+            </div>
+            <div class="kpi-value" id="kpi-total-profit">$0</div>
+            <div class="kpi-footer">
+              <span class="badge positive" id="kpi-profit-margin">40.2% Margin</span>
+              <span class="kpi-subtext">Net margin efficiency</span>
+            </div>
+          </div>
+
+          <div class="kpi-card">
+            <div class="kpi-header">
+              <span class="kpi-title">Total Orders</span>
+              <span class="kpi-icon purple"><i class="fa-solid fa-cart-shopping"></i></span>
+            </div>
+            <div class="kpi-value" id="kpi-total-orders">0</div>
+            <div class="kpi-footer">
+              <span class="badge neutral" id="kpi-aov">AOV: $0</span>
+              <span class="kpi-subtext">Avg Order Value</span>
+            </div>
+          </div>
+
+          <div class="kpi-card">
+            <div class="kpi-header">
+              <span class="kpi-title">Active Customers</span>
+              <span class="kpi-icon teal"><i class="fa-solid fa-user-group"></i></span>
+            </div>
+            <div class="kpi-value" id="kpi-total-customers">0</div>
+            <div class="kpi-footer">
+              <span class="badge positive" id="kpi-repeat-rate">85% Repeat</span>
+              <span class="kpi-subtext">Customer loyalty rate</span>
+            </div>
+          </div>
+
+          <div class="kpi-card">
+            <div class="kpi-header">
+              <span class="kpi-title">Units Sold & Returns</span>
+              <span class="kpi-icon amber"><i class="fa-solid fa-box-open"></i></span>
+            </div>
+            <div class="kpi-value" id="kpi-total-units">0</div>
+            <div class="kpi-footer">
+              <span class="badge" id="kpi-return-rate">6.0% Return Rate</span>
+              <span class="kpi-subtext">Quality benchmark</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- CHARTS GRID -->
+        <div class="grid-2-col">
+          <!-- Monthly Trend Combo Chart -->
+          <div class="chart-card">
+            <div class="chart-header">
+              <div>
+                <h3 class="chart-title">Monthly Revenue & Net Profit Trend</h3>
+                <p class="chart-subtitle">Historical monthly sales trajectory and net earnings</p>
+              </div>
+              <div class="chart-actions">
+                <span class="legend-pill blue">Sales</span>
+                <span class="legend-pill green">Profit</span>
+              </div>
+            </div>
+            <div class="chart-body" style="height: 320px;">
+              <canvas id="chart-exec-monthly-trend"></canvas>
+            </div>
+          </div>
+
+          <!-- Sales by Category & Profit by Region -->
+          <div class="grid-nested-2">
+            <div class="chart-card">
+              <div class="chart-header">
+                <h3 class="chart-title">Sales by Category</h3>
+              </div>
+              <div class="chart-body" style="height: 250px;">
+                <canvas id="chart-exec-category-donut"></canvas>
+              </div>
+            </div>
+
+            <div class="chart-card">
+              <div class="chart-header">
+                <h3 class="chart-title">Profit by Region</h3>
+              </div>
+              <div class="chart-body" style="height: 250px;">
+                <canvas id="chart-exec-region-bar"></canvas>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="grid-2-col" style="margin-top: 1.5rem;">
+          <!-- Customer Segment Breakdown -->
+          <div class="chart-card">
+            <div class="chart-header">
+              <h3 class="chart-title">Customer Segment Revenue Share</h3>
+              <p class="chart-subtitle">Consumer vs Corporate vs Home Office</p>
+            </div>
+            <div class="chart-body" style="height: 260px;">
+              <canvas id="chart-exec-segment-donut"></canvas>
+            </div>
+          </div>
+
+          <!-- Top 5 Products Leaderboard -->
+          <div class="chart-card">
+            <div class="chart-header">
+              <h3 class="chart-title">Top 5 Products by Revenue</h3>
+              <p class="chart-subtitle">Key revenue generating products</p>
+            </div>
+            <div class="chart-body" style="height: 260px;">
+              <canvas id="chart-exec-top-products"></canvas>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ========================================================================= -->
+      <!-- PAGE 2: SALES PERFORMANCE ANALYSIS -->
+      <!-- ========================================================================= -->
+      <section id="page-sales" class="dashboard-page">
+        <!-- AUTOMATED SMART INSIGHTS BANNER -->
+        <div class="insights-banner">
+          <div class="insight-item">
+            <i class="fa-solid fa-rocket icon-rocket"></i>
+            <div>
+              <span class="insight-label">Fastest Growing Category</span>
+              <strong id="insight-fastest-category">Technology (+18.4% YoY)</strong>
+            </div>
+          </div>
+          <div class="insight-item">
+            <i class="fa-solid fa-trophy icon-trophy"></i>
+            <div>
+              <span class="insight-label">All-Time Peak Sales Month</span>
+              <strong id="insight-best-month">Nov 2025 ($167,672)</strong>
+            </div>
+          </div>
+          <div class="insight-item">
+            <i class="fa-solid fa-arrow-down-wide-short icon-alert"></i>
+            <div>
+              <span class="insight-label">Seasonal Low Month</span>
+              <strong id="insight-worst-month">Jan ($38,450 avg)</strong>
+            </div>
+          </div>
+        </div>
+
+        <!-- INTERACTIVE DRILL-DOWN CONTAINER -->
+        <div class="chart-card" style="margin-top: 1.5rem;">
+          <div class="chart-header">
+            <div>
+              <h3 class="chart-title">Sales Hierarchical Drill-Down</h3>
+              <p class="chart-subtitle" id="drilldown-subtitle">Click any Category bar to drill down into Sub-Categories, and click a Sub-Category to drill down to Products</p>
+            </div>
+            <div class="drilldown-breadcrumbs" id="sales-drilldown-crumbs">
+              <button class="crumb active" data-level="category"><i class="fa-solid fa-house"></i> All Categories</button>
+            </div>
+          </div>
+          <div class="chart-body" style="height: 340px;">
+            <canvas id="chart-sales-drilldown"></canvas>
+          </div>
+        </div>
+
+        <div class="grid-2-col" style="margin-top: 1.5rem;">
+          <!-- Quarterly Sales Comparison -->
+          <div class="chart-card">
+            <div class="chart-header">
+              <h3 class="chart-title">Quarterly Performance & Growth</h3>
+              <p class="chart-subtitle">Quarter-over-quarter volume and revenue comparison</p>
+            </div>
+            <div class="chart-body" style="height: 300px;">
+              <canvas id="chart-sales-quarterly"></canvas>
+            </div>
+          </div>
+
+          <!-- Top 10 vs Bottom 10 Toggle Table -->
+          <div class="chart-card">
+            <div class="chart-header">
+              <h3 class="chart-title" id="top-bottom-table-title">Top 10 Products by Sales</h3>
+              <div class="btn-group-toggle">
+                <button class="btn btn-xs active" id="btn-show-top10">Top 10</button>
+                <button class="btn btn-xs" id="btn-show-bottom10">Bottom 10</button>
+              </div>
+            </div>
+            <div class="table-responsive" style="max-height: 300px;">
+              <table class="data-table" id="table-top-bottom-products">
+                <thead>
+                  <tr>
+                    <th>Product Name</th>
+                    <th>Category</th>
+                    <th>Units</th>
+                    <th>Sales ($)</th>
+                    <th>Profit ($)</th>
+                    <th>Margin %</th>
+                  </tr>
+                </thead>
+                <tbody><!-- Dynamic --></tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ========================================================================= -->
+      <!-- PAGE 3: PROFITABILITY ANALYSIS -->
+      <!-- ========================================================================= -->
+      <section id="page-profit" class="dashboard-page">
+        
+        <!-- PROFITABILITY SUMMARY METRICS -->
+        <div class="kpi-grid" style="grid-template-columns: repeat(4, 1fr);">
+          <div class="kpi-card">
+            <span class="kpi-title">Overall Gross Margin</span>
+            <div class="kpi-value positive" id="profit-kpi-margin">40.2%</div>
+            <span class="kpi-subtext">Healthy target > 35%</span>
+          </div>
+          <div class="kpi-card">
+            <span class="kpi-title">Discounted Orders Ratio</span>
+            <div class="kpi-value" id="profit-kpi-discount-ratio">56.3%</div>
+            <span class="kpi-subtext">Orders with promo applied</span>
+          </div>
+          <div class="kpi-card">
+            <span class="kpi-title">Loss-Making Orders</span>
+            <div class="kpi-value negative" id="profit-kpi-loss-orders">18 Orders</div>
+            <span class="kpi-subtext">Due to discount > 40%</span>
+          </div>
+          <div class="kpi-card">
+            <span class="kpi-title">Most Profitable Category</span>
+            <div class="kpi-value" id="profit-kpi-top-cat">Technology</div>
+            <span class="kpi-subtext">Highest total dollar profit</span>
+          </div>
+        </div>
+
+        <!-- SCATTER PLOT: DISCOUNT VS PROFIT BUBBLE -->
+        <div class="chart-card" style="margin-top: 1.5rem;">
+          <div class="chart-header">
+            <div>
+              <h3 class="chart-title">Discount vs. Profit Bubble Analysis</h3>
+              <p class="chart-subtitle">X-Axis: Discount Applied | Y-Axis: Net Profit ($) | Bubble Size: Sales Volume | Color: Category</p>
+            </div>
+            <div class="scatter-alert">
+              <i class="fa-solid fa-triangle-exclamation"></i>
+              <span>High discounts (>30%) sharply erode margins into negative profit territory</span>
+            </div>
+          </div>
+          <div class="chart-body" style="height: 380px;">
+            <canvas id="chart-profit-scatter"></canvas>
+          </div>
+        </div>
+
+        <div class="grid-2-col" style="margin-top: 1.5rem;">
+          <!-- Sub-Category Profitability Breakdown -->
+          <div class="chart-card">
+            <div class="chart-header">
+              <h3 class="chart-title">Profit by Sub-Category</h3>
+              <p class="chart-subtitle">Net margin contribution across product lines</p>
+            </div>
+            <div class="chart-body" style="height: 320px;">
+              <canvas id="chart-profit-subcat-bar"></canvas>
+            </div>
+          </div>
+
+          <!-- Loss-Making & High Risk Orders Table -->
+          <div class="chart-card">
+            <div class="chart-header">
+              <h3 class="chart-title">Loss-Making & High-Risk Transactions</h3>
+              <span class="badge negative"><i class="fa-solid fa-flag"></i> Requires Audit</span>
+            </div>
+            <div class="table-responsive" style="max-height: 320px;">
+              <table class="data-table" id="table-loss-orders">
+                <thead>
+                  <tr>
+                    <th>Order ID</th>
+                    <th>Product</th>
+                    <th>Category</th>
+                    <th>Discount</th>
+                    <th>Sales ($)</th>
+                    <th>Profit ($)</th>
+                  </tr>
+                </thead>
+                <tbody><!-- Dynamic --></tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ========================================================================= -->
+      <!-- PAGE 4: CUSTOMER ANALYTICS & RFM SEGMENTATION -->
+      <!-- ========================================================================= -->
+      <section id="page-customer" class="dashboard-page">
+        <!-- CUSTOMER METRICS KPI CARDS -->
+        <div class="kpi-grid">
+          <div class="kpi-card">
+            <span class="kpi-title">Total Customer Base</span>
+            <div class="kpi-value" id="cust-kpi-total">850</div>
+            <span class="kpi-subtext">Across all segments</span>
+          </div>
+          <div class="kpi-card">
+            <span class="kpi-title">Repeat Customer Rate</span>
+            <div class="kpi-value positive" id="cust-kpi-repeat-rate">85.2%</div>
+            <span class="kpi-subtext">724 repeat purchasers</span>
+          </div>
+          <div class="kpi-card">
+            <span class="kpi-title">Average Order Value</span>
+            <div class="kpi-value" id="cust-kpi-aov">$700.11</div>
+            <span class="kpi-subtext">Spend per transaction</span>
+          </div>
+          <div class="kpi-card">
+            <span class="kpi-title">Average Lifetime Value</span>
+            <div class="kpi-value positive" id="cust-kpi-clv">$3,690.00</div>
+            <span class="kpi-subtext">Total spend per customer</span>
+          </div>
+          <div class="kpi-card">
+            <span class="kpi-title">Champions Share</span>
+            <div class="kpi-value" id="cust-kpi-champions-share">43.7%</div>
+            <span class="kpi-subtext">Revenue driven by Top Tier</span>
+          </div>
+        </div>
+
+        <!-- RFM SEGMENT DISTRIBUTION & REVENUE CONTRIBUTION -->
+        <div class="grid-2-col" style="margin-top: 1.5rem;">
+          <div class="chart-card">
+            <div class="chart-header">
+              <h3 class="chart-title">Customer RFM Segment Distribution</h3>
+              <p class="chart-subtitle">Customer volume categorized by Recency, Frequency & Monetary scores</p>
+            </div>
+            <div class="chart-body" style="height: 300px;">
+              <canvas id="chart-rfm-distribution"></canvas>
+            </div>
+          </div>
+
+          <div class="chart-card">
+            <div class="chart-header">
+              <h3 class="chart-title">Revenue Contribution by RFM Segment</h3>
+              <p class="chart-subtitle">Dollar share generated by each customer cohort</p>
+            </div>
+            <div class="chart-body" style="height: 300px;">
+              <canvas id="chart-rfm-revenue"></canvas>
+            </div>
+          </div>
+        </div>
+
+        <!-- TOP 10 HIGH-VALUE CUSTOMERS -->
+        <div class="chart-card" style="margin-top: 1.5rem;">
+          <div class="chart-header">
+            <div>
+              <h3 class="chart-title">Top 10 High-Value Customers (Champions Leaderboard)</h3>
+              <p class="chart-subtitle">Highest lifetime value customers with order frequency & status</p>
+            </div>
+          </div>
+          <div class="table-responsive">
+            <table class="data-table" id="table-top-customers">
+              <thead>
+                <tr>
+                  <th>Customer ID</th>
+                  <th>Customer Name</th>
+                  <th>Segment</th>
+                  <th>Location</th>
+                  <th>RFM Segment</th>
+                  <th>Orders</th>
+                  <th>Lifetime Spend ($)</th>
+                  <th>Total Profit ($)</th>
+                  <th>Avg Order Value ($)</th>
+                  <th>Days Inactive</th>
+                </tr>
+              </thead>
+              <tbody><!-- Dynamic --></tbody>
+            </table>
+          </div>
+        </div>
+      </section>
+
+      <!-- ========================================================================= -->
+      <!-- PAGE 5: PRODUCT PERFORMANCE -->
+      <!-- ========================================================================= -->
+      <section id="page-product" class="dashboard-page">
+        <!-- PRODUCT MATRIX TIERS SUMMARY -->
+        <div class="matrix-pills-row">
+          <div class="matrix-pill tier-excellent">
+            <span class="pill-icon">🌟</span>
+            <div>
+              <strong>Excellent (14)</strong>
+              <small>Margin ≥45%, Return ≤6%</small>
+            </div>
+          </div>
+          <div class="matrix-pill tier-good">
+            <span class="pill-icon">🟢</span>
+            <div>
+              <strong>Good (22)</strong>
+              <small>Margin ≥30%, Return ≤8%</small>
+            </div>
+          </div>
+          <div class="matrix-pill tier-average">
+            <span class="pill-icon">🟡</span>
+            <div>
+              <strong>Average (18)</strong>
+              <small>Margin ≥15%</small>
+            </div>
+          </div>
+          <div class="matrix-pill tier-risk">
+            <span class="pill-icon">⚠️</span>
+            <div>
+              <strong>Risk (4)</strong>
+              <small>High Return or Low Margin</small>
+            </div>
+          </div>
+          <div class="matrix-pill tier-poor">
+            <span class="pill-icon">🔴</span>
+            <div>
+              <strong>Poor (2)</strong>
+              <small>Loss / Underperforming</small>
+            </div>
+          </div>
+        </div>
+
+        <!-- PRODUCT PERFORMANCE MATRIX TABLE -->
+        <div class="chart-card" style="margin-top: 1.5rem;">
+          <div class="chart-header">
+            <div>
+              <h3 class="chart-title">Comprehensive Product Performance Matrix</h3>
+              <p class="chart-subtitle">Evaluated across Revenue, Net Margin, Quantity Sold, Return Rate, and Tier Status</p>
+            </div>
+            <div class="search-box">
+              <i class="fa-solid fa-magnifying-glass"></i>
+              <input type="text" id="product-matrix-search" placeholder="Search product name..." />
+            </div>
+          </div>
+          <div class="table-responsive" style="max-height: 420px;">
+            <table class="data-table" id="table-product-matrix">
+              <thead>
+                <tr>
+                  <th>Product Name</th>
+                  <th>Category</th>
+                  <th>Sub-Category</th>
+                  <th>Selling Price</th>
+                  <th>Units Sold</th>
+                  <th>Total Sales ($)</th>
+                  <th>Total Profit ($)</th>
+                  <th>Profit Margin %</th>
+                  <th>Return Rate %</th>
+                  <th>Performance Tier</th>
+                </tr>
+              </thead>
+              <tbody><!-- Dynamic --></tbody>
+            </table>
+          </div>
+        </div>
+
+        <div class="grid-2-col" style="margin-top: 1.5rem;">
+          <!-- Return Reason Distribution -->
+          <div class="chart-card">
+            <div class="chart-header">
+              <h3 class="chart-title">Primary Return Reasons</h3>
+              <p class="chart-subtitle">Root causes behind customer product returns</p>
+            </div>
+            <div class="chart-body" style="height: 280px;">
+              <canvas id="chart-product-return-reasons"></canvas>
+            </div>
+          </div>
+
+          <!-- Return Rate by Category -->
+          <div class="chart-card">
+            <div class="chart-header">
+              <h3 class="chart-title">Return Rate % by Category</h3>
+              <p class="chart-subtitle">Furniture and high-end tech experience highest return frequencies</p>
+            </div>
+            <div class="chart-body" style="height: 280px;">
+              <canvas id="chart-product-return-by-cat"></canvas>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ========================================================================= -->
+      <!-- PAGE 6: REGIONAL & GEOSPATIAL ANALYSIS -->
+      <!-- ========================================================================= -->
+      <section id="page-regional" class="dashboard-page">
+        
+        <!-- REGION TILES -->
+        <div class="regional-cards-grid" id="regional-cards-container">
+          <!-- Dynamically populated Region Cards -->
+        </div>
+
+        <div class="grid-2-col" style="margin-top: 1.5rem;">
+          <!-- Sales & Profit by State Bar -->
+          <div class="chart-card">
+            <div class="chart-header">
+              <h3 class="chart-title">Sales & Profit by Top States</h3>
+              <p class="chart-subtitle">California, Texas, New York, Florida leading market penetration</p>
+            </div>
+            <div class="chart-body" style="height: 360px;">
+              <canvas id="chart-regional-states-bar"></canvas>
+            </div>
+          </div>
+
+          <!-- Top Performing Cities vs Low-Margin Cities -->
+          <div class="chart-card">
+            <div class="chart-header">
+              <h3 class="chart-title">City Profitability Ranking</h3>
+              <p class="chart-subtitle">Top 10 highest profit cities vs bottom cities</p>
+            </div>
+            <div class="table-responsive" style="max-height: 360px;">
+              <table class="data-table" id="table-city-ranking">
+                <thead>
+                  <tr>
+                    <th>City</th>
+                    <th>State</th>
+                    <th>Region</th>
+                    <th>Orders</th>
+                    <th>Sales ($)</th>
+                    <th>Profit ($)</th>
+                    <th>Margin %</th>
+                  </tr>
+                </thead>
+                <tbody><!-- Dynamic --></tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+
+        <!-- DRILL-THROUGH MODAL TRIGGER BANNER -->
+        <div class="chart-card" style="margin-top: 1.5rem;">
+          <div class="chart-header">
+            <div>
+              <h3 class="chart-title"><i class="fa-solid fa-diagram-project"></i> Interactive Regional Drill-Through Path</h3>
+              <p class="chart-subtitle">Select any State or City to inspect underlying order transactions</p>
+            </div>
+          </div>
+          <div class="state-badges-container" id="state-drill-chips">
+            <!-- Dynamic State Chips -->
+          </div>
+        </div>
+      </section>
+
+      <!-- ========================================================================= -->
+      <!-- BUSINESS INSIGHTS & STRATEGIC RECOMMENDATIONS PAGE -->
+      <!-- ========================================================================= -->
+      <section id="page-insights" class="dashboard-page">
+        <div class="insights-page-wrapper">
+          
+          <!-- Executive Memo Card -->
+          <div class="memo-card">
+            <div class="memo-header">
+              <div class="memo-tag">EXECUTIVE BRIEFING</div>
+              <h2>Enterprise Business Intelligence & Strategic Recommendations Memo</h2>
+              <p class="memo-meta">Prepared for Executive Leadership & Operations Management | Senior Data Analyst</p>
+            </div>
+
+            <div class="memo-grid">
+              <!-- Key Findings -->
+              <div class="memo-column">
+                <h3><i class="fa-solid fa-magnifying-glass-chart"></i> Key Analytical Findings</h3>
+                
+                <div class="finding-card">
+                  <div class="finding-num">01</div>
+                  <div class="finding-content">
+                    <h4>Technology Drives 68% of Total Revenue & Profit</h4>
+                    <p>Laptops and Phones constitute the core margin engines, generating over $2.1M in revenue with a healthy 38.8% net profit margin.</p>
+                  </div>
+                </div>
+
+                <div class="finding-card">
+                  <div class="finding-num">02</div>
+                  <div class="finding-content">
+                    <h4>Excessive Discounts (>30%) Trigger Direct Losses</h4>
+                    <p>While discount promotions boost volume, transactions discounted at 40%-50% on Furniture (Tables & Storage) produce negative profit margins due to freight overhead.</p>
+                  </div>
+                </div>
+
+                <div class="finding-card">
+                  <div class="finding-num">03</div>
+                  <div class="finding-content">
+                    <h4>High Customer Retention (85.2% Repeat Rate)</h4>
+                    <p>Champions and Loyal Customer cohorts represent 42% of the customer base but drive over 65% of total revenue. A small segment of At-Risk accounts requires immediate re-engagement.</p>
+                  </div>
+                </div>
+
+                <div class="finding-card">
+                  <div class="finding-num">04</div>
+                  <div class="finding-content">
+                    <h4>Furniture Return Rate Reaches 8.2%</h4>
+                    <p>Damaged in Transit (29.5%) and Defective Items (22.1%) represent the bulk of returns, highlighting transit packaging vulnerabilities.</p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Strategic Recommendations -->
+              <div class="memo-column">
+                <h3><i class="fa-solid fa-bullseye"></i> Actionable Management Recommendations</h3>
+                
+                <div class="action-card">
+                  <div class="action-badge">ACTION 1</div>
+                  <h4>Implement Hard Discount Caps at 20%</h4>
+                  <p>Eliminate 40%+ discounts on low-margin furniture items (Tables, Bookcases) to immediately stop margin bleeding and recover ~$45,000 in lost profit.</p>
+                </div>
+
+                <div class="action-card">
+                  <div class="action-badge">ACTION 2</div>
+                  <h4>Launch VIP Retention Program for Champions & At-Risk</h4>
+                  <p>Establish targeted loyalty incentives for the top 160 Champions and automated win-back discount sequences for high-value At-Risk customers before churn.</p>
+                </div>
+
+                <div class="action-card">
+                  <div class="action-badge">ACTION 3</div>
+                  <h4>Upgrade Freight Packaging for Fragile Categories</h4>
+                  <p>Partner with regional carriers to improve protective packaging for bulky furniture, targeting a reduction in return rate from 8.2% to <4.5%.</p>
+                </div>
+
+                <div class="action-card">
+                  <div class="action-badge">ACTION 4</div>
+                  <h4>Double Down on High-Margin Tech Bundles</h4>
+                  <p>Bundle high-margin accessories (Chargers, Keyboards, Hubs) with core laptop/phone sales to increase Average Order Value (AOV) by 15%.</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Summary Table of Recommendations -->
+            <div class="strategy-table-container">
+              <h3>Strategic Impact Matrix</h3>
+              <table class="data-table">
+                <thead>
+                  <tr>
+                    <th>Strategic Initiative</th>
+                    <th>Target Area</th>
+                    <th>Expected Financial Impact</th>
+                    <th>Implementation Effort</th>
+                    <th>Priority</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><strong>Discount Guardrails & Thresholds</strong></td>
+                    <td>Furniture & Storage</td>
+                    <td>+$45,000 Annual Margin Recovery</td>
+                    <td>Low (1-2 Weeks)</td>
+                    <td><span class="badge positive">P0 - Immediate</span></td>
+                  </tr>
+                  <tr>
+                    <td><strong>VIP Champions Loyalty Club</strong></td>
+                    <td>Consumer & Corporate Segments</td>
+                    <td>+12% Repeat Purchase Frequency</td>
+                    <td>Medium (3-4 Weeks)</td>
+                    <td><span class="badge positive">P0 - Immediate</span></td>
+                  </tr>
+                  <tr>
+                    <td><strong>Packaging & Transit QA Audit</strong></td>
+                    <td>Furniture & Heavy Tech</td>
+                    <td>-35% Return Overhead Costs</td>
+                    <td>Medium (4-6 Weeks)</td>
+                    <td><span class="badge neutral">P1 - High</span></td>
+                  </tr>
+                  <tr>
+                    <td><strong>Accessory Cross-Sell Bundling</strong></td>
+                    <td>Technology & Office Supplies</td>
+                    <td>+15% Average Order Value (AOV)</td>
+                    <td>Low (2 Weeks)</td>
+                    <td><span class="badge neutral">P1 - High</span></td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+
+          </div>
+
+        </div>
+      </section>
+
+      <!-- ORDER DETAILS DRILL-THROUGH MODAL -->
+      <div id="drillthrough-modal" class="modal-overlay hidden">
+        <div class="modal-card">
+          <div class="modal-header">
+            <div>
+              <h3 id="modal-title">Regional Drill-Through Order Details</h3>
+              <p id="modal-subtitle">Underlying line-item orders for selected territory</p>
+            </div>
+            <button id="modal-close" class="btn-close"><i class="fa-solid fa-xmark"></i></button>
+          </div>
+          <div class="modal-body table-responsive">
+            <table class="data-table" id="modal-orders-table">
+              <thead>
+                <tr>
+                  <th>Order ID</th>
+                  <th>Order Date</th>
+                  <th>Customer</th>
+                  <th>Product</th>
+                  <th>Category</th>
+                  <th>Sales ($)</th>
+                  <th>Qty</th>
+                  <th>Discount</th>
+                  <th>Profit ($)</th>
+                  <th>Status</th>
+                </tr>
+              </thead>
+              <tbody><!-- Populated dynamically --></tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+
+    </main>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>

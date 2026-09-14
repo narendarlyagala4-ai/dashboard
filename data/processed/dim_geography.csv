@@ -1,0 +1,33 @@
+Region,State,City,Geography Key
+Central,Texas,San Antonio,GEO-0001
+East,Massachusetts,Boston,GEO-0002
+Central,Illinois,Chicago,GEO-0003
+Central,Ohio,Columbus,GEO-0004
+West,California,San Diego,GEO-0005
+East,Pennsylvania,Philadelphia,GEO-0006
+West,Washington,Spokane,GEO-0007
+West,California,Los Angeles,GEO-0008
+South,Florida,Tampa,GEO-0009
+South,Georgia,Atlanta,GEO-0010
+West,California,San Jose,GEO-0011
+South,Florida,Miami,GEO-0012
+South,Virginia,Richmond,GEO-0013
+East,New York,New York City,GEO-0014
+South,North Carolina,Charlotte,GEO-0015
+West,Oregon,Portland,GEO-0016
+South,Tennessee,Nashville,GEO-0017
+East,New Jersey,Newark,GEO-0018
+Central,Texas,Dallas,GEO-0019
+West,Washington,Seattle,GEO-0020
+South,Florida,Orlando,GEO-0021
+West,Colorado,Denver,GEO-0022
+Central,Texas,Houston,GEO-0023
+Central,Michigan,Detroit,GEO-0024
+West,California,San Francisco,GEO-0025
+West,Arizona,Phoenix,GEO-0026
+Central,Texas,Austin,GEO-0027
+East,New York,Buffalo,GEO-0028
+West,Nevada,Las Vegas,GEO-0029
+Central,Ohio,Cleveland,GEO-0030
+East,Pennsylvania,Pittsburgh,GEO-0031
+Central,Minnesota,Minneapolis,GEO-0032

@@ -1,0 +1,61 @@
+Product ID,Product Name,Category,Sub-Category,Cost,Selling Price,Total_Sales,Total_Profit,Total_Units,Total_Orders,Total_Returns,Profit Margin %,Return Rate %,Performance Category
+PROD-0001,Apex Pro Smartphone 128GB,Technology,Phones,450.0,799.0,90007.35,36329.11,118,63,7,40.36,11.11,Average
+PROD-0002,Horizon 5G Mobile 256GB,Technology,Phones,520.0,899.0,120241.25,47269.55,139,67,5,39.31,7.46,Good
+PROD-0003,Vortex Lite Phone 64GB,Technology,Phones,220.0,399.0,62982.15,25166.13,168,77,10,39.96,12.99,Average
+PROD-0004,Nova Flagship 512GB,Technology,Phones,680.0,1099.0,148365.0,51820.58,141,69,5,34.93,7.25,Good
+PROD-0005,Echo Flip Smartphone,Technology,Phones,600.0,950.0,140077.5,45109.88,157,69,2,32.2,2.9,Good
+PROD-0006,TitanBook Pro 15-inch,Technology,Laptops,750.0,1299.0,256617.45,101837.74,205,77,8,39.68,10.39,Average
+PROD-0007,UltraSlim Laptop 13-inch,Technology,Laptops,580.0,999.0,157342.5,61449.36,164,72,3,39.05,4.17,Good
+PROD-0008,Spectra Gaming Rig 17-inch,Technology,Laptops,1100.0,1899.0,315234.0,125178.22,172,77,2,39.71,2.6,Good
+PROD-0009,CoreBook Student Edition,Technology,Laptops,320.0,549.0,83914.65,30961.73,163,77,4,36.9,5.19,Good
+PROD-0010,Zenith Carbon Touch 14-inch,Technology,Laptops,850.0,1449.0,240751.35,92003.15,174,83,4,38.22,4.82,Good
+PROD-0011,Quantum Wireless Earbuds,Technology,Accessories,45.0,129.0,25290.45,14994.63,206,82,2,59.29,2.44,Excellent
+PROD-0012,HyperCharge 100W GaN Block,Technology,Accessories,18.0,59.0,9649.45,5599.94,174,87,3,58.03,3.45,Excellent
+PROD-0013,ErgoTrack Bluetooth Mouse,Technology,Accessories,22.0,69.0,8911.35,5328.89,134,65,0,59.8,0.0,Excellent
+PROD-0014,MechStrike RGB Keyboard,Technology,Accessories,55.0,149.0,27520.3,15950.18,193,67,5,57.96,7.46,Good
+PROD-0015,4K Ultra-Wide USB-C Hub,Technology,Accessories,35.0,89.0,14017.5,7460.16,163,75,1,53.22,1.33,Excellent
+PROD-0016,Canon ImageRunner Multi-function,Technology,Copiers & Printers,900.0,1699.0,246694.8,110941.09,150,68,3,44.97,4.41,Good
+PROD-0017,HP Color LaserJet Pro Office,Technology,Copiers & Printers,380.0,699.0,107331.45,45314.45,161,71,3,42.22,4.23,Good
+PROD-0018,Brother Compact Monochrome Laser,Technology,Copiers & Printers,110.0,199.0,35302.6,13903.37,186,76,5,39.38,6.58,Good
+PROD-0019,Epson EcoTank Wireless All-in-One,Technology,Copiers & Printers,180.0,329.0,51504.95,21170.46,164,81,5,41.1,6.17,Good
+PROD-0020,ErgoComfort Mesh Executive Chair,Furniture,Chairs,160.0,349.0,43834.4,21877.17,133,67,5,49.91,7.46,Good
+PROD-0021,HighBack Leather Swivel Chair,Furniture,Chairs,190.0,399.0,69326.25,32657.09,188,82,4,47.11,4.88,Excellent
+PROD-0022,ErgoFlex Lumbar Task Chair,Furniture,Chairs,95.0,219.0,35521.8,18367.15,171,76,6,51.71,7.89,Good
+PROD-0023,Minimalist Wooden Dining Chair Set,Furniture,Chairs,120.0,249.0,28884.0,13556.61,123,58,5,46.93,8.62,Average
+PROD-0024,AeroGamer Ergonomic Recliner,Furniture,Chairs,140.0,299.0,37928.15,18362.24,135,66,6,48.41,9.09,Average
+PROD-0025,Nordic Solid Oak Dining Table,Furniture,Tables,380.0,649.0,97414.9,30417.7,174,81,6,31.22,7.41,Good
+PROD-0026,Dual-Motor Electric Standing Desk,Furniture,Tables,280.0,499.0,63822.1,19367.21,156,80,5,30.35,6.25,Good
+PROD-0027,Compact Folding Coffee Table,Furniture,Tables,75.0,139.0,22135.75,7144.56,187,73,7,32.28,9.59,Average
+PROD-0028,Industrial Steel Frame Meeting Table,Furniture,Tables,450.0,799.0,131355.6,41795.7,197,82,6,31.82,7.32,Good
+PROD-0029,Modern Minimalist Workstation Desk,Furniture,Tables,180.0,319.0,46478.3,14099.04,175,75,7,30.33,9.33,Average
+PROD-0030,Scandinavian 5-Tier Bookshelf,Furniture,Bookcases,110.0,229.0,26850.25,11207.52,136,74,5,41.74,6.76,Good
+PROD-0031,Modular Floating Wall Shelf Unit,Furniture,Bookcases,45.0,99.0,13270.95,5619.96,153,78,11,42.35,14.1,Average
+PROD-0032,Heavy Duty Industrial Bookcase,Furniture,Bookcases,160.0,319.0,41342.4,16878.68,148,61,9,40.83,14.75,Average
+PROD-0033,Corner Display Bookcase,Furniture,Bookcases,85.0,169.0,24724.7,9028.65,174,82,4,36.52,4.88,Good
+PROD-0034,Architect LED Task Lamp,Furniture,Furnishings,25.0,65.0,10322.0,5221.88,170,78,8,50.59,10.26,Average
+PROD-0035,Acoustic Foam Soundproof Panels,Furniture,Furnishings,30.0,75.0,10695.0,5421.14,150,73,3,50.69,4.11,Excellent
+PROD-0036,Anti-Fatigue Standing Mat,Furniture,Furnishings,20.0,49.0,6938.4,3166.48,151,63,4,45.64,6.35,Good
+PROD-0037,Luxury Wool Area Rug 5x7,Furniture,Furnishings,90.0,210.0,37569.0,19214.88,193,71,4,51.15,5.63,Excellent
+PROD-0038,Lockable 3-Drawer Steel Cabinet,Office Supplies,Storage,95.0,189.0,27338.85,10246.67,171,69,5,37.48,7.25,Good
+PROD-0039,Clear Acrylic Desktop Organizer,Office Supplies,Storage,12.0,32.0,4222.4,1647.4,150,73,4,39.02,5.48,Good
+PROD-0040,Heavy Duty Storage Totes 4-Pack,Office Supplies,Storage,28.0,69.0,9808.35,4325.93,166,81,7,44.1,8.64,Average
+PROD-0041,Stackable Document File Boxes,Office Supplies,Storage,15.0,39.0,4256.85,1669.59,130,72,4,39.22,5.56,Good
+PROD-0042,Premium Sketch & Marker Set 80pc,Office Supplies,Art,18.0,49.0,7967.4,3929.01,175,80,2,49.31,2.5,Excellent
+PROD-0043,Precision Guillotine Paper Cutter,Office Supplies,Art,24.0,59.0,8442.9,4032.52,151,76,5,47.76,6.58,Good
+PROD-0044,Magnetic Whiteboard 36x24 with Marker Kit,Office Supplies,Art,32.0,79.0,9594.55,4666.47,132,62,6,48.64,9.68,Average
+PROD-0045,Heavy-Duty Metal Drafting Easel,Office Supplies,Art,45.0,110.0,17314.0,8733.07,172,73,5,50.44,6.85,Good
+PROD-0046,Premium Multipurpose Copy Paper 5 Reams,Office Supplies,Paper,14.0,34.0,5212.2,1995.98,169,79,5,38.29,6.33,Good
+PROD-0047,Recycled Glossy Photo Paper 100pk,Office Supplies,Paper,9.0,24.0,3412.8,1313.8899999999999,153,69,3,38.5,4.35,Good
+PROD-0048,Heavy Cardstock 250 Sheets,Office Supplies,Paper,11.0,28.0,5107.2,1910.17,201,91,4,37.4,4.4,Good
+PROD-0049,Dot-Grid Executive Notebooks 3-Pack,Office Supplies,Paper,8.0,22.0,3870.9,1421.11,191,84,5,36.71,5.95,Good
+PROD-0050,Heavy Duty D-Ring Binder 3-inch 6pk,Office Supplies,Binders,16.0,42.0,5730.9,2585.74,146,62,1,45.12,1.61,Excellent
+PROD-0051,Presentation Display Book 40 Pockets,Office Supplies,Binders,6.0,18.0,2612.7,876.79,155,85,5,33.56,5.88,Good
+PROD-0052,Clear Sheet Protectors 200pk,Office Supplies,Binders,7.0,19.0,3344.0,1102.61,188,82,3,32.97,3.66,Good
+PROD-0053,Color-Coded Tab Dividers 12-Set,Office Supplies,Binders,4.0,12.0,1737.0,331.54,155,76,1,19.09,1.32,Average
+PROD-0054,Office Espresso & Coffee Machine,Office Supplies,Appliances,140.0,299.0,47182.2,23060.43,166,78,4,48.88,5.13,Excellent
+PROD-0055,Compact Countertop Microwave Oven,Office Supplies,Appliances,65.0,139.0,22052.35,10133.98,171,76,6,45.95,7.89,Good
+PROD-0056,Mini Fridge with Freezer 3.2 Cu Ft,Office Supplies,Appliances,110.0,229.0,42170.35,19539.69,197,87,3,46.34,3.45,Excellent
+PROD-0057,Personal Ceramic Space Heater,Office Supplies,Appliances,18.0,45.0,7796.25,3401.37,189,81,3,43.63,3.7,Good
+PROD-0058,High-Capacity Heavy Duty Stapler,Office Supplies,Fasteners,12.0,29.0,3474.2,1217.75,130,75,1,35.05,1.33,Good
+PROD-0059,Assorted Binder Clips & Paper Clips Tub,Office Supplies,Fasteners,4.0,11.0,1519.1,251.63,145,69,5,16.56,7.25,Average
+PROD-0060,Velcro Cable Management Straps 50pk,Office Supplies,Fasteners,5.0,14.0,2166.5,537.17,164,77,2,24.79,2.6,Average

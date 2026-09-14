@@ -1,0 +1,272 @@
+Order ID,Return Status,Return Reason
+ORD-2022-13658,Returned,Wrong Item Sent
+ORD-2022-13928,Returned,Late Delivery
+ORD-2022-14408,Returned,Defective Item
+ORD-2022-13913,Returned,Defective Item
+ORD-2022-10311,Returned,Defective Item
+ORD-2022-10314,Returned,Defective Item
+ORD-2022-14470,Returned,Customer Changed Mind
+ORD-2022-14169,Returned,Damaged in Transit
+ORD-2022-11943,Returned,Defective Item
+ORD-2022-12617,Returned,Defective Item
+ORD-2022-13907,Returned,Wrong Item Sent
+ORD-2022-12967,Returned,Defective Item
+ORD-2022-10192,Returned,Wrong Item Sent
+ORD-2022-13899,Returned,Defective Item
+ORD-2023-13701,Returned,Late Delivery
+ORD-2023-13481,Returned,Wrong Item Sent
+ORD-2023-12968,Returned,Defective Item
+ORD-2023-10293,Returned,Wrong Item Sent
+ORD-2023-13542,Returned,Damaged in Transit
+ORD-2023-10087,Returned,Late Delivery
+ORD-2023-12746,Returned,Wrong Item Sent
+ORD-2023-14077,Returned,Defective Item
+ORD-2023-13926,Returned,Product Did Not Meet Expectations
+ORD-2023-12005,Returned,Damaged in Transit
+ORD-2023-12910,Returned,Damaged in Transit
+ORD-2023-14314,Returned,Defective Item
+ORD-2023-14033,Returned,Late Delivery
+ORD-2023-12512,Returned,Defective Item
+ORD-2023-14186,Returned,Product Did Not Meet Expectations
+ORD-2023-10216,Returned,Wrong Item Sent
+ORD-2023-13129,Returned,Defective Item
+ORD-2023-12645,Returned,Damaged in Transit
+ORD-2023-10596,Returned,Defective Item
+ORD-2023-10937,Returned,Defective Item
+ORD-2023-10277,Returned,Damaged in Transit
+ORD-2023-10499,Returned,Defective Item
+ORD-2023-10852,Returned,Wrong Item Sent
+ORD-2023-13597,Returned,Wrong Item Sent
+ORD-2023-14372,Returned,Wrong Item Sent
+ORD-2023-10504,Returned,Late Delivery
+ORD-2023-13444,Returned,Wrong Item Sent
+ORD-2023-11914,Returned,Damaged in Transit
+ORD-2023-11526,Returned,Damaged in Transit
+ORD-2023-13566,Returned,Damaged in Transit
+ORD-2023-10711,Returned,Wrong Item Sent
+ORD-2023-13783,Returned,Wrong Item Sent
+ORD-2023-10610,Returned,Late Delivery
+ORD-2023-13719,Returned,Damaged in Transit
+ORD-2023-10428,Returned,Late Delivery
+ORD-2023-14331,Returned,Damaged in Transit
+ORD-2023-10793,Returned,Late Delivery
+ORD-2023-10755,Returned,Damaged in Transit
+ORD-2023-10897,Returned,Damaged in Transit
+ORD-2023-13505,Returned,Wrong Item Sent
+ORD-2023-11582,Returned,Late Delivery
+ORD-2023-11650,Returned,Defective Item
+ORD-2023-13835,Returned,Damaged in Transit
+ORD-2023-11130,Returned,Defective Item
+ORD-2023-12160,Returned,Late Delivery
+ORD-2023-13098,Returned,Customer Changed Mind
+ORD-2023-12381,Returned,Damaged in Transit
+ORD-2024-10029,Returned,Defective Item
+ORD-2024-11351,Returned,Product Did Not Meet Expectations
+ORD-2024-13274,Returned,Damaged in Transit
+ORD-2024-14167,Returned,Wrong Item Sent
+ORD-2024-10668,Returned,Late Delivery
+ORD-2024-13010,Returned,Damaged in Transit
+ORD-2024-10047,Returned,Late Delivery
+ORD-2024-10683,Returned,Damaged in Transit
+ORD-2024-11813,Returned,Wrong Item Sent
+ORD-2024-12271,Returned,Defective Item
+ORD-2024-13994,Returned,Wrong Item Sent
+ORD-2024-12408,Returned,Late Delivery
+ORD-2024-11318,Returned,Late Delivery
+ORD-2024-13393,Returned,Late Delivery
+ORD-2024-13896,Returned,Product Did Not Meet Expectations
+ORD-2024-14193,Returned,Customer Changed Mind
+ORD-2024-13446,Returned,Damaged in Transit
+ORD-2024-11696,Returned,Late Delivery
+ORD-2024-12775,Returned,Product Did Not Meet Expectations
+ORD-2024-11712,Returned,Defective Item
+ORD-2024-11796,Returned,Customer Changed Mind
+ORD-2024-12646,Returned,Damaged in Transit
+ORD-2024-14183,Returned,Defective Item
+ORD-2024-12232,Returned,Damaged in Transit
+ORD-2024-11003,Returned,Wrong Item Sent
+ORD-2024-13362,Returned,Defective Item
+ORD-2024-14154,Returned,Late Delivery
+ORD-2024-10950,Returned,Damaged in Transit
+ORD-2024-13308,Returned,Customer Changed Mind
+ORD-2024-11995,Returned,Customer Changed Mind
+ORD-2024-13673,Returned,Customer Changed Mind
+ORD-2024-10898,Returned,Customer Changed Mind
+ORD-2024-13941,Returned,Defective Item
+ORD-2024-11048,Returned,Wrong Item Sent
+ORD-2024-12422,Returned,Damaged in Transit
+ORD-2024-12395,Returned,Damaged in Transit
+ORD-2024-12647,Returned,Defective Item
+ORD-2024-14072,Returned,Wrong Item Sent
+ORD-2024-12946,Returned,Wrong Item Sent
+ORD-2024-10221,Returned,Late Delivery
+ORD-2024-10071,Returned,Defective Item
+ORD-2024-12683,Returned,Damaged in Transit
+ORD-2024-11032,Returned,Damaged in Transit
+ORD-2024-13999,Returned,Product Did Not Meet Expectations
+ORD-2024-10697,Returned,Late Delivery
+ORD-2024-13984,Returned,Defective Item
+ORD-2024-13320,Returned,Damaged in Transit
+ORD-2024-11522,Returned,Product Did Not Meet Expectations
+ORD-2024-11628,Returned,Late Delivery
+ORD-2024-14222,Returned,Wrong Item Sent
+ORD-2024-10343,Returned,Wrong Item Sent
+ORD-2024-10524,Returned,Product Did Not Meet Expectations
+ORD-2024-11015,Returned,Damaged in Transit
+ORD-2024-11759,Returned,Damaged in Transit
+ORD-2024-12054,Returned,Defective Item
+ORD-2024-13276,Returned,Late Delivery
+ORD-2024-12280,Returned,Defective Item
+ORD-2024-13730,Returned,Late Delivery
+ORD-2024-13503,Returned,Defective Item
+ORD-2024-10956,Returned,Customer Changed Mind
+ORD-2024-13548,Returned,Damaged in Transit
+ORD-2024-11931,Returned,Damaged in Transit
+ORD-2024-12843,Returned,Wrong Item Sent
+ORD-2024-11802,Returned,Late Delivery
+ORD-2024-12285,Returned,Customer Changed Mind
+ORD-2024-13418,Returned,Wrong Item Sent
+ORD-2024-14363,Returned,Wrong Item Sent
+ORD-2024-13466,Returned,Customer Changed Mind
+ORD-2024-11547,Returned,Defective Item
+ORD-2025-12513,Returned,Damaged in Transit
+ORD-2025-12852,Returned,Defective Item
+ORD-2025-13467,Returned,Customer Changed Mind
+ORD-2025-14463,Returned,Wrong Item Sent
+ORD-2025-13793,Returned,Damaged in Transit
+ORD-2025-12847,Returned,Damaged in Transit
+ORD-2025-11034,Returned,Wrong Item Sent
+ORD-2025-11655,Returned,Damaged in Transit
+ORD-2025-12043,Returned,Damaged in Transit
+ORD-2025-12391,Returned,Damaged in Transit
+ORD-2025-12180,Returned,Damaged in Transit
+ORD-2025-10214,Returned,Damaged in Transit
+ORD-2025-11934,Returned,Late Delivery
+ORD-2025-12835,Returned,Damaged in Transit
+ORD-2025-10699,Returned,Defective Item
+ORD-2025-11860,Returned,Late Delivery
+ORD-2025-11617,Returned,Defective Item
+ORD-2025-14156,Returned,Damaged in Transit
+ORD-2025-12037,Returned,Late Delivery
+ORD-2025-14350,Returned,Wrong Item Sent
+ORD-2025-11046,Returned,Damaged in Transit
+ORD-2025-11425,Returned,Defective Item
+ORD-2025-11466,Returned,Defective Item
+ORD-2025-11897,Returned,Damaged in Transit
+ORD-2025-12279,Returned,Defective Item
+ORD-2025-12654,Returned,Damaged in Transit
+ORD-2025-13318,Returned,Damaged in Transit
+ORD-2025-13995,Returned,Damaged in Transit
+ORD-2025-14052,Returned,Defective Item
+ORD-2025-13395,Returned,Customer Changed Mind
+ORD-2025-10053,Returned,Damaged in Transit
+ORD-2025-10498,Returned,Defective Item
+ORD-2025-12403,Returned,Late Delivery
+ORD-2025-11223,Returned,Defective Item
+ORD-2025-10657,Returned,Defective Item
+ORD-2025-14478,Returned,Customer Changed Mind
+ORD-2025-10963,Returned,Damaged in Transit
+ORD-2025-10993,Returned,Damaged in Transit
+ORD-2025-13094,Returned,Damaged in Transit
+ORD-2025-11137,Returned,Customer Changed Mind
+ORD-2025-10651,Returned,Damaged in Transit
+ORD-2025-10016,Returned,Product Did Not Meet Expectations
+ORD-2025-10863,Returned,Defective Item
+ORD-2025-12576,Returned,Customer Changed Mind
+ORD-2025-11285,Returned,Late Delivery
+ORD-2025-13052,Returned,Product Did Not Meet Expectations
+ORD-2025-10260,Returned,Defective Item
+ORD-2025-12224,Returned,Late Delivery
+ORD-2025-12484,Returned,Damaged in Transit
+ORD-2025-12035,Returned,Wrong Item Sent
+ORD-2025-10652,Returned,Late Delivery
+ORD-2025-14272,Returned,Customer Changed Mind
+ORD-2025-10573,Returned,Defective Item
+ORD-2025-11765,Returned,Wrong Item Sent
+ORD-2025-11728,Returned,Defective Item
+ORD-2025-11608,Returned,Defective Item
+ORD-2025-13592,Returned,Damaged in Transit
+ORD-2025-11726,Returned,Customer Changed Mind
+ORD-2025-13191,Returned,Customer Changed Mind
+ORD-2025-11439,Returned,Wrong Item Sent
+ORD-2025-13277,Returned,Damaged in Transit
+ORD-2025-10809,Returned,Wrong Item Sent
+ORD-2025-14065,Returned,Wrong Item Sent
+ORD-2025-10248,Returned,Defective Item
+ORD-2025-13325,Returned,Defective Item
+ORD-2025-12175,Returned,Late Delivery
+ORD-2025-10580,Returned,Product Did Not Meet Expectations
+ORD-2025-11156,Returned,Damaged in Transit
+ORD-2025-13334,Returned,Customer Changed Mind
+ORD-2025-12903,Returned,Wrong Item Sent
+ORD-2025-10790,Returned,Defective Item
+ORD-2025-10851,Returned,Defective Item
+ORD-2025-13810,Returned,Damaged in Transit
+ORD-2025-10451,Returned,Defective Item
+ORD-2025-10424,Returned,Defective Item
+ORD-2025-11816,Returned,Customer Changed Mind
+ORD-2025-12345,Returned,Damaged in Transit
+ORD-2025-13953,Returned,Wrong Item Sent
+ORD-2025-11989,Returned,Defective Item
+ORD-2025-11149,Returned,Wrong Item Sent
+ORD-2025-11667,Returned,Customer Changed Mind
+ORD-2025-13003,Returned,Late Delivery
+ORD-2025-13591,Returned,Late Delivery
+ORD-2025-13695,Returned,Damaged in Transit
+ORD-2025-10180,Returned,Wrong Item Sent
+ORD-2025-13825,Returned,Product Did Not Meet Expectations
+ORD-2025-10866,Returned,Defective Item
+ORD-2025-11218,Returned,Late Delivery
+ORD-2025-11828,Returned,Wrong Item Sent
+ORD-2025-11388,Returned,Damaged in Transit
+ORD-2025-14422,Returned,Damaged in Transit
+ORD-2025-10333,Returned,Damaged in Transit
+ORD-2025-12334,Returned,Damaged in Transit
+ORD-2025-12020,Returned,Defective Item
+ORD-2025-13076,Returned,Defective Item
+ORD-2026-10357,Returned,Product Did Not Meet Expectations
+ORD-2026-12169,Returned,Damaged in Transit
+ORD-2026-13087,Returned,Late Delivery
+ORD-2026-10459,Returned,Customer Changed Mind
+ORD-2026-13983,Returned,Damaged in Transit
+ORD-2026-12772,Returned,Customer Changed Mind
+ORD-2026-14031,Returned,Customer Changed Mind
+ORD-2026-13551,Returned,Wrong Item Sent
+ORD-2026-12401,Returned,Late Delivery
+ORD-2026-14361,Returned,Customer Changed Mind
+ORD-2026-10215,Returned,Defective Item
+ORD-2026-11209,Returned,Late Delivery
+ORD-2026-10054,Returned,Customer Changed Mind
+ORD-2026-13116,Returned,Product Did Not Meet Expectations
+ORD-2026-11722,Returned,Wrong Item Sent
+ORD-2026-11140,Returned,Defective Item
+ORD-2026-11338,Returned,Defective Item
+ORD-2026-10463,Returned,Late Delivery
+ORD-2026-12483,Returned,Defective Item
+ORD-2026-13824,Returned,Defective Item
+ORD-2026-11029,Returned,Late Delivery
+ORD-2026-13936,Returned,Defective Item
+ORD-2026-12626,Returned,Product Did Not Meet Expectations
+ORD-2026-13033,Returned,Damaged in Transit
+ORD-2026-14336,Returned,Defective Item
+ORD-2026-10376,Returned,Defective Item
+ORD-2026-12161,Returned,Late Delivery
+ORD-2026-14259,Returned,Damaged in Transit
+ORD-2026-12536,Returned,Customer Changed Mind
+ORD-2026-11234,Returned,Defective Item
+ORD-2026-11438,Returned,Customer Changed Mind
+ORD-2026-12686,Returned,Late Delivery
+ORD-2026-13688,Returned,Product Did Not Meet Expectations
+ORD-2026-12805,Returned,Late Delivery
+ORD-2026-10698,Returned,Damaged in Transit
+ORD-2026-11474,Returned,Customer Changed Mind
+ORD-2026-13946,Returned,Wrong Item Sent
+ORD-2026-10929,Returned,Wrong Item Sent
+ORD-2026-10966,Returned,Late Delivery
+ORD-2026-11187,Returned,Late Delivery
+ORD-2026-11141,Returned,Damaged in Transit
+ORD-2026-12895,Returned,Late Delivery
+ORD-2026-12060,Returned,Defective Item
+ORD-2026-10026,Returned,Customer Changed Mind
+ORD-2026-10278,Returned,Defective Item
+ORD-2026-12606,Returned,Customer Changed Mind

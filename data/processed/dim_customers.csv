@@ -1,0 +1,851 @@
+Customer ID,Customer Name,Segment,Region,State,City,Join Date,Geography Key,Recency,Frequency,Monetary,Total_Profit,Total_Units,First_Purchase,Last_Purchase,R_Score,F_Score,M_Score,RFM_Score,RFM Segment,Customer Lifetime Value,Average Order Value
+CUST-0001,Samantha Anderson,Consumer,Central,Texas,Houston,2023-05-17,GEO-0023,345,3,1761.6,973.11,13,2023-09-09,2025-07-21,2,2,3,223,At-Risk Customers,1761.6,587.2
+CUST-0002,Donald Moore,Corporate,West,Washington,Spokane,2025-04-24,GEO-0007,95,5,401.7,186.34999999999997,7,2025-06-01,2026-03-28,4,3,1,431,Potential Loyalists,401.7,80.34
+CUST-0003,Jason Jones,Consumer,East,Pennsylvania,Pittsburgh,2023-04-22,GEO-0031,132,9,12209.05,5279.85,19,2023-05-10,2026-02-19,3,5,5,355,Loyal Customers,12209.05,1356.56
+CUST-0004,Nicholas Brown,Corporate,South,Florida,Orlando,2023-03-28,GEO-0021,55,6,3000.7,1222.02,16,2023-05-30,2026-05-07,4,4,3,443,Loyal Customers,3000.7,500.12
+CUST-0005,Laura Scott,Corporate,West,California,Los Angeles,2022-11-23,GEO-0008,4,4,1227.85,502.81000000000006,6,2024-03-17,2026-06-27,5,3,2,532,Potential Loyalists,1227.85,306.96
+CUST-0006,Rachel Diaz,Consumer,West,Nevada,Las Vegas,2023-03-17,GEO-0029,17,5,1112.7,522.81,11,2023-09-18,2026-06-14,5,3,2,532,Potential Loyalists,1112.7,222.54
+CUST-0007,Ruth Baker,Consumer,Central,Minnesota,Minneapolis,2022-07-18,GEO-0032,277,5,1579.75,674.94,8,2023-04-28,2025-09-27,2,3,3,233,Loyal Customers,1579.75,315.95
+CUST-0008,Amanda Hall,Corporate,West,California,San Diego,2024-07-29,GEO-0005,50,4,1547.5,650.15,8,2024-09-11,2026-05-12,4,3,2,432,Potential Loyalists,1547.5,386.88
+CUST-0009,Jonathan Thomas,Home Office,Central,Minnesota,Minneapolis,2022-06-11,GEO-0032,88,11,4624.95,2044.18,27,2023-01-02,2026-04-04,4,5,4,454,Champions,4624.95,420.45
+CUST-0010,Stephen Nguyen,Home Office,Central,Ohio,Cleveland,2025-03-28,GEO-0030,125,3,731.5,316.05,6,2025-07-05,2026-02-26,3,2,2,322,Potential Loyalists,731.5,243.83
+CUST-0011,Matthew Rodriguez,Consumer,East,Massachusetts,Boston,2023-08-16,GEO-0002,278,5,715.75,-162.38,6,2023-10-11,2025-09-26,2,3,2,232,At-Risk Customers,715.75,143.15
+CUST-0012,David Robinson,Home Office,Central,Minnesota,Minneapolis,2023-07-24,GEO-0032,593,1,134.1,72.75,1,2024-11-15,2024-11-15,1,1,1,111,Low-Value Customers,134.1,134.1
+CUST-0013,Ryan Campbell,Consumer,Central,Ohio,Columbus,2023-03-06,GEO-0004,205,1,318.75,146.33,5,2025-12-08,2025-12-08,3,1,1,311,Low-Value Customers,318.75,318.75
+CUST-0014,Christine Wright,Corporate,West,Washington,Seattle,2025-06-01,GEO-0020,119,2,627.0,302.88,3,2026-02-07,2026-03-04,3,1,2,312,Potential Loyalists,627.0,313.5
+CUST-0015,Samantha Perez,Corporate,East,New Jersey,Newark,2022-12-01,GEO-0018,546,3,1476.1,607.92,3,2022-12-25,2025-01-01,1,2,2,122,Low-Value Customers,1476.1,492.03
+CUST-0016,Cynthia Carter,Consumer,East,Massachusetts,Boston,2023-10-27,GEO-0002,155,12,9799.050000000001,3488.32,29,2023-11-05,2026-01-27,3,5,5,355,Loyal Customers,9799.05,816.59
+CUST-0017,Julie Davis,Consumer,West,California,San Diego,2023-10-09,GEO-0005,435,6,1126.8000000000002,479.62,12,2024-03-16,2025-04-22,1,4,2,142,At-Risk Customers,1126.8,187.8
+CUST-0018,Stephanie Wright,Consumer,Central,Texas,San Antonio,2023-03-12,GEO-0001,834,2,1334.1,579.04,3,2023-04-20,2024-03-19,1,1,2,112,Low-Value Customers,1334.1,667.05
+CUST-0019,Katherine Murphy,Consumer,South,North Carolina,Charlotte,2022-10-20,GEO-0015,1166,1,197.1,97.11,1,2023-04-22,2023-04-22,1,1,1,111,Low-Value Customers,197.1,197.1
+CUST-0020,Ashley Moore,Consumer,Central,Illinois,Chicago,2025-04-12,GEO-0003,21,3,2833.2,791.36,4,2025-04-29,2026-06-10,5,2,3,523,New Customers,2833.2,944.4
+CUST-0021,Jason Phillips,Consumer,West,Arizona,Phoenix,2024-11-09,GEO-0026,267,5,2950.45,1224.1799999999998,7,2024-11-30,2025-10-07,2,3,3,233,Loyal Customers,2950.45,590.09
+CUST-0022,Amy Lopez,Corporate,West,Colorado,Denver,2022-11-10,GEO-0022,17,6,2456.75,1105.52,10,2023-12-03,2026-06-14,5,4,3,543,Loyal Customers,2456.75,409.46
+CUST-0023,Benjamin Lee,Corporate,South,Florida,Tampa,2025-05-06,GEO-0009,381,2,1285.9,390.95,3,2025-05-31,2025-06-15,1,1,2,112,Low-Value Customers,1285.9,642.95
+CUST-0024,William Roberts,Consumer,South,North Carolina,Charlotte,2024-12-19,GEO-0015,18,2,472.5,243.83999999999997,3,2025-08-12,2026-06-13,5,1,1,511,New Customers,472.5,236.25
+CUST-0025,Paul Peterson,Home Office,West,California,Los Angeles,2022-08-23,GEO-0008,27,3,1031.7,54.74,9,2024-09-22,2026-06-04,5,2,2,522,New Customers,1031.7,343.9
+CUST-0026,Debra Morgan,Corporate,Central,Michigan,Detroit,2022-08-17,GEO-0024,281,2,1009.0,458.15999999999997,2,2025-07-12,2025-09-23,2,1,2,212,Low-Value Customers,1009.0,504.5
+CUST-0027,Donna Parker,Consumer,West,California,Los Angeles,2023-06-24,GEO-0008,76,7,4510.15,1828.67,13,2023-10-05,2026-04-16,4,4,4,444,Champions,4510.15,644.31
+CUST-0028,Nicholas Thompson,Consumer,West,Oregon,Portland,2023-09-04,GEO-0016,129,16,17819.2,5675.44,31,2023-10-11,2026-02-22,3,5,5,355,Loyal Customers,17819.2,1113.7
+CUST-0029,Julie Cook,Corporate,West,Nevada,Las Vegas,2024-02-05,GEO-0029,33,6,2095.75,924.39,16,2024-11-11,2026-05-29,5,4,3,543,Loyal Customers,2095.75,349.29
+CUST-0030,Ruth Lee,Corporate,West,California,Los Angeles,2025-05-11,GEO-0008,150,1,27.0,3.93,1,2026-02-01,2026-02-01,3,1,1,311,Low-Value Customers,27.0,27.0
+CUST-0031,Carol Morales,Consumer,Central,Ohio,Cleveland,2023-09-22,GEO-0030,28,2,2015.5,531.26,7,2023-11-16,2026-06-03,5,1,3,513,New Customers,2015.5,1007.75
+CUST-0032,Mark Davis,Consumer,West,Washington,Spokane,2022-06-25,GEO-0007,662,1,100.3,51.13,2,2024-09-07,2024-09-07,1,1,1,111,Low-Value Customers,100.3,100.3
+CUST-0033,Carolyn Morales,Corporate,West,Arizona,Phoenix,2022-09-20,GEO-0026,145,13,10715.55,4620.69,23,2023-05-31,2026-02-06,3,5,5,355,Loyal Customers,10715.55,824.27
+CUST-0034,Gregory Stewart,Home Office,East,New York,New York City,2023-06-27,GEO-0014,417,3,336.9,187.12,4,2024-07-28,2025-05-10,1,2,1,121,Low-Value Customers,336.9,112.3
+CUST-0035,Angela Diaz,Home Office,East,Pennsylvania,Philadelphia,2023-10-01,GEO-0006,87,15,15551.6,5926.93,32,2023-12-07,2026-04-05,4,5,5,455,Champions,15551.6,1036.77
+CUST-0036,Stephanie Mitchell,Consumer,South,Georgia,Atlanta,2022-09-05,GEO-0010,132,4,1206.5,530.52,9,2023-04-12,2026-02-19,3,3,2,332,Potential Loyalists,1206.5,301.62
+CUST-0037,Sandra Lewis,Consumer,West,California,San Francisco,2025-04-19,GEO-0025,19,4,348.7,56.32,6,2025-10-11,2026-06-12,5,3,1,531,Potential Loyalists,348.7,87.18
+CUST-0038,Stephen Robinson,Corporate,West,California,Los Angeles,2022-05-26,GEO-0008,570,1,210.0,113.49,1,2024-12-08,2024-12-08,1,1,1,111,Low-Value Customers,210.0,210.0
+CUST-0039,Raymond Davis,Consumer,West,California,San Diego,2023-11-08,GEO-0005,29,2,2642.05,1042.3600000000001,3,2024-01-10,2026-06-02,5,1,3,513,New Customers,2642.05,1321.02
+CUST-0040,Elizabeth Rogers,Consumer,South,Virginia,Richmond,2023-03-15,GEO-0013,208,3,1107.6,440.35,3,2024-01-24,2025-12-05,2,2,2,222,Low-Value Customers,1107.6,369.2
+CUST-0041,Helen Taylor,Corporate,South,Tennessee,Nashville,2023-05-13,GEO-0017,594,2,323.0,162.57999999999998,3,2024-05-15,2024-11-14,1,1,1,111,Low-Value Customers,323.0,161.5
+CUST-0042,Tyler Stewart,Corporate,East,Pennsylvania,Philadelphia,2022-07-13,GEO-0006,262,3,3995.1,1795.1000000000001,5,2022-12-20,2025-10-12,2,2,4,224,At-Risk Customers,3995.1,1331.7
+CUST-0043,Richard Parker,Consumer,South,Florida,Orlando,2024-08-14,GEO-0021,393,2,3926.0,1415.64,5,2024-10-15,2025-06-03,1,1,4,114,At-Risk Customers,3926.0,1963.0
+CUST-0044,Henry Miller,Corporate,West,Oregon,Portland,2022-05-05,GEO-0016,1290,1,28.0,10.77,1,2022-12-19,2022-12-19,1,1,1,111,Low-Value Customers,28.0,28.0
+CUST-0045,Stephanie Baker,Corporate,West,Oregon,Portland,2023-05-25,GEO-0016,791,2,2857.2,1018.22,3,2023-07-31,2024-05-01,1,1,3,113,At-Risk Customers,2857.2,1428.6
+CUST-0046,Matthew Harris,Corporate,West,Arizona,Phoenix,2024-05-14,GEO-0026,144,6,2167.2999999999997,959.4,11,2024-11-29,2026-02-07,3,4,3,343,Loyal Customers,2167.3,361.22
+CUST-0047,Margaret Scott,Consumer,West,Washington,Seattle,2024-06-26,GEO-0020,116,1,49.3,17.82,2,2026-03-07,2026-03-07,3,1,1,311,Low-Value Customers,49.3,49.3
+CUST-0048,Diane Peterson,Consumer,West,California,Los Angeles,2022-07-11,GEO-0008,126,12,4306.8,1777.59,22,2022-12-13,2026-02-25,3,5,4,354,Loyal Customers,4306.8,358.9
+CUST-0049,Kyle Walker,Consumer,South,Virginia,Richmond,2024-09-12,GEO-0013,188,3,474.3,199.31,3,2024-10-01,2025-12-25,3,2,1,321,Potential Loyalists,474.3,158.1
+CUST-0050,Betty Phillips,Home Office,East,New York,New York City,2024-02-16,GEO-0014,750,1,89.0,49.65,1,2024-06-11,2024-06-11,1,1,1,111,Low-Value Customers,89.0,89.0
+CUST-0051,James Roberts,Consumer,South,North Carolina,Charlotte,2023-08-08,GEO-0015,394,2,4410.75,1811.1399999999999,4,2024-07-28,2025-06-02,1,1,4,114,At-Risk Customers,4410.75,2205.38
+CUST-0052,Jason Bailey,Corporate,South,Virginia,Richmond,2022-11-14,GEO-0013,843,7,4501.1,1524.87,11,2022-11-27,2024-03-10,1,4,4,144,Loyal Customers,4501.1,643.01
+CUST-0053,Matthew Nguyen,Consumer,West,California,San Jose,2025-04-01,GEO-0011,242,2,466.5,237.65,2,2025-04-23,2025-11-01,2,1,1,211,Low-Value Customers,466.5,233.25
+CUST-0054,Jack Cooper,Consumer,Central,Texas,San Antonio,2022-04-28,GEO-0001,361,4,477.05,190.63,9,2022-09-25,2025-07-05,2,3,1,231,At-Risk Customers,477.05,119.26
+CUST-0055,Michael Morris,Consumer,East,New York,New York City,2022-04-27,GEO-0014,242,6,6516.65,2817.4700000000003,27,2022-07-04,2025-11-01,2,4,5,245,Loyal Customers,6516.65,1086.11
+CUST-0056,Shirley Hernandez,Home Office,West,Washington,Seattle,2025-05-03,GEO-0020,65,5,994.8000000000001,360.86,10,2025-05-29,2026-04-27,4,3,2,432,Potential Loyalists,994.8,198.96
+CUST-0057,William Walker,Consumer,East,New Jersey,Newark,2025-03-31,GEO-0018,382,2,1970.0,903.37,10,2025-05-14,2025-06-14,1,1,3,113,At-Risk Customers,1970.0,985.0
+CUST-0058,Scott Garcia,Corporate,South,Florida,Orlando,2025-04-10,GEO-0021,237,2,916.1,377.82,2,2025-10-04,2025-11-06,2,1,2,212,Low-Value Customers,916.1,458.05
+CUST-0059,Larry Gutierrez,Consumer,Central,Illinois,Chicago,2023-02-23,GEO-0003,63,5,3077.55,1486.75,10,2023-05-30,2026-04-29,4,3,3,433,Loyal Customers,3077.55,615.51
+CUST-0060,Christine Green,Consumer,South,Florida,Miami,2022-09-26,GEO-0012,200,2,427.55,204.64,5,2022-12-17,2025-12-13,3,1,1,311,Low-Value Customers,427.55,213.78
+CUST-0061,Christine Hill,Consumer,West,Washington,Seattle,2022-01-20,GEO-0020,310,7,1478.5,640.7299999999999,14,2022-07-15,2025-08-25,2,4,2,242,At-Risk Customers,1478.5,211.21
+CUST-0062,Ryan Gonzalez,Consumer,East,Pennsylvania,Pittsburgh,2024-11-02,GEO-0031,76,7,2324.0,810.9399999999999,8,2025-03-20,2026-04-16,4,4,3,443,Loyal Customers,2324.0,332.0
+CUST-0063,Ashley Taylor,Home Office,West,Washington,Seattle,2023-05-16,GEO-0020,442,4,3169.1,1259.52,8,2023-08-11,2025-04-15,1,3,4,134,Loyal Customers,3169.1,792.28
+CUST-0064,Melissa Torres,Consumer,Central,Texas,Austin,2025-06-06,GEO-0027,4,8,9519.300000000001,4027.23,19,2025-07-22,2026-06-27,5,5,5,555,Champions,9519.3,1189.91
+CUST-0065,Diane Ortiz,Consumer,Central,Texas,Austin,2022-08-01,GEO-0027,150,14,10868.5,4517.38,34,2022-09-30,2026-02-01,3,5,5,355,Loyal Customers,10868.5,776.32
+CUST-0066,Douglas Moore,Consumer,West,Oregon,Portland,2025-02-07,GEO-0016,5,3,3584.3500000000004,1356.6499999999999,6,2025-07-29,2026-06-26,5,2,4,524,New Customers,3584.35,1194.78
+CUST-0067,Karen Wright,Consumer,East,Pennsylvania,Pittsburgh,2023-12-04,GEO-0031,117,2,5602.15,2123.62,5,2025-04-03,2026-03-06,3,1,4,314,Potential Loyalists,5602.15,2801.08
+CUST-0068,Anthony King,Consumer,Central,Illinois,Chicago,2022-04-15,GEO-0003,357,4,2183.0,963.8800000000001,7,2024-08-06,2025-07-09,2,3,3,233,Loyal Customers,2183.0,545.75
+CUST-0069,Barbara Diaz,Home Office,West,California,San Diego,2022-01-08,GEO-0005,203,11,9958.5,3800.86,32,2022-06-28,2025-12-10,3,5,5,355,Loyal Customers,9958.5,905.32
+CUST-0070,Kevin Taylor,Corporate,Central,Illinois,Chicago,2022-11-27,GEO-0003,306,3,1072.1,476.02,3,2023-10-21,2025-08-29,2,2,2,222,Low-Value Customers,1072.1,357.37
+CUST-0071,Jack Cruz,Corporate,South,Florida,Tampa,2025-02-22,GEO-0009,9,11,9476.45,3363.69,21,2025-03-19,2026-06-22,5,5,5,555,Champions,9476.45,861.5
+CUST-0072,Mary Anderson,Consumer,West,Nevada,Las Vegas,2025-01-22,GEO-0029,19,6,2584.6,1140.45,20,2025-11-05,2026-06-12,5,4,3,543,Loyal Customers,2584.6,430.77
+CUST-0073,Robert Mitchell,Corporate,West,Nevada,Las Vegas,2024-05-30,GEO-0029,70,13,13665.85,5534.8099999999995,27,2024-06-04,2026-04-22,4,5,5,455,Champions,13665.85,1051.22
+CUST-0074,Thomas Garcia,Consumer,West,California,San Diego,2024-01-03,GEO-0005,508,2,886.3499999999999,343.81,2,2024-09-19,2025-02-08,1,1,2,112,Low-Value Customers,886.35,443.17
+CUST-0075,Anthony Young,Corporate,Central,Ohio,Columbus,2025-02-20,GEO-0004,181,5,3564.8,1532.3899999999999,11,2025-05-28,2026-01-01,3,3,4,334,Loyal Customers,3564.8,712.96
+CUST-0076,Olivia Evans,Home Office,West,Nevada,Las Vegas,2023-04-30,GEO-0029,193,2,4969.85,1327.8200000000002,7,2023-05-16,2025-12-20,3,1,4,314,Potential Loyalists,4969.85,2484.93
+CUST-0077,Henry Lee,Home Office,East,New York,Buffalo,2024-04-24,GEO-0028,314,5,1870.6,532.47,8,2024-05-31,2025-08-21,2,3,3,233,Loyal Customers,1870.6,374.12
+CUST-0078,Patricia Thompson,Corporate,Central,Michigan,Detroit,2024-04-23,GEO-0024,12,6,13830.0,5303.34,19,2025-09-10,2026-06-19,5,4,5,545,Champions,13830.0,2305.0
+CUST-0079,Aaron Young,Consumer,West,Oregon,Portland,2024-02-23,GEO-0016,13,6,1894.05,759.3299999999999,12,2024-10-31,2026-06-18,5,4,3,543,Loyal Customers,1894.05,315.68
+CUST-0080,Victoria Jones,Home Office,East,Massachusetts,Boston,2023-02-13,GEO-0002,200,7,3971.65,1311.75,15,2023-10-26,2025-12-13,3,4,4,344,Loyal Customers,3971.65,567.38
+CUST-0081,Jose Collins,Consumer,East,Massachusetts,Boston,2023-04-02,GEO-0002,201,7,3097.05,1208.76,13,2024-02-29,2025-12-12,3,4,3,343,Loyal Customers,3097.05,442.44
+CUST-0082,Patricia Harris,Consumer,Central,Texas,Houston,2022-05-23,GEO-0023,179,10,14642.55,6278.22,26,2022-09-19,2026-01-03,3,5,5,355,Loyal Customers,14642.55,1464.26
+CUST-0083,Jerry Scott,Consumer,South,Florida,Miami,2025-01-03,GEO-0012,22,8,2962.7,1240.72,14,2025-04-16,2026-06-09,5,5,3,553,Loyal Customers,2962.7,370.34
+CUST-0084,Kevin Brown,Consumer,Central,Illinois,Chicago,2023-01-01,GEO-0003,31,3,176.05,95.11,3,2023-01-18,2026-05-31,5,2,1,521,New Customers,176.05,58.68
+CUST-0085,Justin King,Consumer,South,Florida,Tampa,2023-12-09,GEO-0009,739,2,1115.0,572.37,5,2024-01-15,2024-06-22,1,1,2,112,Low-Value Customers,1115.0,557.5
+CUST-0086,Carolyn Green,Consumer,West,Colorado,Denver,2024-02-28,GEO-0022,91,12,9726.45,3684.87,31,2024-09-16,2026-04-01,4,5,5,455,Champions,9726.45,810.54
+CUST-0087,Kelly Harris,Consumer,South,Florida,Tampa,2022-01-04,GEO-0009,7,16,11791.099999999999,4957.78,30,2022-05-01,2026-06-24,5,5,5,555,Champions,11791.1,736.94
+CUST-0088,Eric Morgan,Corporate,East,Pennsylvania,Philadelphia,2024-01-16,GEO-0006,312,7,3335.5,1440.08,13,2024-02-22,2025-08-23,2,4,4,244,Loyal Customers,3335.5,476.5
+CUST-0089,Sharon Rodriguez,Home Office,Central,Michigan,Detroit,2025-06-30,GEO-0024,66,10,3971.8,1458.76,24,2025-07-15,2026-04-26,4,5,4,454,Champions,3971.8,397.18
+CUST-0090,Joshua Thomas,Corporate,Central,Texas,Austin,2024-11-04,GEO-0027,102,4,1553.85,559.91,4,2025-09-04,2026-03-21,4,3,2,432,Potential Loyalists,1553.85,388.46
+CUST-0091,Emily Evans,Consumer,Central,Texas,Dallas,2025-02-09,GEO-0019,126,4,2068.85,841.21,7,2025-03-03,2026-02-25,3,3,3,333,Loyal Customers,2068.85,517.21
+CUST-0092,Thomas Harris,Consumer,Central,Minnesota,Minneapolis,2022-12-23,GEO-0032,342,2,6096.0,2795.38,4,2023-11-18,2025-07-24,2,1,5,215,At-Risk Customers,6096.0,3048.0
+CUST-0093,Brandon Hill,Consumer,West,California,Los Angeles,2023-09-15,GEO-0008,307,3,3143.3,996.27,6,2024-07-26,2025-08-28,2,2,4,224,At-Risk Customers,3143.3,1047.77
+CUST-0094,Andrew Clark,Consumer,Central,Texas,San Antonio,2024-08-10,GEO-0001,360,3,1723.3,979.83,11,2024-08-26,2025-07-06,2,2,3,223,At-Risk Customers,1723.3,574.43
+CUST-0095,Jeffrey Cruz,Corporate,South,Tennessee,Nashville,2022-12-14,GEO-0017,18,13,14345.5,5683.34,26,2023-08-25,2026-06-13,5,5,5,555,Champions,14345.5,1103.5
+CUST-0096,Gregory Hernandez,Consumer,Central,Michigan,Detroit,2022-07-11,GEO-0024,25,7,5502.75,2258.64,12,2023-07-05,2026-06-06,5,4,4,544,Champions,5502.75,786.11
+CUST-0097,Jose Walker,Corporate,East,Massachusetts,Boston,2023-02-12,GEO-0002,228,9,3975.3,1674.82,14,2023-02-26,2025-11-15,2,5,4,254,Loyal Customers,3975.3,441.7
+CUST-0098,Charles Brown,Consumer,South,Tennessee,Nashville,2025-06-05,GEO-0017,15,5,1028.25,90.1,8,2025-07-26,2026-06-16,5,3,2,532,Potential Loyalists,1028.25,205.65
+CUST-0099,Nathan Martinez,Consumer,East,Pennsylvania,Philadelphia,2024-02-26,GEO-0006,182,2,590.9,283.05,3,2024-07-05,2025-12-31,3,1,2,312,Potential Loyalists,590.9,295.45
+CUST-0100,Amy Phillips,Consumer,West,California,Los Angeles,2022-08-07,GEO-0008,194,3,543.7,202.86,10,2023-12-13,2025-12-19,3,2,1,321,Potential Loyalists,543.7,181.23
+CUST-0101,Maria Diaz,Consumer,South,North Carolina,Charlotte,2022-04-13,GEO-0015,130,6,4343.5,1968.19,14,2022-12-06,2026-02-21,3,4,4,344,Loyal Customers,4343.5,723.92
+CUST-0102,Anna Young,Home Office,West,Colorado,Denver,2024-07-23,GEO-0022,367,1,354.45,142.05,3,2025-06-29,2025-06-29,2,1,1,211,Low-Value Customers,354.45,354.45
+CUST-0103,Sarah Reyes,Corporate,Central,Texas,San Antonio,2024-06-25,GEO-0001,237,1,20.4,-1.53,2,2025-11-06,2025-11-06,2,1,1,211,Low-Value Customers,20.4,20.4
+CUST-0104,Brandon Cook,Consumer,South,Georgia,Atlanta,2022-11-22,GEO-0010,195,6,2394.1,969.65,13,2023-06-06,2025-12-18,3,4,3,343,Loyal Customers,2394.1,399.02
+CUST-0105,Janet Stewart,Consumer,East,New Jersey,Newark,2023-07-22,GEO-0018,30,14,6254.45,2779.97,27,2023-07-22,2026-06-01,5,5,5,555,Champions,6254.45,446.75
+CUST-0106,Jerry Gutierrez,Consumer,East,New Jersey,Newark,2023-07-17,GEO-0018,81,14,4743.95,2050.2599999999998,24,2023-07-31,2026-04-11,4,5,4,454,Champions,4743.95,338.85
+CUST-0107,Jeffrey Martinez,Corporate,East,New Jersey,Newark,2023-07-11,GEO-0018,860,1,474.05,190.92,1,2024-02-22,2024-02-22,1,1,1,111,Low-Value Customers,474.05,474.05
+CUST-0108,Kevin Green,Home Office,West,Washington,Spokane,2022-10-11,GEO-0007,563,2,56.0,18.990000000000002,3,2023-06-11,2024-12-15,1,1,1,111,Low-Value Customers,56.0,28.0
+CUST-0109,Karen Robinson,Consumer,West,Nevada,Las Vegas,2023-03-15,GEO-0029,234,5,1428.1,613.28,8,2023-03-31,2025-11-09,2,3,2,232,At-Risk Customers,1428.1,285.62
+CUST-0110,William Turner,Consumer,South,North Carolina,Charlotte,2024-05-01,GEO-0015,269,3,2226.0,960.8,3,2024-11-03,2025-10-05,2,2,3,223,At-Risk Customers,2226.0,742.0
+CUST-0111,Linda Clark,Home Office,Central,Minnesota,Minneapolis,2025-04-11,GEO-0032,277,1,79.8,33.34,3,2025-09-27,2025-09-27,2,1,1,211,Low-Value Customers,79.8,79.8
+CUST-0112,Rachel Williams,Home Office,Central,Minnesota,Minneapolis,2024-09-03,GEO-0032,259,6,2636.25,1059.66,14,2024-09-25,2025-10-15,2,4,3,243,Loyal Customers,2636.25,439.38
+CUST-0113,James Rivera,Consumer,Central,Minnesota,Minneapolis,2024-05-08,GEO-0032,163,2,300.35,175.09,3,2025-10-15,2026-01-19,3,1,1,311,Low-Value Customers,300.35,150.18
+CUST-0114,Jonathan Cooper,Corporate,East,Massachusetts,Boston,2024-09-26,GEO-0002,21,11,8265.2,3168.4500000000003,20,2024-11-09,2026-06-10,5,5,5,555,Champions,8265.2,751.38
+CUST-0115,Donald Wright,Consumer,West,California,San Francisco,2024-03-07,GEO-0025,759,1,714.0,337.08,4,2024-06-02,2024-06-02,1,1,2,112,Low-Value Customers,714.0,714.0
+CUST-0116,Michelle Phillips,Corporate,South,North Carolina,Charlotte,2022-09-19,GEO-0015,153,7,7906.799999999999,3147.93,17,2023-04-19,2026-01-29,3,4,5,345,Loyal Customers,7906.8,1129.54
+CUST-0117,Emma Morgan,Consumer,South,Florida,Miami,2025-04-27,GEO-0012,10,5,3639.25,1770.6000000000001,20,2025-06-22,2026-06-21,5,3,4,534,Loyal Customers,3639.25,727.85
+CUST-0118,Larry Brown,Consumer,South,Florida,Tampa,2022-10-05,GEO-0009,869,2,3151.75,1085.04,4,2022-11-27,2024-02-13,1,1,4,114,At-Risk Customers,3151.75,1575.88
+CUST-0119,Henry Reyes,Consumer,Central,Illinois,Chicago,2024-02-16,GEO-0003,716,1,855.0,250.33,1,2024-07-15,2024-07-15,1,1,2,112,Low-Value Customers,855.0,855.0
+CUST-0120,Carol Ramirez,Consumer,Central,Michigan,Detroit,2024-02-16,GEO-0024,17,4,1999.75,851.86,8,2024-12-18,2026-06-14,5,3,3,533,Loyal Customers,1999.75,499.94
+CUST-0121,Kimberly Turner,Consumer,West,Washington,Spokane,2024-08-21,GEO-0007,200,1,1497.0,638.36,3,2025-12-13,2025-12-13,3,1,2,312,Potential Loyalists,1497.0,1497.0
+CUST-0122,John Cooper,Consumer,Central,Ohio,Columbus,2023-04-05,GEO-0004,152,9,3849.85,1584.55,17,2023-05-05,2026-01-30,3,5,4,354,Loyal Customers,3849.85,427.76
+CUST-0123,Katherine Rodriguez,Corporate,West,California,San Diego,2022-03-05,GEO-0005,261,4,1255.95,486.22,7,2023-10-31,2025-10-13,2,3,2,232,At-Risk Customers,1255.95,313.99
+CUST-0124,Sandra Sanchez,Home Office,West,Nevada,Las Vegas,2023-05-04,GEO-0029,202,14,11976.45,4577.77,29,2023-07-21,2025-12-11,3,5,5,355,Loyal Customers,11976.45,855.46
+CUST-0125,Thomas Stewart,Corporate,East,Pennsylvania,Pittsburgh,2024-08-10,GEO-0031,15,14,13483.75,5784.31,37,2024-09-07,2026-06-16,5,5,5,555,Champions,13483.75,963.12
+CUST-0126,Rachel Allen,Corporate,East,New York,New York City,2025-05-25,GEO-0014,92,7,2168.45,910.1,12,2025-06-09,2026-03-31,4,4,3,443,Loyal Customers,2168.45,309.78
+CUST-0127,Nicole Anderson,Corporate,East,New York,New York City,2023-09-30,GEO-0014,686,2,72.4,25.68,3,2024-03-25,2024-08-14,1,1,1,111,Low-Value Customers,72.4,36.2
+CUST-0128,Susan Brown,Home Office,Central,Minnesota,Minneapolis,2024-03-23,GEO-0032,209,1,236.55,113.29,1,2025-12-04,2025-12-04,2,1,1,211,Low-Value Customers,236.55,236.55
+CUST-0129,Catherine Sanchez,Consumer,East,New Jersey,Newark,2022-07-28,GEO-0018,4,16,7019.1,2467.31,35,2022-10-24,2026-06-27,5,5,5,555,Champions,7019.1,438.69
+CUST-0130,Rachel Hill,Home Office,West,Colorado,Denver,2025-03-05,GEO-0022,121,4,2673.35,994.8199999999999,6,2025-11-09,2026-03-02,3,3,3,333,Loyal Customers,2673.35,668.34
+CUST-0131,Tyler Garcia,Consumer,South,Florida,Tampa,2024-01-29,GEO-0009,122,4,2623.7,978.21,6,2024-03-23,2026-03-01,3,3,3,333,Loyal Customers,2623.7,655.92
+CUST-0132,William Cook,Corporate,West,California,Los Angeles,2024-05-10,GEO-0008,665,1,199.0,84.9,1,2024-09-04,2024-09-04,1,1,1,111,Low-Value Customers,199.0,199.0
+CUST-0133,Virginia Morales,Consumer,Central,Ohio,Cleveland,2024-07-30,GEO-0030,91,6,3529.25,1605.2299999999998,14,2024-11-03,2026-04-01,4,4,4,444,Champions,3529.25,588.21
+CUST-0134,Raymond Martin,Consumer,Central,Texas,Houston,2025-06-15,GEO-0023,112,5,2068.8,947.63,10,2025-10-31,2026-03-11,3,3,3,333,Loyal Customers,2068.8,413.76
+CUST-0135,Diane Morgan,Corporate,South,North Carolina,Charlotte,2024-06-11,GEO-0015,49,3,642.05,304.11,10,2024-10-14,2026-05-13,4,2,2,422,New Customers,642.05,214.02
+CUST-0136,Virginia Wright,Consumer,East,New Jersey,Newark,2022-06-27,GEO-0018,5,6,1368.1,383.01,6,2022-06-28,2026-06-26,5,4,2,542,Potential Loyalists,1368.1,228.02
+CUST-0137,Kimberly Edwards,Consumer,South,North Carolina,Charlotte,2025-03-13,GEO-0015,43,2,2371.5,808.3399999999999,4,2026-04-19,2026-05-19,4,1,3,413,New Customers,2371.5,1185.75
+CUST-0138,Brandon Carter,Consumer,South,Virginia,Richmond,2023-10-28,GEO-0013,29,12,4856.7,1959.62,17,2023-10-28,2026-06-02,5,5,4,554,Champions,4856.7,404.72
+CUST-0139,Margaret Morales,Consumer,Central,Illinois,Chicago,2023-11-29,GEO-0003,407,2,986.85,433.85999999999996,6,2025-01-05,2025-05-20,1,1,2,112,Low-Value Customers,986.85,493.42
+CUST-0140,Kimberly Scott,Corporate,East,Pennsylvania,Philadelphia,2022-06-25,GEO-0006,214,10,3264.5,1251.48,18,2022-12-18,2025-11-29,2,5,4,254,Loyal Customers,3264.5,326.45
+CUST-0141,Mark Evans,Consumer,East,New Jersey,Newark,2024-09-02,GEO-0018,155,5,2643.55,1284.71,12,2024-10-05,2026-01-27,3,3,3,333,Loyal Customers,2643.55,528.71
+CUST-0142,Samuel Morales,Consumer,West,California,San Francisco,2022-07-10,GEO-0025,108,6,1026.7,343.02,8,2022-08-16,2026-03-15,3,4,2,342,Potential Loyalists,1026.7,171.12
+CUST-0143,Donna Lewis,Consumer,East,New Jersey,Newark,2023-09-20,GEO-0018,285,2,940.5,413.44,5,2025-09-03,2025-09-19,2,1,2,212,Low-Value Customers,940.5,470.25
+CUST-0144,Gregory Mitchell,Consumer,Central,Ohio,Columbus,2024-05-21,GEO-0004,226,4,1169.55,497.65000000000003,6,2024-09-14,2025-11-17,2,3,2,232,At-Risk Customers,1169.55,292.39
+CUST-0145,Janet Peterson,Consumer,South,North Carolina,Charlotte,2023-07-09,GEO-0015,26,5,1711.2,628.56,12,2023-07-27,2026-06-05,5,3,3,533,Loyal Customers,1711.2,342.24
+CUST-0146,Emily Allen,Consumer,East,Pennsylvania,Philadelphia,2023-10-09,GEO-0006,99,16,16323.75,5767.19,33,2023-11-28,2026-03-24,4,5,5,455,Champions,16323.75,1020.23
+CUST-0147,Jessica Morgan,Home Office,East,New York,Buffalo,2023-01-28,GEO-0028,46,7,2593.8,1063.39,12,2023-09-28,2026-05-16,4,4,3,443,Loyal Customers,2593.8,370.54
+CUST-0148,Betty Morris,Consumer,Central,Texas,Dallas,2022-07-25,GEO-0019,332,2,1464.0,697.73,6,2023-05-09,2025-08-03,2,1,2,212,Low-Value Customers,1464.0,732.0
+CUST-0149,Adam Harris,Consumer,Central,Ohio,Cleveland,2023-01-03,GEO-0030,209,6,12549.6,4699.57,25,2023-01-19,2025-12-04,2,4,5,245,Loyal Customers,12549.6,2091.6
+CUST-0150,Kenneth Johnson,Corporate,West,Arizona,Phoenix,2023-07-16,GEO-0026,3,16,10895.75,4514.7,40,2023-10-03,2026-06-28,5,5,5,555,Champions,10895.75,680.98
+CUST-0151,Jennifer Miller,Corporate,West,Arizona,Phoenix,2024-10-02,GEO-0026,24,7,3229.5,1544.48,16,2024-10-27,2026-06-07,5,4,4,544,Champions,3229.5,461.36
+CUST-0152,Susan Johnson,Corporate,South,Tennessee,Nashville,2024-09-07,GEO-0017,282,3,855.1,365.14,8,2025-01-23,2025-09-22,2,2,2,222,Low-Value Customers,855.1,285.03
+CUST-0153,Jeffrey Baker,Consumer,West,California,San Jose,2023-06-02,GEO-0011,663,2,291.1,147.76,2,2024-06-20,2024-09-06,1,1,1,111,Low-Value Customers,291.1,145.55
+CUST-0154,Henry Morris,Consumer,West,Washington,Seattle,2024-03-31,GEO-0020,37,7,4079.65,1660.34,17,2024-03-31,2026-05-25,5,4,4,544,Champions,4079.65,582.81
+CUST-0155,Gary Martinez,Corporate,West,California,San Jose,2022-11-07,GEO-0011,190,2,114.0,52.56,6,2025-03-24,2025-12-23,3,1,1,311,Low-Value Customers,114.0,57.0
+CUST-0156,Karen Hill,Consumer,East,New Jersey,Newark,2022-08-31,GEO-0018,202,15,7310.1,3061.49,34,2022-09-06,2025-12-11,3,5,5,355,Loyal Customers,7310.1,487.34
+CUST-0157,Anna Turner,Corporate,East,Massachusetts,Boston,2024-12-06,GEO-0002,227,5,3911.1000000000004,1570.24,12,2024-12-14,2025-11-16,2,3,4,234,Loyal Customers,3911.1,782.22
+CUST-0158,Edward Edwards,Home Office,Central,Texas,Austin,2025-04-20,GEO-0027,76,6,2293.8,676.62,8,2025-06-05,2026-04-16,4,4,3,443,Loyal Customers,2293.8,382.3
+CUST-0159,Jason Flores,Corporate,West,California,San Jose,2025-06-02,GEO-0011,89,2,1757.2,517.66,4,2025-12-07,2026-04-03,4,1,3,413,New Customers,1757.2,878.6
+CUST-0160,Jack Gonzalez,Home Office,East,Pennsylvania,Pittsburgh,2023-03-09,GEO-0031,2,11,8700.0,3167.8300000000004,26,2023-06-07,2026-06-29,5,5,5,555,Champions,8700.0,790.91
+CUST-0161,Ashley Hernandez,Consumer,East,New York,Buffalo,2025-02-04,GEO-0028,65,13,12415.1,5282.54,26,2025-02-16,2026-04-27,4,5,5,455,Champions,12415.1,955.01
+CUST-0162,Elizabeth Lee,Consumer,South,Georgia,Atlanta,2025-05-01,GEO-0010,19,12,5863.6,2147.7200000000003,23,2025-07-21,2026-06-12,5,5,4,554,Champions,5863.6,488.63
+CUST-0163,Jacob Nguyen,Consumer,Central,Texas,Dallas,2023-08-03,GEO-0019,37,3,4026.75,1903.1899999999998,16,2024-04-22,2026-05-25,5,2,4,524,New Customers,4026.75,1342.25
+CUST-0164,Rachel Collins,Consumer,East,Massachusetts,Boston,2023-06-26,GEO-0002,600,6,968.65,508.56,8,2023-11-03,2024-11-08,1,4,2,142,At-Risk Customers,968.65,161.44
+CUST-0165,Tyler Sanchez,Consumer,East,Massachusetts,Boston,2022-11-02,GEO-0002,130,7,12885.05,4222.82,16,2023-02-14,2026-02-21,3,4,5,345,Loyal Customers,12885.05,1840.72
+CUST-0166,Peter Wright,Home Office,West,Washington,Seattle,2022-05-03,GEO-0020,7,7,3695.35,1557.7,15,2023-03-20,2026-06-24,5,4,4,544,Champions,3695.35,527.91
+CUST-0167,Nancy Flores,Corporate,Central,Texas,Dallas,2024-06-18,GEO-0019,488,2,1504.0,514.97,2,2024-10-09,2025-02-28,1,1,2,112,Low-Value Customers,1504.0,752.0
+CUST-0168,Jessica Reyes,Corporate,South,Florida,Miami,2023-07-12,GEO-0012,36,12,5049.2,1855.46,25,2023-08-28,2026-05-26,5,5,4,554,Champions,5049.2,420.77
+CUST-0169,Nicholas Cooper,Consumer,West,Washington,Spokane,2025-05-09,GEO-0007,224,1,69.0,40.74,1,2025-11-19,2025-11-19,2,1,1,211,Low-Value Customers,69.0,69.0
+CUST-0170,Jennifer Parker,Corporate,Central,Illinois,Chicago,2022-02-22,GEO-0003,29,16,21922.2,8791.24,41,2022-02-23,2026-06-02,5,5,5,555,Champions,21922.2,1370.14
+CUST-0171,Barbara Robinson,Home Office,West,California,San Francisco,2023-07-06,GEO-0025,261,1,62.1,28.12,1,2025-10-13,2025-10-13,2,1,1,211,Low-Value Customers,62.1,62.1
+CUST-0172,Brenda Garcia,Corporate,East,New York,Buffalo,2024-08-21,GEO-0028,148,5,2269.2,547.3199999999999,18,2024-09-07,2026-02-03,3,3,3,333,Loyal Customers,2269.2,453.84
+CUST-0173,Eric Cruz,Home Office,East,New York,Buffalo,2025-04-13,GEO-0028,78,2,134.0,72.08,2,2026-01-14,2026-04-14,4,1,1,411,New Customers,134.0,67.0
+CUST-0174,Sharon Morales,Home Office,South,Tennessee,Nashville,2023-12-14,GEO-0017,8,6,573.25,255.31,10,2024-08-18,2026-06-23,5,4,2,542,Potential Loyalists,573.25,95.54
+CUST-0175,Timothy Nelson,Consumer,West,Oregon,Portland,2022-11-26,GEO-0016,571,2,4276.5,1575.0900000000001,5,2023-02-17,2024-12-07,1,1,4,114,At-Risk Customers,4276.5,2138.25
+CUST-0176,Kevin Evans,Corporate,Central,Texas,Dallas,2024-03-31,GEO-0019,325,2,285.75,101.76,4,2024-12-13,2025-08-10,2,1,1,211,Low-Value Customers,285.75,142.88
+CUST-0177,Jose Peterson,Consumer,West,Washington,Spokane,2023-10-07,GEO-0007,36,7,4294.6,1891.9099999999999,21,2023-10-31,2026-05-26,5,4,4,544,Champions,4294.6,613.51
+CUST-0178,Paul Adams,Consumer,South,Florida,Miami,2024-11-19,GEO-0012,269,1,22.0,8.17,1,2025-10-05,2025-10-05,2,1,1,211,Low-Value Customers,22.0,22.0
+CUST-0179,Virginia Smith,Corporate,South,North Carolina,Charlotte,2024-04-26,GEO-0015,24,2,910.0999999999999,361.67,2,2025-11-20,2026-06-07,5,1,2,512,New Customers,910.1,455.05
+CUST-0180,Michael Harris,Consumer,South,Virginia,Richmond,2024-06-24,GEO-0013,156,6,729.4,306.16,12,2024-07-06,2026-01-26,3,4,2,342,Potential Loyalists,729.4,121.57
+CUST-0181,Ruth Miller,Consumer,West,Arizona,Phoenix,2023-08-13,GEO-0026,273,11,10779.7,4631.61,30,2023-10-08,2025-10-01,2,5,5,255,Loyal Customers,10779.7,979.97
+CUST-0182,Jeffrey Morales,Consumer,East,New Jersey,Newark,2022-11-21,GEO-0018,649,3,3773.6,1216.29,7,2023-11-19,2024-09-20,1,2,4,124,At-Risk Customers,3773.6,1257.87
+CUST-0183,Emily Peterson,Consumer,South,Florida,Orlando,2022-07-10,GEO-0021,197,2,250.60000000000002,28.35,4,2024-02-26,2025-12-16,3,1,1,311,Low-Value Customers,250.6,125.3
+CUST-0184,Donald Anderson,Consumer,West,Colorado,Denver,2022-11-12,GEO-0022,117,3,185.0,84.12,5,2024-10-04,2026-03-06,3,2,1,321,Potential Loyalists,185.0,61.67
+CUST-0185,Amy Nguyen,Consumer,Central,Texas,Houston,2024-04-30,GEO-0023,3,6,2938.55,1192.6799999999998,9,2025-03-06,2026-06-28,5,4,3,543,Loyal Customers,2938.55,489.76
+CUST-0186,Adam Morris,Home Office,East,New Jersey,Newark,2024-07-24,GEO-0018,410,1,48.0,17.17,4,2025-05-17,2025-05-17,1,1,1,111,Low-Value Customers,48.0,48.0
+CUST-0187,Stephen Jackson,Consumer,West,Arizona,Phoenix,2022-05-23,GEO-0026,218,6,2457.8,1197.26,17,2022-08-22,2025-11-25,2,4,3,243,Loyal Customers,2457.8,409.63
+CUST-0188,Kimberly Turner,Consumer,Central,Texas,Houston,2022-01-06,GEO-0023,1226,1,198.0,101.7,2,2023-02-21,2023-02-21,1,1,1,111,Low-Value Customers,198.0,198.0
+CUST-0189,Andrew Hill,Home Office,South,Virginia,Richmond,2022-11-01,GEO-0013,52,9,4879.9,1838.5300000000002,15,2023-10-26,2026-05-10,4,5,4,454,Champions,4879.9,542.21
+CUST-0190,Laura Morgan,Consumer,Central,Michigan,Detroit,2025-02-04,GEO-0024,140,3,1777.5,737.9,6,2025-07-01,2026-02-11,3,2,3,323,Potential Loyalists,1777.5,592.5
+CUST-0191,Ruth Cooper,Consumer,Central,Texas,San Antonio,2023-01-22,GEO-0001,48,13,8028.650000000001,3522.08,24,2023-06-04,2026-05-14,4,5,5,455,Champions,8028.65,617.59
+CUST-0192,Rachel Walker,Corporate,East,Massachusetts,Boston,2024-04-21,GEO-0002,126,13,10055.55,3926.83,29,2024-06-22,2026-02-25,3,5,5,355,Loyal Customers,10055.55,773.5
+CUST-0193,Jennifer Green,Corporate,Central,Minnesota,Minneapolis,2024-03-01,GEO-0032,232,5,3855.7,1411.88,8,2024-09-11,2025-11-11,2,3,4,234,Loyal Customers,3855.7,771.14
+CUST-0194,Gregory Martin,Consumer,West,California,San Diego,2022-09-16,GEO-0005,21,4,4821.9,1605.06,11,2023-03-29,2026-06-10,5,3,4,534,Loyal Customers,4821.9,1205.47
+CUST-0195,Nicholas Nelson,Home Office,South,Georgia,Atlanta,2022-07-24,GEO-0010,161,6,3145.0,1417.24,10,2022-11-30,2026-01-21,3,4,4,344,Loyal Customers,3145.0,524.17
+CUST-0196,Angela Collins,Consumer,West,Nevada,Las Vegas,2024-04-19,GEO-0029,15,4,2897.65,917.38,9,2025-08-26,2026-06-16,5,3,3,533,Loyal Customers,2897.65,724.41
+CUST-0197,Victoria Martin,Consumer,Central,Illinois,Chicago,2023-11-25,GEO-0003,384,3,1156.8,520.6800000000001,14,2025-01-29,2025-06-12,1,2,2,122,Low-Value Customers,1156.8,385.6
+CUST-0198,Emma Gomez,Corporate,Central,Michigan,Detroit,2024-12-28,GEO-0024,91,5,2877.0,1233.94,11,2025-03-07,2026-04-01,4,3,3,433,Loyal Customers,2877.0,575.4
+CUST-0199,Edward Green,Corporate,South,Virginia,Richmond,2025-01-13,GEO-0013,128,6,364.3,172.24,8,2025-08-11,2026-02-23,3,4,1,341,Potential Loyalists,364.3,60.72
+CUST-0200,Robert Rodriguez,Consumer,Central,Texas,Dallas,2023-04-11,GEO-0019,414,6,5367.9,2237.92,10,2024-06-03,2025-05-13,1,4,4,144,Loyal Customers,5367.9,894.65
+CUST-0201,Janet Lopez,Consumer,West,Oregon,Portland,2022-07-25,GEO-0016,63,11,8447.65,3571.15,22,2022-10-29,2026-04-29,4,5,5,455,Champions,8447.65,767.97
+CUST-0202,Jeffrey Perez,Corporate,West,California,San Francisco,2022-04-05,GEO-0025,367,2,774.0,374.14,10,2022-11-30,2025-06-29,2,1,2,212,Low-Value Customers,774.0,387.0
+CUST-0203,Carol Davis,Consumer,Central,Ohio,Cleveland,2024-06-01,GEO-0030,27,4,1060.0,426.03,8,2024-06-17,2026-06-04,5,3,2,532,Potential Loyalists,1060.0,265.0
+CUST-0204,Charles Young,Corporate,East,New York,Buffalo,2022-12-15,GEO-0028,258,7,2583.7999999999997,1106.5400000000002,17,2023-03-24,2025-10-16,2,4,3,243,Loyal Customers,2583.8,369.11
+CUST-0205,Daniel Hernandez,Corporate,Central,Minnesota,Minneapolis,2025-06-23,GEO-0032,181,1,832.2,432.31,4,2026-01-01,2026-01-01,3,1,2,312,Potential Loyalists,832.2,832.2
+CUST-0206,Debra Walker,Consumer,West,Nevada,Las Vegas,2023-04-21,GEO-0029,960,1,57.6,24.67,2,2023-11-14,2023-11-14,1,1,1,111,Low-Value Customers,57.6,57.6
+CUST-0207,Cynthia Allen,Consumer,West,California,Los Angeles,2024-08-10,GEO-0008,10,16,11202.3,4559.7,37,2024-11-06,2026-06-21,5,5,5,555,Champions,11202.3,700.14
+CUST-0208,Kelly Torres,Corporate,East,New York,New York City,2022-06-01,GEO-0014,194,5,1815.8,814.1999999999999,8,2023-12-20,2025-12-19,3,3,3,333,Loyal Customers,1815.8,363.16
+CUST-0209,Jeffrey Hall,Home Office,Central,Texas,Austin,2024-05-18,GEO-0027,190,6,1961.6,704.47,10,2024-05-28,2025-12-23,3,4,3,343,Loyal Customers,1961.6,326.93
+CUST-0210,Alexander Allen,Consumer,Central,Texas,Austin,2023-02-12,GEO-0027,229,3,2933.8500000000004,914.63,6,2025-07-22,2025-11-14,2,2,3,223,At-Risk Customers,2933.85,977.95
+CUST-0211,Deborah Morris,Consumer,Central,Minnesota,Minneapolis,2025-03-17,GEO-0032,11,5,2145.5499999999997,835.6700000000001,11,2025-04-19,2026-06-20,5,3,3,533,Loyal Customers,2145.55,429.11
+CUST-0212,Amanda Nguyen,Home Office,Central,Texas,Dallas,2022-02-14,GEO-0019,466,1,14.0,5.43,1,2025-03-22,2025-03-22,1,1,1,111,Low-Value Customers,14.0,14.0
+CUST-0213,Adam Gomez,Consumer,West,California,San Jose,2025-05-26,GEO-0011,284,1,950.0,346.79,1,2025-09-20,2025-09-20,2,1,2,212,Low-Value Customers,950.0,950.0
+CUST-0214,Janet Murphy,Home Office,Central,Texas,Dallas,2023-04-17,GEO-0019,581,1,29.0,10.15,1,2024-11-27,2024-11-27,1,1,1,111,Low-Value Customers,29.0,29.0
+CUST-0215,Nicole Rivera,Consumer,East,Pennsylvania,Philadelphia,2025-06-25,GEO-0006,105,9,14409.05,5782.41,19,2025-08-23,2026-03-18,3,5,5,355,Loyal Customers,14409.05,1601.01
+CUST-0216,Paul Moore,Corporate,West,California,San Diego,2023-09-25,GEO-0005,107,2,1126.55,424.12,2,2024-06-01,2026-03-16,3,1,2,312,Potential Loyalists,1126.55,563.28
+CUST-0217,Tyler Cruz,Consumer,Central,Ohio,Cleveland,2022-09-27,GEO-0030,214,5,12218.55,4951.07,15,2022-11-15,2025-11-29,2,3,5,235,Loyal Customers,12218.55,2443.71
+CUST-0218,Barbara Nguyen,Consumer,South,Florida,Orlando,2022-12-26,GEO-0021,973,2,2604.6,1089.19,3,2023-10-16,2023-11-01,1,1,3,113,At-Risk Customers,2604.6,1302.3
+CUST-0219,Lisa Taylor,Corporate,Central,Ohio,Cleveland,2024-12-23,GEO-0030,331,1,28.0,6.64,2,2025-08-04,2025-08-04,2,1,1,211,Low-Value Customers,28.0,28.0
+CUST-0220,Nicholas Wright,Home Office,Central,Illinois,Chicago,2024-09-13,GEO-0003,76,5,3204.85,1410.3300000000002,12,2025-05-22,2026-04-16,4,3,4,434,Loyal Customers,3204.85,640.97
+CUST-0221,Diane Nguyen,Corporate,Central,Michigan,Detroit,2022-08-24,GEO-0024,522,1,899.0,374.77,1,2025-01-25,2025-01-25,1,1,2,112,Low-Value Customers,899.0,899.0
+CUST-0222,Cynthia Martinez,Consumer,East,Massachusetts,Boston,2024-03-24,GEO-0002,227,2,1640.6499999999999,721.02,2,2024-06-16,2025-11-16,2,1,3,213,At-Risk Customers,1640.65,820.32
+CUST-0223,Nathan Bailey,Consumer,South,Florida,Miami,2022-01-29,GEO-0012,1509,1,494.1,168.39,1,2022-05-14,2022-05-14,1,1,1,111,Low-Value Customers,494.1,494.1
+CUST-0224,Ashley Morgan,Consumer,Central,Ohio,Cleveland,2023-06-21,GEO-0030,102,7,969.55,293.12,10,2023-12-17,2026-03-21,4,4,2,442,Potential Loyalists,969.55,138.51
+CUST-0225,Justin Carter,Home Office,Central,Ohio,Cleveland,2022-08-10,GEO-0030,402,3,948.6,291.74,6,2024-08-24,2025-05-25,1,2,2,122,Low-Value Customers,948.6,316.2
+CUST-0226,Frank Robinson,Consumer,Central,Texas,San Antonio,2025-06-03,GEO-0001,24,2,2967.1,1199.65,3,2025-07-20,2026-06-07,5,1,3,513,New Customers,2967.1,1483.55
+CUST-0227,Donald Rodriguez,Corporate,South,North Carolina,Charlotte,2023-09-11,GEO-0015,90,15,16994.1,6512.53,34,2023-10-23,2026-04-02,4,5,5,455,Champions,16994.1,1132.94
+CUST-0228,Katherine Evans,Consumer,West,California,San Diego,2022-03-18,GEO-0005,41,5,970.6999999999999,423.62,9,2022-11-18,2026-05-21,4,3,2,432,Potential Loyalists,970.7,194.14
+CUST-0229,Kenneth Murphy,Consumer,East,New Jersey,Newark,2025-01-05,GEO-0018,112,9,13565.75,5331.5,25,2025-03-26,2026-03-11,3,5,5,355,Loyal Customers,13565.75,1507.31
+CUST-0230,Sarah Roberts,Consumer,South,Florida,Orlando,2025-04-17,GEO-0021,97,4,7250.25,3116.23,18,2025-10-10,2026-03-26,4,3,5,435,Loyal Customers,7250.25,1812.56
+CUST-0231,Janet Martin,Home Office,West,Oregon,Portland,2024-09-29,GEO-0016,98,9,5353.5,2287.75,14,2024-10-02,2026-03-25,4,5,4,454,Champions,5353.5,594.83
+CUST-0232,Brandon Evans,Home Office,Central,Texas,Houston,2022-03-09,GEO-0023,63,9,3656.4,1527.49,14,2022-08-12,2026-04-29,4,5,4,454,Champions,3656.4,406.27
+CUST-0233,Alexander Mitchell,Consumer,South,Georgia,Atlanta,2023-04-29,GEO-0010,275,3,235.0,120.19,4,2024-05-27,2025-09-29,2,2,1,221,Low-Value Customers,235.0,78.33
+CUST-0234,Joyce Campbell,Consumer,Central,Ohio,Cleveland,2025-01-20,GEO-0030,72,14,6701.1,2890.55,26,2025-02-20,2026-04-20,4,5,5,455,Champions,6701.1,478.65
+CUST-0235,Kelly Rivera,Consumer,Central,Texas,Houston,2023-01-24,GEO-0023,101,4,4220.1,1692.29,5,2024-06-10,2026-03-22,4,3,4,434,Loyal Customers,4220.1,1055.03
+CUST-0236,Jessica Collins,Consumer,East,Pennsylvania,Pittsburgh,2025-05-07,GEO-0031,47,4,433.1,198.31,7,2025-08-09,2026-05-15,4,3,1,431,Potential Loyalists,433.1,108.28
+CUST-0237,John Miller,Corporate,East,New Jersey,Newark,2022-09-15,GEO-0018,503,4,751.0,366.21,7,2024-05-16,2025-02-13,1,3,2,132,At-Risk Customers,751.0,187.75
+CUST-0238,Tyler Clark,Consumer,East,Pennsylvania,Pittsburgh,2025-04-15,GEO-0031,268,2,311.95,174.73,6,2025-07-04,2025-10-06,2,1,1,211,Low-Value Customers,311.95,155.98
+CUST-0239,Betty Robinson,Consumer,West,Nevada,Las Vegas,2025-05-05,GEO-0029,17,6,3116.0,1288.8,18,2025-10-01,2026-06-14,5,4,4,544,Champions,3116.0,519.33
+CUST-0240,James Scott,Home Office,West,Nevada,Las Vegas,2022-09-24,GEO-0029,156,13,15855.9,6030.53,30,2022-10-20,2026-01-26,3,5,5,355,Loyal Customers,15855.9,1219.68
+CUST-0241,Helen Allen,Corporate,West,Colorado,Denver,2022-02-22,GEO-0022,455,6,3435.95,1244.31,21,2022-12-11,2025-04-02,1,4,4,144,Loyal Customers,3435.95,572.66
+CUST-0242,Thomas Johnson,Consumer,East,New Jersey,Newark,2025-04-20,GEO-0018,24,2,3835.65,1568.47,5,2025-12-09,2026-06-07,5,2,4,524,New Customers,3835.65,1917.82
+CUST-0243,Carol Williams,Consumer,West,California,San Jose,2022-09-17,GEO-0011,72,5,986.8000000000001,374.35,10,2023-04-26,2026-04-20,4,3,2,432,Potential Loyalists,986.8,197.36
+CUST-0244,Jack Turner,Corporate,West,Washington,Seattle,2024-09-02,GEO-0020,113,7,2162.55,973.24,11,2024-10-28,2026-03-10,3,4,3,343,Loyal Customers,2162.55,308.94
+CUST-0245,Laura Campbell,Consumer,West,Oregon,Portland,2024-07-14,GEO-0016,296,3,946.05,459.03000000000003,4,2024-09-07,2025-09-08,2,2,2,222,Low-Value Customers,946.05,315.35
+CUST-0246,Nicholas Lewis,Home Office,West,California,San Diego,2024-12-03,GEO-0005,165,5,3890.2,1482.56,13,2025-07-28,2026-01-17,3,3,4,334,Loyal Customers,3890.2,778.04
+CUST-0247,Kenneth Collins,Corporate,West,California,San Francisco,2022-05-05,GEO-0025,284,3,1064.55,393.44,6,2024-02-25,2025-09-20,2,2,2,222,Low-Value Customers,1064.55,354.85
+CUST-0248,Kathleen Phillips,Consumer,West,Oregon,Portland,2024-10-01,GEO-0016,176,1,999.0,412.29,1,2026-01-06,2026-01-06,3,1,2,312,Potential Loyalists,999.0,999.0
+CUST-0249,Catherine Cruz,Consumer,West,Washington,Spokane,2023-10-22,GEO-0007,136,2,2068.4,697.66,3,2025-09-04,2026-02-15,3,2,3,323,Potential Loyalists,2068.4,1034.2
+CUST-0250,Nicole Jackson,Consumer,Central,Texas,Houston,2025-04-13,GEO-0023,56,2,1128.0,508.34000000000003,6,2025-09-23,2026-05-06,4,2,2,422,New Customers,1128.0,564.0
+CUST-0251,Stephen Adams,Consumer,Central,Texas,Dallas,2024-07-18,GEO-0019,15,6,6600.0,2453.67,14,2024-11-02,2026-06-16,5,4,5,545,Champions,6600.0,1100.0
+CUST-0252,Nicholas Parker,Consumer,West,Colorado,Denver,2025-02-03,GEO-0022,41,8,12120.9,5313.45,25,2025-02-03,2026-05-21,4,5,5,455,Champions,12120.9,1515.11
+CUST-0253,Patrick Ramirez,Consumer,East,Massachusetts,Boston,2024-04-27,GEO-0002,31,1,699.0,314.16,1,2026-05-31,2026-05-31,5,1,2,512,New Customers,699.0,699.0
+CUST-0254,Michelle Collins,Consumer,West,Oregon,Portland,2023-10-03,GEO-0016,95,12,6022.45,2243.0699999999997,21,2024-01-16,2026-03-28,4,5,4,454,Champions,6022.45,501.87
+CUST-0255,Jason Green,Corporate,Central,Ohio,Cleveland,2022-11-09,GEO-0030,181,1,1647.0,673.67,3,2026-01-01,2026-01-01,3,1,3,313,Potential Loyalists,1647.0,1647.0
+CUST-0256,Debra Stewart,Consumer,West,Washington,Spokane,2022-07-10,GEO-0007,6,7,3713.95,1439.6000000000001,18,2022-11-28,2026-06-25,5,4,4,544,Champions,3713.95,530.56
+CUST-0257,Sharon Gonzalez,Corporate,Central,Ohio,Cleveland,2022-09-24,GEO-0030,312,9,1597.65,686.44,19,2022-11-29,2025-08-23,2,5,3,253,Loyal Customers,1597.65,177.52
+CUST-0258,Anna Davis,Corporate,Central,Michigan,Detroit,2022-09-08,GEO-0024,286,4,1931.05,962.38,12,2022-11-06,2025-09-18,2,3,3,233,Loyal Customers,1931.05,482.76
+CUST-0259,Timothy Rivera,Home Office,South,Florida,Tampa,2022-04-16,GEO-0009,53,2,8137.45,3566.96,8,2023-07-08,2026-05-09,4,2,5,425,New Customers,8137.45,4068.72
+CUST-0260,Andrew Flores,Consumer,East,Pennsylvania,Pittsburgh,2022-11-13,GEO-0031,151,9,5252.3,2441.9700000000003,19,2023-01-01,2026-01-31,3,5,4,354,Loyal Customers,5252.3,583.59
+CUST-0261,Gregory Morris,Consumer,West,Oregon,Portland,2023-12-19,GEO-0016,178,8,8258.7,3702.2999999999997,20,2024-04-12,2026-01-04,3,5,5,355,Loyal Customers,8258.7,1032.34
+CUST-0262,Nathan Bailey,Consumer,Central,Texas,Houston,2025-03-21,GEO-0023,132,1,64.6,29.57,2,2026-02-19,2026-02-19,3,1,1,311,Low-Value Customers,64.6,64.6
+CUST-0263,Donald Diaz,Home Office,West,California,San Francisco,2025-06-01,GEO-0025,208,3,2012.0,820.3299999999999,3,2025-07-20,2025-12-05,2,2,3,223,At-Risk Customers,2012.0,670.67
+CUST-0264,Kyle Wright,Consumer,Central,Texas,Houston,2023-09-25,GEO-0023,84,5,1281.95,293.61,11,2023-10-02,2026-04-08,4,3,2,432,Potential Loyalists,1281.95,256.39
+CUST-0265,Christina Baker,Consumer,East,New York,Buffalo,2022-10-21,GEO-0028,835,2,798.0,302.42,5,2023-01-08,2024-03-18,1,2,2,122,Low-Value Customers,798.0,399.0
+CUST-0266,Larry Phillips,Consumer,West,California,San Francisco,2022-07-07,GEO-0025,454,1,75.0,39.09,1,2025-04-03,2025-04-03,1,1,1,111,Low-Value Customers,75.0,75.0
+CUST-0267,Janet Ortiz,Consumer,South,Florida,Orlando,2024-07-18,GEO-0021,256,8,11604.8,4614.3099999999995,17,2024-09-18,2025-10-18,2,5,5,255,Loyal Customers,11604.8,1450.6
+CUST-0268,Michelle Lee,Consumer,Central,Texas,San Antonio,2025-03-08,GEO-0001,60,7,9262.25,3702.2000000000003,15,2025-04-27,2026-05-02,4,4,5,445,Champions,9262.25,1323.18
+CUST-0269,Scott Hernandez,Home Office,West,Nevada,Las Vegas,2022-11-19,GEO-0029,1267,1,618.3,277.24,3,2023-01-11,2023-01-11,1,1,2,112,Low-Value Customers,618.3,618.3
+CUST-0270,Dennis Miller,Corporate,Central,Texas,Houston,2024-06-26,GEO-0023,215,10,15549.6,5448.72,37,2024-08-16,2025-11-28,2,5,5,255,Loyal Customers,15549.6,1554.96
+CUST-0271,Gregory Diaz,Consumer,South,Georgia,Atlanta,2024-04-28,GEO-0010,432,1,396.9,94.86,3,2025-04-25,2025-04-25,1,1,1,111,Low-Value Customers,396.9,396.9
+CUST-0272,Steven Ramirez,Corporate,West,Colorado,Denver,2023-12-08,GEO-0022,551,3,4051.0,1560.3600000000001,12,2024-05-11,2024-12-27,1,2,4,124,At-Risk Customers,4051.0,1350.33
+CUST-0273,Sharon Anderson,Consumer,South,Virginia,Richmond,2024-12-15,GEO-0013,56,7,3501.65,1224.63,12,2024-12-17,2026-05-06,4,4,4,444,Champions,3501.65,500.24
+CUST-0274,Christine Flores,Consumer,South,Florida,Miami,2025-05-12,GEO-0012,12,1,224.2,125.05,4,2026-06-19,2026-06-19,5,1,1,511,New Customers,224.2,224.2
+CUST-0275,Linda Smith,Consumer,East,Pennsylvania,Pittsburgh,2022-10-09,GEO-0031,10,7,5543.6,2256.09,16,2024-11-15,2026-06-21,5,4,4,544,Champions,5543.6,791.94
+CUST-0276,Ruth Allen,Consumer,West,Colorado,Denver,2022-01-16,GEO-0022,27,14,5072.5,1879.44,33,2022-08-08,2026-06-04,5,5,4,554,Champions,5072.5,362.32
+CUST-0277,Amy Parker,Consumer,Central,Minnesota,Minneapolis,2024-12-26,GEO-0032,66,6,3114.85,1324.46,15,2025-03-22,2026-04-26,4,4,3,443,Loyal Customers,3114.85,519.14
+CUST-0278,Raymond Robinson,Consumer,Central,Ohio,Columbus,2022-05-28,GEO-0004,625,4,2201.2,877.54,4,2022-12-26,2024-10-14,1,3,3,133,Loyal Customers,2201.2,550.3
+CUST-0279,Ronald Garcia,Consumer,South,North Carolina,Charlotte,2022-06-09,GEO-0015,44,4,890.0,389.6,9,2022-12-09,2026-05-18,4,3,2,432,Potential Loyalists,890.0,222.5
+CUST-0280,Henry Green,Corporate,South,Florida,Miami,2024-05-05,GEO-0012,616,2,1953.0,800.3000000000001,3,2024-06-04,2024-10-23,1,2,3,123,At-Risk Customers,1953.0,976.5
+CUST-0281,Donna Anderson,Consumer,Central,Texas,San Antonio,2022-12-18,GEO-0001,86,6,2714.6,1271.18,11,2022-12-25,2026-04-06,4,4,3,443,Loyal Customers,2714.6,452.43
+CUST-0282,Aaron Collins,Home Office,Central,Ohio,Cleveland,2022-06-30,GEO-0030,11,5,1728.1999999999998,827.8199999999999,13,2022-11-25,2026-06-20,5,3,3,533,Loyal Customers,1728.2,345.64
+CUST-0283,Sharon Wilson,Consumer,South,Florida,Miami,2024-12-09,GEO-0012,327,1,521.55,194.6,1,2025-08-08,2025-08-08,2,1,1,211,Low-Value Customers,521.55,521.55
+CUST-0284,David Gomez,Home Office,Central,Michigan,Detroit,2023-03-30,GEO-0024,411,1,176.4,68.71,4,2025-05-16,2025-05-16,1,1,1,111,Low-Value Customers,176.4,176.4
+CUST-0285,Kevin Perez,Consumer,West,Colorado,Denver,2024-12-22,GEO-0022,84,1,3798.0,1586.35,2,2026-04-08,2026-04-08,4,1,4,414,New Customers,3798.0,3798.0
+CUST-0286,Shirley Harris,Home Office,Central,Ohio,Columbus,2023-12-21,GEO-0004,121,12,9360.8,3360.28,26,2024-02-19,2026-03-02,3,5,5,355,Loyal Customers,9360.8,780.07
+CUST-0287,Carolyn Jackson,Consumer,West,Nevada,Las Vegas,2023-06-09,GEO-0029,50,3,642.05,282.03999999999996,5,2024-12-31,2026-05-12,4,2,2,422,New Customers,642.05,214.02
+CUST-0288,Lisa Thompson,Corporate,West,Washington,Seattle,2022-12-29,GEO-0020,178,2,988.0,481.9,7,2025-04-02,2026-01-04,3,2,2,322,Potential Loyalists,988.0,494.0
+CUST-0289,Jerry Murphy,Consumer,South,Georgia,Atlanta,2025-03-02,GEO-0010,126,5,2241.0,1038.99,9,2025-08-01,2026-02-25,3,3,3,333,Loyal Customers,2241.0,448.2
+CUST-0290,Samuel Adams,Home Office,Central,Texas,San Antonio,2022-11-06,GEO-0001,105,3,13230.0,5542.7,18,2022-12-15,2026-03-18,3,2,5,325,Potential Loyalists,13230.0,4410.0
+CUST-0291,Jeffrey Rodriguez,Consumer,Central,Texas,Austin,2023-07-17,GEO-0027,203,8,4496.1,1806.59,11,2023-08-10,2025-12-10,3,5,4,354,Loyal Customers,4496.1,562.01
+CUST-0292,Pamela Davis,Consumer,West,Washington,Seattle,2023-09-28,GEO-0020,94,8,6912.1,2018.03,18,2023-10-11,2026-03-29,4,5,5,455,Champions,6912.1,864.01
+CUST-0293,Cynthia Edwards,Consumer,Central,Ohio,Cleveland,2023-08-11,GEO-0030,132,5,2339.15,996.5,8,2023-08-24,2026-02-19,3,3,3,333,Loyal Customers,2339.15,467.83
+CUST-0294,Elizabeth Lopez,Corporate,Central,Minnesota,Minneapolis,2024-08-05,GEO-0032,195,3,611.4000000000001,307.7,5,2025-10-20,2025-12-18,3,2,2,322,Potential Loyalists,611.4,203.8
+CUST-0295,Justin Peterson,Home Office,West,California,San Diego,2024-07-10,GEO-0005,200,5,2636.6000000000004,1121.5700000000002,13,2024-12-28,2025-12-13,3,3,3,333,Loyal Customers,2636.6,527.32
+CUST-0296,Peter Harris,Consumer,South,Tennessee,Nashville,2024-10-23,GEO-0017,107,4,2721.25,1155.6100000000001,8,2024-11-05,2026-03-16,3,3,3,333,Loyal Customers,2721.25,680.31
+CUST-0297,Karen Davis,Consumer,Central,Michigan,Detroit,2022-06-22,GEO-0024,569,1,55.1,23.31,2,2024-12-09,2024-12-09,1,1,1,111,Low-Value Customers,55.1,55.1
+CUST-0298,Nicholas Thompson,Consumer,South,Georgia,Atlanta,2024-06-18,GEO-0010,121,4,2655.9,1135.84,9,2025-03-14,2026-03-02,3,3,3,333,Loyal Customers,2655.9,663.98
+CUST-0299,Angela Gutierrez,Corporate,Central,Ohio,Cleveland,2024-02-03,GEO-0030,295,2,313.05,150.35,2,2025-03-11,2025-09-09,2,2,1,221,Low-Value Customers,313.05,156.52
+CUST-0300,Christina Torres,Consumer,Central,Michigan,Detroit,2025-05-09,GEO-0024,193,3,1458.9,638.0,4,2025-07-16,2025-12-20,3,2,2,322,Potential Loyalists,1458.9,486.3
+CUST-0301,Michael Nelson,Consumer,West,Oregon,Portland,2025-02-16,GEO-0016,10,13,13363.2,5039.61,27,2025-03-27,2026-06-21,5,5,5,555,Champions,13363.2,1027.94
+CUST-0302,Frank Roberts,Consumer,West,Nevada,Las Vegas,2023-11-14,GEO-0029,294,1,50.4,1.33,4,2025-09-10,2025-09-10,2,1,1,211,Low-Value Customers,50.4,50.4
+CUST-0303,David Jackson,Home Office,Central,Texas,Austin,2024-03-13,GEO-0027,25,5,6986.1,2782.8,16,2024-06-02,2026-06-06,5,3,5,535,Loyal Customers,6986.1,1397.22
+CUST-0304,Thomas Hernandez,Consumer,Central,Minnesota,Minneapolis,2023-11-04,GEO-0032,2,5,2263.2,940.17,7,2023-12-11,2026-06-29,5,3,3,533,Loyal Customers,2263.2,452.64
+CUST-0305,Jose Taylor,Corporate,West,Washington,Spokane,2024-05-17,GEO-0007,126,11,11684.150000000001,4732.81,27,2024-11-13,2026-02-25,3,5,5,355,Loyal Customers,11684.15,1062.2
+CUST-0306,Shirley Campbell,Consumer,Central,Texas,Austin,2023-01-05,GEO-0027,549,4,1356.4,517.87,10,2024-05-02,2024-12-29,1,3,2,132,At-Risk Customers,1356.4,339.1
+CUST-0307,Betty Baker,Home Office,South,Virginia,Richmond,2023-01-29,GEO-0013,459,2,60.0,24.92,3,2023-06-15,2025-03-29,1,2,1,121,Low-Value Customers,60.0,30.0
+CUST-0308,Donald Moore,Consumer,Central,Texas,Dallas,2022-07-27,GEO-0019,70,5,3046.3,1259.9699999999998,11,2022-08-30,2026-04-22,4,3,3,433,Loyal Customers,3046.3,609.26
+CUST-0309,Nicholas Cooper,Home Office,West,California,San Diego,2023-11-21,GEO-0005,289,10,3370.45,1647.62,25,2024-04-04,2025-09-15,2,5,4,254,Loyal Customers,3370.45,337.04
+CUST-0310,Douglas Taylor,Corporate,West,Nevada,Las Vegas,2022-11-29,GEO-0029,58,6,1873.75,855.66,12,2024-05-22,2026-05-04,4,4,3,443,Loyal Customers,1873.75,312.29
+CUST-0311,Margaret Perez,Corporate,West,California,San Diego,2024-04-21,GEO-0005,5,15,6646.5,2850.75,33,2024-05-29,2026-06-26,5,5,5,555,Champions,6646.5,443.1
+CUST-0312,George Walker,Home Office,Central,Texas,Dallas,2024-07-08,GEO-0019,244,4,7371.8,3175.54,10,2024-07-18,2025-10-30,2,3,5,235,Loyal Customers,7371.8,1842.95
+CUST-0313,Dorothy Morgan,Consumer,South,Tennessee,Nashville,2023-02-02,GEO-0017,890,1,934.15,247.51,1,2024-01-23,2024-01-23,1,1,2,112,Low-Value Customers,934.15,934.15
+CUST-0314,Melissa Cruz,Consumer,Central,Texas,Dallas,2024-02-22,GEO-0019,16,5,686.25,351.05,12,2024-05-25,2026-06-15,5,3,2,532,Potential Loyalists,686.25,137.25
+CUST-0315,Nicholas Ortiz,Consumer,East,New York,New York City,2023-02-13,GEO-0014,102,7,6839.650000000001,2256.46,16,2023-09-05,2026-03-21,4,4,5,445,Champions,6839.65,977.09
+CUST-0316,Aaron Moore,Home Office,West,California,San Jose,2024-09-11,GEO-0011,320,4,1951.35,843.22,6,2024-11-23,2025-08-15,2,3,3,233,Loyal Customers,1951.35,487.84
+CUST-0317,Victoria Mitchell,Corporate,West,Oregon,Portland,2024-11-22,GEO-0016,30,14,8377.45,3367.85,32,2024-11-22,2026-06-01,5,5,5,555,Champions,8377.45,598.39
+CUST-0318,Nathan Thomas,Consumer,East,New York,New York City,2023-07-13,GEO-0014,6,10,9344.65,3551.54,21,2023-08-17,2026-06-25,5,5,5,555,Champions,9344.65,934.46
+CUST-0319,Laura Rogers,Consumer,South,Florida,Tampa,2022-07-07,GEO-0009,21,10,6512.3,3020.41,24,2022-12-07,2026-06-10,5,5,5,555,Champions,6512.3,651.23
+CUST-0320,Peter Lewis,Corporate,Central,Ohio,Columbus,2022-02-24,GEO-0004,225,12,7227.3,3165.34,29,2022-03-16,2025-11-18,2,5,5,255,Loyal Customers,7227.3,602.28
+CUST-0321,Rebecca Miller,Consumer,Central,Ohio,Cleveland,2023-04-28,GEO-0030,558,1,304.2,29.25,3,2024-12-20,2024-12-20,1,1,1,111,Low-Value Customers,304.2,304.2
+CUST-0322,Deborah Hernandez,Consumer,West,California,San Francisco,2023-10-15,GEO-0025,566,4,2566.85,966.56,8,2023-11-28,2024-12-12,1,3,3,133,Loyal Customers,2566.85,641.71
+CUST-0323,Lauren Gonzalez,Home Office,Central,Michigan,Detroit,2022-10-27,GEO-0024,123,6,4449.150000000001,1877.94,8,2024-07-09,2026-02-28,3,4,4,344,Loyal Customers,4449.15,741.53
+CUST-0324,Sarah Jones,Consumer,South,Tennessee,Nashville,2022-10-12,GEO-0017,123,7,2232.05,872.47,13,2023-04-02,2026-02-28,3,4,3,343,Loyal Customers,2232.05,318.86
+CUST-0325,Ruth Stewart,Consumer,West,California,Los Angeles,2022-06-12,GEO-0008,71,3,410.05,170.31,7,2023-06-23,2026-04-21,4,2,1,421,New Customers,410.05,136.68
+CUST-0326,John Allen,Consumer,West,Nevada,Las Vegas,2025-01-28,GEO-0029,30,5,2138.2000000000003,714.53,10,2025-09-14,2026-06-01,5,3,3,533,Loyal Customers,2138.2,427.64
+CUST-0327,Carolyn Ortiz,Consumer,Central,Texas,Dallas,2023-05-02,GEO-0019,219,6,4299.35,1839.1299999999999,12,2023-12-15,2025-11-24,2,4,4,244,Loyal Customers,4299.35,716.56
+CUST-0328,Kenneth Thomas,Consumer,South,Florida,Orlando,2025-06-29,GEO-0021,92,2,579.4,269.39,3,2025-07-23,2026-03-31,4,2,2,422,New Customers,579.4,289.7
+CUST-0329,Ryan Rodriguez,Consumer,South,Virginia,Richmond,2025-05-07,GEO-0013,36,5,8109.150000000001,2992.17,10,2025-11-25,2026-05-26,5,3,5,535,Loyal Customers,8109.15,1621.83
+CUST-0330,Jonathan Williams,Corporate,East,New Jersey,Newark,2022-10-22,GEO-0018,121,13,3041.7,1312.52,33,2023-07-03,2026-03-02,3,5,3,353,Loyal Customers,3041.7,233.98
+CUST-0331,Donna Diaz,Consumer,Central,Ohio,Columbus,2023-05-08,GEO-0004,108,4,1844.35,862.3,6,2023-09-18,2026-03-15,3,3,3,333,Loyal Customers,1844.35,461.09
+CUST-0332,Brenda Turner,Consumer,West,Washington,Spokane,2024-12-08,GEO-0007,110,6,4702.75,2021.3,14,2025-09-12,2026-03-13,3,4,4,344,Loyal Customers,4702.75,783.79
+CUST-0333,George Rodriguez,Home Office,West,California,San Francisco,2024-03-10,GEO-0025,31,2,2141.15,922.1,4,2024-11-26,2026-05-31,5,2,3,523,New Customers,2141.15,1070.58
+CUST-0334,Victoria Stewart,Consumer,Central,Minnesota,Minneapolis,2024-02-04,GEO-0032,185,16,8911.9,3337.58,40,2024-03-11,2025-12-28,3,5,5,355,Loyal Customers,8911.9,556.99
+CUST-0335,Paul Williams,Consumer,West,Washington,Seattle,2023-12-08,GEO-0020,7,3,1952.05,839.8299999999999,4,2024-04-19,2026-06-24,5,2,3,523,New Customers,1952.05,650.68
+CUST-0336,Mark Wilson,Corporate,Central,Michigan,Detroit,2022-10-01,GEO-0024,565,1,1482.3,501.54,3,2024-12-13,2024-12-13,1,1,2,112,Low-Value Customers,1482.3,1482.3
+CUST-0337,Jennifer Rivera,Corporate,East,New York,Buffalo,2024-08-09,GEO-0028,188,6,669.35,300.77,7,2024-11-09,2025-12-25,3,4,2,342,Potential Loyalists,669.35,111.56
+CUST-0338,Rachel Morris,Corporate,West,Arizona,Phoenix,2022-05-10,GEO-0026,306,4,2248.3500000000004,832.5799999999999,5,2023-09-03,2025-08-29,2,3,3,233,Loyal Customers,2248.35,562.09
+CUST-0339,Catherine Collins,Consumer,East,Pennsylvania,Philadelphia,2022-03-31,GEO-0006,902,3,455.35,218.91,3,2023-10-20,2024-01-11,1,2,1,121,Low-Value Customers,455.35,151.78
+CUST-0340,Heather Sanchez,Home Office,Central,Texas,San Antonio,2023-09-28,GEO-0001,302,2,2247.0,851.16,3,2024-12-23,2025-09-02,2,2,3,223,At-Risk Customers,2247.0,1123.5
+CUST-0341,Shirley Gomez,Home Office,South,Tennessee,Nashville,2023-06-03,GEO-0017,219,14,4564.1,1819.18,28,2023-09-21,2025-11-24,2,5,4,254,Loyal Customers,4564.1,326.01
+CUST-0342,Robert Harris,Consumer,West,California,San Jose,2023-11-11,GEO-0011,207,5,2715.6,1154.72,8,2024-04-08,2025-12-06,3,3,3,333,Loyal Customers,2715.6,543.12
+CUST-0343,Steven Thomas,Corporate,South,Florida,Tampa,2024-03-30,GEO-0009,48,9,16396.3,6771.2300000000005,33,2024-04-17,2026-05-14,4,5,5,455,Champions,16396.3,1821.81
+CUST-0344,Janet Cruz,Home Office,Central,Minnesota,Minneapolis,2023-11-26,GEO-0032,870,1,89.0,50.52,1,2024-02-12,2024-02-12,1,1,1,111,Low-Value Customers,89.0,89.0
+CUST-0345,Margaret Murphy,Corporate,Central,Ohio,Cleveland,2024-11-29,GEO-0030,67,16,14482.75,5348.47,30,2024-12-02,2026-04-25,4,5,5,455,Champions,14482.75,905.17
+CUST-0346,Steven Hernandez,Corporate,West,Washington,Spokane,2024-05-31,GEO-0007,257,2,191.39999999999998,91.03,3,2025-06-05,2025-10-17,2,2,1,221,Low-Value Customers,191.4,95.7
+CUST-0347,Nicole White,Corporate,Central,Texas,San Antonio,2022-07-30,GEO-0001,1118,1,39.6,-2.66,3,2023-06-09,2023-06-09,1,1,1,111,Low-Value Customers,39.6,39.6
+CUST-0348,David Adams,Corporate,Central,Texas,Austin,2024-07-02,GEO-0027,42,4,7496.0,3535.02,15,2024-08-08,2026-05-20,4,3,5,435,Loyal Customers,7496.0,1874.0
+CUST-0349,Nicole Diaz,Consumer,South,Georgia,Atlanta,2023-12-21,GEO-0010,215,6,12244.0,5048.43,21,2024-06-18,2025-11-28,2,4,5,245,Loyal Customers,12244.0,2040.67
+CUST-0350,Laura Garcia,Corporate,Central,Ohio,Columbus,2025-06-13,GEO-0004,194,5,2653.0,1025.04,9,2025-09-13,2025-12-19,3,3,3,333,Loyal Customers,2653.0,530.6
+CUST-0351,Sharon Scott,Corporate,West,California,San Jose,2022-06-03,GEO-0011,625,5,798.95,199.29999999999998,8,2022-06-19,2024-10-14,1,3,2,132,At-Risk Customers,798.95,159.79
+CUST-0352,Christine Phillips,Consumer,East,New York,New York City,2022-03-05,GEO-0014,671,2,193.9,69.05,4,2023-08-19,2024-08-29,1,2,1,121,Low-Value Customers,193.9,96.95
+CUST-0353,Charles Cruz,Consumer,West,Washington,Seattle,2023-04-29,GEO-0020,300,7,568.0500000000001,248.55,10,2023-06-12,2025-09-04,2,4,1,241,At-Risk Customers,568.05,81.15
+CUST-0354,Maria Campbell,Consumer,West,California,San Diego,2025-05-24,GEO-0005,84,11,7608.65,3048.0499999999997,19,2025-06-10,2026-04-08,4,5,5,455,Champions,7608.65,691.7
+CUST-0355,Karen Edwards,Home Office,Central,Ohio,Cleveland,2024-06-28,GEO-0030,706,1,168.15,83.93,3,2024-07-25,2024-07-25,1,1,1,111,Low-Value Customers,168.15,168.15
+CUST-0356,Ruth Martinez,Corporate,Central,Ohio,Cleveland,2024-03-26,GEO-0030,222,4,1037.4,506.20000000000005,5,2024-05-29,2025-11-21,2,3,2,232,At-Risk Customers,1037.4,259.35
+CUST-0357,Joshua Scott,Consumer,West,Colorado,Denver,2022-02-23,GEO-0022,380,1,799.0,344.03,1,2025-06-16,2025-06-16,1,1,2,112,Low-Value Customers,799.0,799.0
+CUST-0358,Jack White,Consumer,Central,Minnesota,Minneapolis,2025-02-24,GEO-0032,10,7,2476.4,1077.49,18,2025-05-04,2026-06-21,5,4,3,543,Loyal Customers,2476.4,353.77
+CUST-0359,Jessica King,Corporate,South,Georgia,Atlanta,2023-03-16,GEO-0010,1025,1,32.0,14.19,1,2023-09-10,2023-09-10,1,1,1,111,Low-Value Customers,32.0,32.0
+CUST-0360,Brandon Torres,Corporate,South,Virginia,Richmond,2023-02-14,GEO-0013,44,15,10992.8,4147.64,29,2023-04-19,2026-05-18,4,5,5,455,Champions,10992.8,732.85
+CUST-0361,Jessica Moore,Home Office,South,Georgia,Atlanta,2022-12-20,GEO-0010,70,5,3207.25,1615.05,13,2023-05-28,2026-04-22,4,3,4,434,Loyal Customers,3207.25,641.45
+CUST-0362,Kelly Cruz,Home Office,Central,Texas,San Antonio,2023-12-13,GEO-0001,3,7,4054.15,1407.15,14,2023-12-24,2026-06-28,5,4,4,544,Champions,4054.15,579.16
+CUST-0363,Raymond Rodriguez,Corporate,Central,Texas,Dallas,2023-09-07,GEO-0019,751,1,500.4,179.21,4,2024-06-10,2024-06-10,1,1,1,111,Low-Value Customers,500.4,500.4
+CUST-0364,Nathan Lee,Corporate,East,New York,Buffalo,2024-01-11,GEO-0028,210,8,5321.400000000001,2208.5899999999997,33,2024-06-22,2025-12-03,2,5,4,254,Loyal Customers,5321.4,665.18
+CUST-0365,Shirley Lewis,Consumer,East,Pennsylvania,Philadelphia,2022-10-12,GEO-0006,46,6,2633.85,1065.68,11,2022-11-20,2026-05-16,4,4,3,443,Loyal Customers,2633.85,438.98
+CUST-0366,Mark Murphy,Consumer,Central,Ohio,Cleveland,2024-08-15,GEO-0030,580,1,108.0,37.1,3,2024-11-28,2024-11-28,1,1,1,111,Low-Value Customers,108.0,108.0
+CUST-0367,Aaron Peterson,Consumer,West,Washington,Spokane,2022-05-15,GEO-0007,197,3,1984.9,728.4,4,2024-03-17,2025-12-16,3,2,3,323,Potential Loyalists,1984.9,661.63
+CUST-0368,Emily Gomez,Home Office,South,Tennessee,Nashville,2024-12-12,GEO-0017,27,4,4403.25,1476.5700000000002,11,2024-12-27,2026-06-04,5,3,4,534,Loyal Customers,4403.25,1100.81
+CUST-0369,Timothy Evans,Home Office,West,Washington,Seattle,2022-09-14,GEO-0020,621,5,3070.25,1267.8,8,2022-09-15,2024-10-18,1,3,3,133,Loyal Customers,3070.25,614.05
+CUST-0370,Joshua Martinez,Consumer,Central,Ohio,Columbus,2022-09-20,GEO-0004,215,5,1856.3,855.99,8,2024-02-27,2025-11-28,2,3,3,233,Loyal Customers,1856.3,371.26
+CUST-0371,Douglas Peterson,Corporate,East,New York,Buffalo,2022-09-22,GEO-0028,151,4,675.0,284.48,8,2023-09-10,2026-01-31,3,3,2,332,Potential Loyalists,675.0,168.75
+CUST-0372,Sharon Cook,Home Office,West,California,San Jose,2022-09-12,GEO-0011,69,6,1656.0500000000002,581.11,15,2022-10-05,2026-04-23,4,4,3,443,Loyal Customers,1656.05,276.01
+CUST-0373,Eric Martin,Consumer,East,New York,New York City,2023-10-23,GEO-0014,105,7,6708.55,2947.05,20,2023-10-25,2026-03-18,3,4,5,345,Loyal Customers,6708.55,958.36
+CUST-0374,Lauren Lewis,Consumer,Central,Texas,Dallas,2022-06-11,GEO-0019,272,1,298.0,176.15,2,2025-10-02,2025-10-02,2,1,1,211,Low-Value Customers,298.0,298.0
+CUST-0375,Paul Sanchez,Corporate,Central,Texas,Houston,2022-09-14,GEO-0023,376,2,114.6,53.660000000000004,3,2025-05-04,2025-06-20,1,2,1,121,Low-Value Customers,114.6,57.3
+CUST-0376,Benjamin Hill,Corporate,West,Washington,Spokane,2024-10-26,GEO-0007,6,5,1327.65,586.71,7,2024-11-07,2026-06-25,5,3,2,532,Potential Loyalists,1327.65,265.53
+CUST-0377,Samuel Perez,Corporate,West,Nevada,Las Vegas,2022-12-17,GEO-0029,63,7,4476.05,1903.39,15,2023-03-08,2026-04-29,4,4,4,444,Champions,4476.05,639.44
+CUST-0378,Gregory Baker,Home Office,West,California,San Diego,2022-02-28,GEO-0005,194,7,1986.95,846.78,13,2022-03-27,2025-12-19,3,4,3,343,Loyal Customers,1986.95,283.85
+CUST-0379,David Garcia,Home Office,Central,Illinois,Chicago,2023-03-08,GEO-0003,1105,1,349.3,64.82,1,2023-06-22,2023-06-22,1,1,1,111,Low-Value Customers,349.3,349.3
+CUST-0380,Jerry Turner,Corporate,West,California,San Francisco,2024-10-16,GEO-0025,41,3,1387.2,628.8499999999999,7,2024-12-15,2026-05-21,4,2,2,422,New Customers,1387.2,462.4
+CUST-0381,Olivia Cooper,Consumer,Central,Texas,Austin,2024-09-16,GEO-0027,32,16,7815.3,2922.75,40,2024-11-05,2026-05-30,5,5,5,555,Champions,7815.3,488.46
+CUST-0382,Sandra Phillips,Consumer,West,Washington,Seattle,2022-05-03,GEO-0020,861,4,7022.1,2449.71,10,2022-08-06,2024-02-21,1,3,5,135,Loyal Customers,7022.1,1755.52
+CUST-0383,Christopher Cruz,Consumer,South,North Carolina,Charlotte,2023-02-22,GEO-0015,236,4,1980.9,792.95,8,2024-07-09,2025-11-07,2,3,3,233,Loyal Customers,1980.9,495.22
+CUST-0384,Michelle Jackson,Consumer,Central,Texas,San Antonio,2023-12-09,GEO-0001,3,15,5274.9,2099.34,32,2024-03-21,2026-06-28,5,5,4,554,Champions,5274.9,351.66
+CUST-0385,Stephanie Taylor,Corporate,West,Oregon,Portland,2023-10-16,GEO-0016,121,7,6310.2,2401.33,11,2024-03-21,2026-03-02,3,4,5,345,Loyal Customers,6310.2,901.46
+CUST-0386,Mark Reyes,Consumer,South,Georgia,Atlanta,2023-05-23,GEO-0010,253,5,2903.2,1270.43,17,2024-07-09,2025-10-21,2,3,3,233,Loyal Customers,2903.2,580.64
+CUST-0387,Charles Gonzalez,Consumer,Central,Minnesota,Minneapolis,2025-06-14,GEO-0032,9,1,1699.0,793.51,1,2026-06-22,2026-06-22,5,1,3,513,New Customers,1699.0,1699.0
+CUST-0388,Rebecca Young,Home Office,East,New York,New York City,2023-11-02,GEO-0014,404,4,4026.6,1490.65,11,2024-01-03,2025-05-23,1,3,4,134,Loyal Customers,4026.6,1006.65
+CUST-0389,Lauren Green,Consumer,East,New York,New York City,2024-10-17,GEO-0014,29,13,10661.75,4306.7,41,2024-11-05,2026-06-02,5,5,5,555,Champions,10661.75,820.13
+CUST-0390,Shirley Reyes,Consumer,Central,Texas,Austin,2024-10-15,GEO-0027,7,6,3422.6,1353.54,15,2024-11-01,2026-06-24,5,4,4,544,Champions,3422.6,570.43
+CUST-0391,John Lopez,Home Office,South,North Carolina,Charlotte,2023-05-09,GEO-0015,676,7,3289.6,1320.12,14,2023-07-15,2024-08-24,1,4,4,144,Loyal Customers,3289.6,469.94
+CUST-0392,Betty Rivera,Consumer,Central,Texas,Dallas,2024-10-10,GEO-0019,13,5,2423.6,901.19,8,2025-03-04,2026-06-18,5,3,3,533,Loyal Customers,2423.6,484.72
+CUST-0393,Scott Stewart,Consumer,West,California,Los Angeles,2022-08-09,GEO-0008,1179,2,547.4,223.6,3,2022-12-22,2023-04-09,1,2,1,121,Low-Value Customers,547.4,273.7
+CUST-0394,Sharon Moore,Home Office,Central,Ohio,Cleveland,2024-04-05,GEO-0030,137,15,27591.6,10467.4,45,2024-05-07,2026-02-14,3,5,5,355,Loyal Customers,27591.6,1839.44
+CUST-0395,George Garcia,Consumer,East,Pennsylvania,Philadelphia,2024-01-13,GEO-0006,29,6,1414.05,695.01,12,2024-05-15,2026-06-02,5,4,2,542,Potential Loyalists,1414.05,235.68
+CUST-0396,Stephen Torres,Consumer,South,Georgia,Atlanta,2025-01-31,GEO-0010,71,7,4686.05,1786.65,9,2025-04-28,2026-04-21,4,4,4,444,Champions,4686.05,669.44
+CUST-0397,Kimberly Thomas,Consumer,West,Oregon,Portland,2024-03-17,GEO-0016,132,14,5242.75,2278.1,24,2024-06-30,2026-02-19,3,5,4,354,Loyal Customers,5242.75,374.48
+CUST-0398,Melissa Baker,Corporate,Central,Ohio,Cleveland,2022-10-23,GEO-0030,591,2,444.3,201.94,4,2023-09-10,2024-11-17,1,2,1,121,Low-Value Customers,444.3,222.15
+CUST-0399,Lisa Rogers,Consumer,West,California,San Diego,2022-04-03,GEO-0005,185,2,404.4,143.05,5,2023-02-12,2025-12-28,3,2,1,321,Potential Loyalists,404.4,202.2
+CUST-0400,Robert Moore,Corporate,South,Tennessee,Nashville,2024-11-29,GEO-0017,16,15,11342.4,4933.44,25,2024-12-03,2026-06-15,5,5,5,555,Champions,11342.4,756.16
+CUST-0401,Ryan Martin,Corporate,West,Arizona,Phoenix,2023-11-03,GEO-0026,69,9,5513.5,2169.58,12,2023-12-13,2026-04-23,4,5,4,454,Champions,5513.5,612.61
+CUST-0402,Lauren Green,Consumer,Central,Texas,Austin,2025-04-30,GEO-0027,172,3,3906.1,1473.17,12,2025-06-29,2026-01-10,3,2,4,324,Potential Loyalists,3906.1,1302.03
+CUST-0403,Michelle Cook,Home Office,South,Virginia,Richmond,2025-02-26,GEO-0013,112,6,2180.1,1011.71,15,2025-05-31,2026-03-11,3,4,3,343,Loyal Customers,2180.1,363.35
+CUST-0404,Kenneth Stewart,Corporate,Central,Ohio,Cleveland,2023-11-10,GEO-0030,67,5,2074.15,806.29,8,2024-04-23,2026-04-25,4,3,3,433,Loyal Customers,2074.15,414.83
+CUST-0405,Frank Anderson,Home Office,Central,Texas,Austin,2022-02-24,GEO-0027,222,4,1748.3,852.98,8,2022-12-19,2025-11-21,2,3,3,233,Loyal Customers,1748.3,437.08
+CUST-0406,Scott Stewart,Consumer,East,Massachusetts,Boston,2022-04-16,GEO-0002,66,13,10348.95,4322.29,26,2022-07-24,2026-04-26,4,5,5,455,Champions,10348.95,796.07
+CUST-0407,Justin Morris,Consumer,Central,Minnesota,Minneapolis,2022-10-30,GEO-0032,434,6,2077.5,984.71,14,2023-07-15,2025-04-23,1,4,3,143,Loyal Customers,2077.5,346.25
+CUST-0408,Virginia Young,Consumer,West,Colorado,Denver,2023-01-26,GEO-0022,52,4,2337.35,975.3499999999999,10,2023-02-05,2026-05-10,4,3,3,433,Loyal Customers,2337.35,584.34
+CUST-0409,John Cruz,Consumer,West,Nevada,Las Vegas,2024-04-25,GEO-0029,22,6,4178.1,1279.33,24,2024-04-27,2026-06-09,5,4,4,544,Champions,4178.1,696.35
+CUST-0410,Alexander Clark,Consumer,South,Tennessee,Nashville,2022-05-08,GEO-0017,58,6,5506.95,2458.26,9,2022-10-26,2026-05-04,4,4,4,444,Champions,5506.95,917.82
+CUST-0411,Raymond Moore,Consumer,Central,Texas,San Antonio,2024-09-06,GEO-0001,127,3,131.3,51.44,5,2024-12-20,2026-02-24,3,2,1,321,Potential Loyalists,131.3,43.77
+CUST-0412,Angela Carter,Consumer,East,New York,Buffalo,2024-07-30,GEO-0028,169,14,14468.1,5897.4,45,2024-08-05,2026-01-13,3,5,5,355,Loyal Customers,14468.1,1033.44
+CUST-0413,Peter Morgan,Consumer,Central,Ohio,Columbus,2023-06-26,GEO-0004,321,2,1070.75,586.62,7,2024-03-11,2025-08-14,2,2,2,222,Low-Value Customers,1070.75,535.38
+CUST-0414,Brandon Morris,Consumer,East,New Jersey,Newark,2023-07-26,GEO-0018,648,1,66.3,28.01,2,2024-09-21,2024-09-21,1,1,1,111,Low-Value Customers,66.3,66.3
+CUST-0415,Anna Hill,Consumer,Central,Texas,Austin,2023-08-15,GEO-0027,1002,1,111.2,32.99,1,2023-10-03,2023-10-03,1,1,1,111,Low-Value Customers,111.2,111.2
+CUST-0416,Raymond Clark,Corporate,South,Virginia,Richmond,2023-10-12,GEO-0013,212,13,10398.35,4172.89,33,2023-10-12,2025-12-01,2,5,5,255,Loyal Customers,10398.35,799.87
+CUST-0417,Kathleen Hall,Corporate,Central,Texas,Houston,2023-08-13,GEO-0023,81,13,8908.1,3590.59,24,2023-08-28,2026-04-11,4,5,5,455,Champions,8908.1,685.24
+CUST-0418,Jessica Cooper,Consumer,South,Florida,Miami,2023-12-08,GEO-0012,5,13,12950.45,5269.38,33,2024-04-03,2026-06-26,5,5,5,555,Champions,12950.45,996.19
+CUST-0419,Jerry Jackson,Consumer,Central,Texas,Dallas,2022-06-11,GEO-0019,1001,1,196.0,100.6,4,2023-10-04,2023-10-04,1,1,1,111,Low-Value Customers,196.0,196.0
+CUST-0420,Brian Cruz,Corporate,South,Tennessee,Nashville,2023-03-15,GEO-0017,570,3,2159.65,983.79,5,2023-06-30,2024-12-08,1,2,3,123,At-Risk Customers,2159.65,719.88
+CUST-0421,Lisa Morgan,Consumer,Central,Texas,Houston,2022-10-09,GEO-0023,61,12,22839.35,9122.84,40,2022-10-10,2026-05-01,4,5,5,455,Champions,22839.35,1903.28
+CUST-0422,Susan Walker,Consumer,East,Massachusetts,Boston,2023-04-22,GEO-0002,77,2,3646.1,1028.88,6,2023-12-01,2026-04-15,4,2,4,424,New Customers,3646.1,1823.05
+CUST-0423,Michael Gonzalez,Consumer,South,Tennessee,Nashville,2022-07-25,GEO-0017,24,13,3934.7999999999997,1788.33,22,2022-09-10,2026-06-07,5,5,4,554,Champions,3934.8,302.68
+CUST-0424,Debra Moore,Consumer,East,New York,New York City,2024-04-13,GEO-0014,145,6,1490.75,722.14,9,2024-10-09,2026-02-06,3,4,2,342,Potential Loyalists,1490.75,248.46
+CUST-0425,Katherine Stewart,Consumer,East,Pennsylvania,Philadelphia,2023-08-12,GEO-0006,578,5,1720.4,691.99,9,2023-08-21,2024-11-30,1,3,3,133,Loyal Customers,1720.4,344.08
+CUST-0426,Carol Torres,Corporate,West,Washington,Spokane,2025-03-21,GEO-0007,15,15,18042.6,7026.59,35,2025-04-19,2026-06-16,5,5,5,555,Champions,18042.6,1202.84
+CUST-0427,Dorothy Morgan,Corporate,West,California,San Diego,2022-12-25,GEO-0005,18,11,3302.5,1397.08,15,2023-04-17,2026-06-13,5,5,4,554,Champions,3302.5,300.23
+CUST-0428,Rebecca Thompson,Home Office,West,California,San Diego,2024-03-24,GEO-0005,372,1,22.0,9.88,1,2025-06-24,2025-06-24,2,1,1,211,Low-Value Customers,22.0,22.0
+CUST-0429,Tyler Murphy,Consumer,Central,Texas,Dallas,2022-03-18,GEO-0019,120,4,534.3,251.01,6,2023-01-16,2026-03-03,3,3,1,331,Potential Loyalists,534.3,133.57
+CUST-0430,Mary Hill,Corporate,West,Oregon,Portland,2023-11-18,GEO-0016,143,3,1944.5,864.72,8,2025-05-12,2026-02-08,3,2,3,323,Potential Loyalists,1944.5,648.17
+CUST-0431,Andrew Collins,Home Office,South,Virginia,Richmond,2022-10-02,GEO-0013,342,5,801.0999999999999,319.69,6,2022-11-22,2025-07-24,2,3,2,232,At-Risk Customers,801.1,160.22
+CUST-0432,Nathan Cook,Consumer,East,Pennsylvania,Philadelphia,2022-08-19,GEO-0006,476,2,338.1,158.88,2,2024-10-07,2025-03-12,1,2,1,121,Low-Value Customers,338.1,169.05
+CUST-0433,Kevin Lee,Corporate,Central,Illinois,Chicago,2023-01-17,GEO-0003,76,7,3806.5,1635.3,17,2023-02-27,2026-04-16,4,4,4,444,Champions,3806.5,543.79
+CUST-0434,Mary Baker,Corporate,East,Pennsylvania,Philadelphia,2022-12-26,GEO-0006,366,2,839.3,381.84,4,2024-07-31,2025-06-30,2,2,2,222,Low-Value Customers,839.3,419.65
+CUST-0435,Brandon Phillips,Home Office,Central,Texas,San Antonio,2022-06-27,GEO-0001,50,12,3198.7,1349.8799999999999,21,2022-10-14,2026-05-12,4,5,4,454,Champions,3198.7,266.56
+CUST-0436,Stephanie Gonzalez,Consumer,West,Arizona,Phoenix,2024-09-04,GEO-0026,29,7,4029.0499999999997,1537.69,14,2024-10-06,2026-06-02,5,4,4,544,Champions,4029.05,575.58
+CUST-0437,Carol Young,Consumer,Central,Minnesota,Minneapolis,2023-04-28,GEO-0032,197,7,3777.8,1569.51,17,2023-06-30,2025-12-16,3,4,4,344,Loyal Customers,3777.8,539.69
+CUST-0438,Laura Wright,Home Office,Central,Texas,Austin,2025-04-07,GEO-0027,131,5,1042.65,418.14,7,2025-07-05,2026-02-20,3,3,2,332,Potential Loyalists,1042.65,208.53
+CUST-0439,Patrick Johnson,Consumer,Central,Ohio,Cleveland,2023-04-29,GEO-0030,534,2,317.5,152.3,2,2024-08-19,2025-01-13,1,2,1,121,Low-Value Customers,317.5,158.75
+CUST-0440,Linda Thomas,Consumer,East,New York,New York City,2024-04-10,GEO-0014,329,2,206.1,95.58000000000001,4,2025-06-03,2025-08-06,2,2,1,221,Low-Value Customers,206.1,103.05
+CUST-0441,Debra Cook,Home Office,Central,Texas,Austin,2022-08-29,GEO-0027,172,5,1243.95,574.8800000000001,9,2022-09-14,2026-01-10,3,3,2,332,Potential Loyalists,1243.95,248.79
+CUST-0442,Samantha Nguyen,Consumer,East,Massachusetts,Boston,2023-03-25,GEO-0002,307,3,1594.85,613.26,4,2025-02-18,2025-08-28,2,2,3,223,At-Risk Customers,1594.85,531.62
+CUST-0443,Sarah Morris,Consumer,Central,Ohio,Cleveland,2024-05-01,GEO-0030,217,7,4798.95,2064.68,15,2024-07-18,2025-11-26,2,4,4,244,Loyal Customers,4798.95,685.56
+CUST-0444,Rachel Peterson,Home Office,East,Pennsylvania,Pittsburgh,2023-05-22,GEO-0031,63,4,6140.0,2720.77,7,2023-10-15,2026-04-29,4,3,5,435,Loyal Customers,6140.0,1535.0
+CUST-0445,Debra Hernandez,Corporate,Central,Ohio,Cleveland,2022-06-09,GEO-0030,964,1,70.2,27.95,2,2023-11-10,2023-11-10,1,1,1,111,Low-Value Customers,70.2,70.2
+CUST-0446,Christina Anderson,Consumer,East,Pennsylvania,Philadelphia,2025-03-18,GEO-0006,351,1,1449.0,593.28,1,2025-07-15,2025-07-15,2,1,2,212,Low-Value Customers,1449.0,1449.0
+CUST-0447,Jonathan Martin,Consumer,South,Georgia,Atlanta,2022-08-27,GEO-0010,787,1,916.0,457.38,4,2024-05-05,2024-05-05,1,1,2,112,Low-Value Customers,916.0,916.0
+CUST-0448,Debra Clark,Corporate,South,Virginia,Richmond,2022-07-06,GEO-0013,30,6,5061.7,2115.94,14,2022-11-04,2026-06-01,5,4,4,544,Champions,5061.7,843.62
+CUST-0449,Kelly Rogers,Consumer,West,California,San Jose,2024-07-17,GEO-0011,282,2,5054.549999999999,2255.3500000000004,7,2025-08-28,2025-09-22,2,2,4,224,At-Risk Customers,5054.55,2527.27
+CUST-0450,Thomas Rogers,Consumer,West,California,San Jose,2025-02-18,GEO-0011,365,1,630.0,342.17,3,2025-07-01,2025-07-01,2,1,2,212,Low-Value Customers,630.0,630.0
+CUST-0451,Cynthia Flores,Corporate,South,Florida,Miami,2023-06-06,GEO-0012,258,5,743.4999999999999,299.61,8,2023-11-17,2025-10-16,2,3,2,232,At-Risk Customers,743.5,148.7
+CUST-0452,Jose Smith,Corporate,West,Washington,Seattle,2022-04-03,GEO-0020,283,2,708.0,366.8,3,2023-11-09,2025-09-21,2,2,2,222,Low-Value Customers,708.0,354.0
+CUST-0453,Jason Hall,Corporate,West,California,San Jose,2022-05-22,GEO-0011,125,12,9351.55,3612.42,28,2022-09-11,2026-02-26,3,5,5,355,Loyal Customers,9351.55,779.3
+CUST-0454,Lauren Stewart,Consumer,South,Florida,Orlando,2023-01-04,GEO-0021,98,13,19895.15,8695.6,44,2023-01-26,2026-03-25,4,5,5,455,Champions,19895.15,1530.4
+CUST-0455,Jerry Moore,Corporate,South,Florida,Orlando,2024-02-06,GEO-0021,307,4,1015.6999999999999,447.2,10,2024-03-22,2025-08-28,2,3,2,232,At-Risk Customers,1015.7,253.92
+CUST-0456,Zachary Carter,Consumer,Central,Minnesota,Minneapolis,2024-02-09,GEO-0032,6,13,12465.7,5252.26,45,2024-03-03,2026-06-25,5,5,5,555,Champions,12465.7,958.9
+CUST-0457,David Cooper,Consumer,Central,Ohio,Columbus,2022-08-31,GEO-0004,87,11,10807.599999999999,4284.15,25,2022-12-11,2026-04-05,4,5,5,455,Champions,10807.6,982.51
+CUST-0458,Daniel Morgan,Consumer,West,Arizona,Phoenix,2023-04-02,GEO-0026,624,2,83.0,20.86,5,2024-06-23,2024-10-15,1,2,1,121,Low-Value Customers,83.0,41.5
+CUST-0459,Adam Smith,Corporate,Central,Texas,Austin,2024-08-06,GEO-0027,247,2,333.0,158.02,4,2025-04-30,2025-10-27,2,2,1,221,Low-Value Customers,333.0,166.5
+CUST-0460,Frank Cooper,Consumer,Central,Minnesota,Minneapolis,2023-04-16,GEO-0032,18,13,7975.299999999999,3481.32,31,2023-06-30,2026-06-13,5,5,5,555,Champions,7975.3,613.48
+CUST-0461,Sandra Collins,Consumer,Central,Texas,Houston,2023-01-22,GEO-0023,48,9,2227.5,995.25,17,2023-04-22,2026-05-14,4,5,3,453,Loyal Customers,2227.5,247.5
+CUST-0462,Lauren Anderson,Consumer,South,Florida,Orlando,2025-06-13,GEO-0021,113,5,3617.1,1513.38,10,2025-07-04,2026-03-10,3,3,4,334,Loyal Customers,3617.1,723.42
+CUST-0463,Jerry Williams,Consumer,West,Washington,Seattle,2022-07-26,GEO-0020,11,14,6864.05,3004.4900000000002,25,2022-11-21,2026-06-20,5,5,5,555,Champions,6864.05,490.29
+CUST-0464,Scott Jones,Consumer,West,California,San Jose,2023-05-17,GEO-0011,607,2,1817.2,681.54,3,2023-12-07,2024-11-01,1,2,3,123,At-Risk Customers,1817.2,908.6
+CUST-0465,Jack Garcia,Consumer,East,Massachusetts,Boston,2025-01-10,GEO-0002,43,7,7681.95,3478.38,15,2025-01-21,2026-05-19,4,4,5,445,Champions,7681.95,1097.42
+CUST-0466,Betty Davis,Consumer,Central,Texas,Dallas,2023-04-25,GEO-0019,1055,2,241.55,106.11,3,2023-05-26,2023-08-11,1,2,1,121,Low-Value Customers,241.55,120.78
+CUST-0467,Jose Green,Corporate,Central,Texas,San Antonio,2023-05-01,GEO-0001,49,14,14240.55,5497.28,32,2024-02-12,2026-05-13,4,5,5,455,Champions,14240.55,1017.18
+CUST-0468,Kenneth Jackson,Home Office,East,Massachusetts,Boston,2024-04-26,GEO-0002,20,7,2097.85,775.59,11,2024-07-04,2026-06-11,5,4,3,543,Loyal Customers,2097.85,299.69
+CUST-0469,Kenneth Scott,Consumer,East,New York,Buffalo,2024-05-24,GEO-0028,201,4,5262.9,1676.0,11,2024-11-11,2025-12-12,3,3,4,334,Loyal Customers,5262.9,1315.72
+CUST-0470,Anna Murphy,Consumer,Central,Ohio,Columbus,2024-02-20,GEO-0004,138,2,1179.85,448.35,3,2025-03-27,2026-02-13,3,2,2,322,Potential Loyalists,1179.85,589.92
+CUST-0471,Tyler Ortiz,Consumer,South,Florida,Orlando,2024-04-16,GEO-0021,215,14,15640.699999999999,7171.799999999999,37,2024-05-05,2025-11-28,2,5,5,255,Loyal Customers,15640.7,1117.19
+CUST-0472,Karen Hill,Consumer,South,Tennessee,Nashville,2023-05-09,GEO-0017,334,2,356.8,150.87,2,2024-04-23,2025-08-01,2,2,1,221,Low-Value Customers,356.8,178.4
+CUST-0473,Nathan Lewis,Consumer,West,Nevada,Las Vegas,2024-08-06,GEO-0029,9,7,12027.85,5018.23,17,2024-08-13,2026-06-22,5,4,5,545,Champions,12027.85,1718.26
+CUST-0474,Christina Davis,Corporate,South,Florida,Orlando,2025-02-15,GEO-0021,3,5,5052.75,2411.05,12,2025-12-19,2026-06-28,5,3,4,534,Loyal Customers,5052.75,1010.55
+CUST-0475,Angela Moore,Consumer,Central,Illinois,Chicago,2023-02-21,GEO-0003,237,5,10710.85,4448.07,14,2023-12-01,2025-11-06,2,3,5,235,Loyal Customers,10710.85,2142.17
+CUST-0476,Kevin Hernandez,Home Office,Central,Ohio,Cleveland,2022-07-09,GEO-0030,1150,3,392.6,177.31,5,2022-11-20,2023-05-08,1,2,1,121,Low-Value Customers,392.6,130.87
+CUST-0477,Jonathan Harris,Consumer,Central,Minnesota,Minneapolis,2025-05-23,GEO-0032,89,2,236.3,111.78,3,2025-10-26,2026-04-03,4,2,1,421,New Customers,236.3,118.15
+CUST-0478,Nicole Garcia,Home Office,East,Pennsylvania,Philadelphia,2025-04-18,GEO-0006,63,7,1281.1,432.82,12,2025-05-16,2026-04-29,4,4,2,442,Potential Loyalists,1281.1,183.01
+CUST-0479,Patrick Bailey,Consumer,East,Pennsylvania,Pittsburgh,2023-11-13,GEO-0031,48,1,94.05,43.53,1,2026-05-14,2026-05-14,4,1,1,411,New Customers,94.05,94.05
+CUST-0480,Kenneth Johnson,Consumer,East,Pennsylvania,Philadelphia,2022-08-29,GEO-0006,235,4,3452.2,1433.3600000000001,8,2023-05-13,2025-11-08,2,3,4,234,Loyal Customers,3452.2,863.05
+CUST-0481,Janet Morris,Home Office,East,Pennsylvania,Pittsburgh,2024-03-23,GEO-0031,56,5,9837.6,4040.93,15,2024-12-03,2026-05-06,4,3,5,435,Loyal Customers,9837.6,1967.52
+CUST-0482,Christina Walker,Corporate,Central,Texas,Dallas,2024-02-19,GEO-0019,540,4,3087.0,944.5699999999999,6,2024-04-15,2025-01-07,1,3,3,133,Loyal Customers,3087.0,771.75
+CUST-0483,Cynthia Morgan,Corporate,Central,Texas,Austin,2023-06-20,GEO-0027,326,8,3173.7,1202.24,16,2023-07-14,2025-08-09,2,5,4,254,Loyal Customers,3173.7,396.71
+CUST-0484,George Rogers,Home Office,South,North Carolina,Charlotte,2022-07-21,GEO-0015,1,5,7007.45,2583.12,10,2023-02-12,2026-06-30,5,3,5,535,Loyal Customers,7007.45,1401.49
+CUST-0485,Aaron Stewart,Corporate,Central,Texas,San Antonio,2023-02-21,GEO-0001,38,10,3536.75,1794.41,21,2023-03-20,2026-05-24,4,5,4,454,Champions,3536.75,353.68
+CUST-0486,Melissa Green,Consumer,East,Massachusetts,Boston,2022-10-26,GEO-0002,608,1,535.5,255.27,3,2024-10-31,2024-10-31,1,1,1,111,Low-Value Customers,535.5,535.5
+CUST-0487,John King,Corporate,South,Florida,Orlando,2023-08-28,GEO-0021,201,7,4614.15,1467.07,10,2023-09-21,2025-12-12,3,4,4,344,Loyal Customers,4614.15,659.16
+CUST-0488,Karen Sanchez,Consumer,Central,Minnesota,Minneapolis,2025-03-12,GEO-0032,51,1,34.2,7.42,2,2026-05-11,2026-05-11,4,1,1,411,New Customers,34.2,34.2
+CUST-0489,Adam Young,Consumer,Central,Michigan,Detroit,2023-06-12,GEO-0024,120,7,1307.8,631.06,12,2023-06-16,2026-03-03,3,4,2,342,Potential Loyalists,1307.8,186.83
+CUST-0490,Ruth Morales,Home Office,South,Virginia,Richmond,2024-08-01,GEO-0013,370,6,852.6,349.89,11,2024-09-07,2025-06-26,2,4,2,242,At-Risk Customers,852.6,142.1
+CUST-0491,Nancy Rivera,Consumer,South,Virginia,Richmond,2023-01-12,GEO-0013,56,7,4150.75,1637.47,23,2023-03-28,2026-05-06,4,4,4,444,Champions,4150.75,592.96
+CUST-0492,Christina Cooper,Home Office,West,California,San Jose,2024-12-09,GEO-0011,102,6,3333.3,1534.57,24,2025-03-13,2026-03-21,4,4,4,444,Champions,3333.3,555.55
+CUST-0493,Robert Martinez,Home Office,West,California,San Jose,2022-01-14,GEO-0011,94,5,8289.5,3420.56,16,2023-11-19,2026-03-29,4,3,5,435,Loyal Customers,8289.5,1657.9
+CUST-0494,Timothy Moore,Home Office,East,Massachusetts,Boston,2022-05-20,GEO-0002,217,5,7702.0,3306.2699999999995,24,2023-08-09,2025-11-26,2,3,5,235,Loyal Customers,7702.0,1540.4
+CUST-0495,Raymond Martin,Consumer,South,North Carolina,Charlotte,2024-02-04,GEO-0015,238,3,379.4,174.05,5,2024-06-07,2025-11-05,2,2,1,221,Low-Value Customers,379.4,126.47
+CUST-0496,Linda Morris,Corporate,West,California,San Francisco,2022-01-14,GEO-0025,926,1,5506.2,2087.76,4,2023-12-18,2023-12-18,1,1,4,114,At-Risk Customers,5506.2,5506.2
+CUST-0497,Jonathan Peterson,Consumer,West,California,San Francisco,2024-12-20,GEO-0025,3,14,7287.55,2851.39,41,2025-03-05,2026-06-28,5,5,5,555,Champions,7287.55,520.54
+CUST-0498,Patrick Scott,Corporate,Central,Texas,Dallas,2022-02-05,GEO-0019,228,5,1856.05,873.54,9,2022-07-20,2025-11-15,2,3,3,233,Loyal Customers,1856.05,371.21
+CUST-0499,Nicholas Parker,Corporate,East,New York,Buffalo,2022-08-08,GEO-0028,39,16,19210.75,7155.85,35,2022-09-15,2026-05-23,4,5,5,455,Champions,19210.75,1200.67
+CUST-0500,Christina Gonzalez,Corporate,East,New Jersey,Newark,2023-01-29,GEO-0018,127,3,13081.0,5488.52,12,2024-01-07,2026-02-24,3,2,5,325,Potential Loyalists,13081.0,4360.33
+CUST-0501,Emma Ortiz,Consumer,Central,Ohio,Columbus,2023-07-02,GEO-0004,951,1,798.0,414.46,4,2023-11-23,2023-11-23,1,1,2,112,Low-Value Customers,798.0,798.0
+CUST-0502,Heather Gomez,Consumer,South,Florida,Miami,2024-07-29,GEO-0012,212,2,5444.15,2109.65,4,2025-05-12,2025-12-01,2,2,4,224,At-Risk Customers,5444.15,2722.08
+CUST-0503,Larry Young,Home Office,East,Massachusetts,Boston,2023-09-07,GEO-0002,216,3,376.6,183.2,6,2024-12-01,2025-11-27,2,2,1,221,Low-Value Customers,376.6,125.53
+CUST-0504,Debra Hernandez,Corporate,West,California,San Diego,2022-07-11,GEO-0005,31,7,4695.2,2383.15,21,2022-10-07,2026-05-31,5,4,4,544,Champions,4695.2,670.74
+CUST-0505,Stephanie Carter,Consumer,South,Tennessee,Nashville,2022-04-25,GEO-0017,37,4,2949.3,1116.33,9,2023-11-24,2026-05-25,5,3,3,533,Loyal Customers,2949.3,737.32
+CUST-0506,Samantha Johnson,Corporate,West,Washington,Spokane,2024-10-20,GEO-0007,427,3,856.1,377.86,4,2024-11-23,2025-04-30,1,2,2,122,Low-Value Customers,856.1,285.37
+CUST-0507,Nathan Parker,Corporate,Central,Michigan,Detroit,2025-03-04,GEO-0024,159,2,555.1,233.0,4,2025-12-17,2026-01-23,3,2,1,321,Potential Loyalists,555.1,277.55
+CUST-0508,Joyce Gonzalez,Home Office,West,California,San Diego,2023-04-16,GEO-0005,331,4,1588.1,748.61,11,2023-06-09,2025-08-04,2,3,3,233,Loyal Customers,1588.1,397.02
+CUST-0509,Betty Stewart,Consumer,West,Washington,Seattle,2023-07-29,GEO-0020,200,1,295.0,188.76,5,2025-12-13,2025-12-13,3,1,1,311,Low-Value Customers,295.0,295.0
+CUST-0510,Kelly Cooper,Corporate,West,California,San Diego,2023-01-03,GEO-0005,455,1,339.15,114.3,1,2025-04-02,2025-04-02,1,1,1,111,Low-Value Customers,339.15,339.15
+CUST-0511,Kyle Green,Consumer,East,Pennsylvania,Pittsburgh,2025-04-17,GEO-0031,20,13,7805.7,3354.53,30,2025-05-18,2026-06-11,5,5,5,555,Champions,7805.7,600.44
+CUST-0512,Charles Gomez,Home Office,Central,Texas,Austin,2022-11-29,GEO-0027,422,1,304.2,120.83,2,2025-05-05,2025-05-05,1,1,1,111,Low-Value Customers,304.2,304.2
+CUST-0513,Larry Walker,Corporate,Central,Minnesota,Minneapolis,2025-01-12,GEO-0032,51,16,21531.8,9489.41,38,2025-01-12,2026-05-11,4,5,5,455,Champions,21531.8,1345.74
+CUST-0514,Kevin Roberts,Corporate,West,Arizona,Phoenix,2022-06-10,GEO-0026,272,7,4271.3,1818.0300000000002,10,2022-11-18,2025-10-02,2,4,4,244,Loyal Customers,4271.3,610.19
+CUST-0515,Nicholas Hall,Consumer,South,Florida,Tampa,2023-04-21,GEO-0009,78,4,907.85,387.71,7,2023-09-24,2026-04-14,4,3,2,432,Potential Loyalists,907.85,226.96
+CUST-0516,Julie Martinez,Consumer,South,Florida,Miami,2023-10-31,GEO-0012,17,11,4655.35,1502.6,19,2024-05-02,2026-06-14,5,5,4,554,Champions,4655.35,423.21
+CUST-0517,Patricia Wright,Corporate,South,Georgia,Atlanta,2024-10-01,GEO-0010,113,15,7282.95,2987.01,33,2024-11-06,2026-03-10,3,5,5,355,Loyal Customers,7282.95,485.53
+CUST-0518,Dorothy Rivera,Corporate,Central,Minnesota,Minneapolis,2024-06-03,GEO-0032,23,15,17715.4,5778.86,44,2024-07-27,2026-06-08,5,5,5,555,Champions,17715.4,1181.03
+CUST-0519,Margaret Carter,Consumer,Central,Texas,Dallas,2023-05-20,GEO-0019,346,7,2648.7,1032.85,12,2023-10-19,2025-07-20,2,4,3,243,Loyal Customers,2648.7,378.39
+CUST-0520,Catherine Martinez,Consumer,West,Nevada,Las Vegas,2024-02-18,GEO-0029,268,1,80.1,38.96,1,2025-10-06,2025-10-06,2,1,1,211,Low-Value Customers,80.1,80.1
+CUST-0521,Catherine Martin,Corporate,Central,Texas,San Antonio,2024-01-09,GEO-0001,335,9,11023.95,4420.55,21,2024-02-05,2025-07-31,2,5,5,255,Loyal Customers,11023.95,1224.88
+CUST-0522,Susan Lopez,Consumer,Central,Texas,Austin,2024-06-29,GEO-0027,20,5,5373.0,2148.6499999999996,8,2024-09-24,2026-06-11,5,3,4,534,Loyal Customers,5373.0,1074.6
+CUST-0523,George Wright,Consumer,West,Washington,Spokane,2023-01-19,GEO-0007,228,6,1096.5,352.03,11,2023-05-20,2025-11-15,2,4,2,242,At-Risk Customers,1096.5,182.75
+CUST-0524,Sharon Edwards,Corporate,South,Florida,Orlando,2022-07-31,GEO-0021,426,2,2539.5,1107.81,5,2023-12-11,2025-05-01,1,2,3,123,At-Risk Customers,2539.5,1269.75
+CUST-0525,Patricia Lopez,Consumer,West,Washington,Spokane,2025-05-07,GEO-0007,11,7,7071.55,2889.74,18,2025-06-21,2026-06-20,5,4,5,545,Champions,7071.55,1010.22
+CUST-0526,Scott Adams,Home Office,West,California,Los Angeles,2023-08-21,GEO-0008,197,3,401.0,207.17000000000002,3,2024-07-26,2025-12-16,3,2,1,321,Potential Loyalists,401.0,133.67
+CUST-0527,Timothy Roberts,Corporate,East,New Jersey,Newark,2025-03-17,GEO-0018,58,5,4627.9,1963.26,20,2025-05-26,2026-05-04,4,3,4,434,Loyal Customers,4627.9,925.58
+CUST-0528,Eric Perez,Corporate,East,New York,New York City,2022-10-12,GEO-0014,66,7,927.4,447.49,11,2022-11-20,2026-04-26,4,4,2,442,Potential Loyalists,927.4,132.49
+CUST-0529,Steven Hill,Consumer,West,Nevada,Las Vegas,2022-05-10,GEO-0029,186,1,628.2,299.92,2,2025-12-27,2025-12-27,3,1,2,312,Potential Loyalists,628.2,628.2
+CUST-0530,Nancy Parker,Consumer,Central,Texas,Austin,2024-09-18,GEO-0027,232,4,1268.5,558.28,9,2024-12-20,2025-11-11,2,3,2,232,At-Risk Customers,1268.5,317.12
+CUST-0531,Tyler Martinez,Consumer,East,New Jersey,Newark,2024-10-12,GEO-0018,376,2,3732.95,1140.01,5,2025-05-18,2025-06-20,1,2,4,124,At-Risk Customers,3732.95,1866.48
+CUST-0532,Scott Sanchez,Consumer,West,Arizona,Phoenix,2023-09-16,GEO-0026,344,1,528.2,206.0,4,2025-07-22,2025-07-22,2,1,1,211,Low-Value Customers,528.2,528.2
+CUST-0533,James Gomez,Consumer,Central,Minnesota,Minneapolis,2023-11-06,GEO-0032,10,3,7816.5,2132.3500000000004,10,2024-07-26,2026-06-21,5,2,5,525,New Customers,7816.5,2605.5
+CUST-0534,Jeffrey Nelson,Consumer,West,Arizona,Phoenix,2023-09-08,GEO-0026,25,2,185.2,80.94,4,2024-09-20,2026-06-06,5,2,1,521,New Customers,185.2,92.6
+CUST-0535,Carol Sanchez,Consumer,East,New York,Buffalo,2024-03-26,GEO-0028,412,3,5970.1,2347.67,6,2024-05-22,2025-05-15,1,2,4,124,At-Risk Customers,5970.1,1990.03
+CUST-0536,Joshua Nguyen,Corporate,South,Virginia,Richmond,2025-03-25,GEO-0013,8,5,1580.5,727.12,19,2025-04-04,2026-06-23,5,3,3,533,Loyal Customers,1580.5,316.1
+CUST-0537,Tyler Young,Consumer,Central,Texas,Houston,2024-03-15,GEO-0023,13,6,630.1,256.13,9,2024-08-26,2026-06-18,5,4,2,542,Potential Loyalists,630.1,105.02
+CUST-0538,George Anderson,Home Office,East,Pennsylvania,Philadelphia,2025-04-27,GEO-0006,49,3,3152.0,1504.0099999999998,8,2025-05-09,2026-05-13,4,2,4,424,New Customers,3152.0,1050.67
+CUST-0539,Helen White,Corporate,West,California,San Francisco,2024-08-03,GEO-0025,288,4,2053.0,1194.8799999999999,13,2024-09-26,2025-09-16,2,3,3,233,Loyal Customers,2053.0,513.25
+CUST-0540,Raymond Clark,Consumer,Central,Texas,Dallas,2022-05-22,GEO-0019,954,1,22.0,8.49,1,2023-11-20,2023-11-20,1,1,1,111,Low-Value Customers,22.0,22.0
+CUST-0541,Jose Evans,Corporate,West,Arizona,Phoenix,2023-09-13,GEO-0026,139,7,8328.55,3264.46,13,2023-09-25,2026-02-12,3,4,5,345,Loyal Customers,8328.55,1189.79
+CUST-0542,Mark Allen,Corporate,South,Florida,Tampa,2024-02-12,GEO-0009,72,2,1789.0,865.4200000000001,11,2026-04-07,2026-04-20,4,2,3,423,New Customers,1789.0,894.5
+CUST-0543,Elizabeth Edwards,Home Office,South,Tennessee,Nashville,2025-04-07,GEO-0017,324,2,687.4,278.97999999999996,3,2025-07-10,2025-08-11,2,2,2,222,Low-Value Customers,687.4,343.7
+CUST-0544,Stephanie Morgan,Consumer,South,Florida,Orlando,2025-01-18,GEO-0021,153,6,1188.75,501.54,10,2025-05-24,2026-01-29,3,4,2,342,Potential Loyalists,1188.75,198.12
+CUST-0545,Robert Campbell,Corporate,West,Washington,Spokane,2022-08-12,GEO-0007,59,4,3975.05,1581.96,10,2022-12-09,2026-05-03,4,3,4,434,Loyal Customers,3975.05,993.76
+CUST-0546,Jerry Young,Corporate,Central,Ohio,Columbus,2022-12-07,GEO-0004,170,2,1827.0,762.88,3,2024-10-03,2026-01-12,3,2,3,323,Potential Loyalists,1827.0,913.5
+CUST-0547,Samuel Garcia,Corporate,South,Florida,Miami,2023-11-11,GEO-0012,508,1,211.65,86.62,1,2025-02-08,2025-02-08,1,1,1,111,Low-Value Customers,211.65,211.65
+CUST-0548,Heather Parker,Consumer,West,Oregon,Portland,2023-06-14,GEO-0016,241,6,3749.0,1418.76,13,2023-10-10,2025-11-02,2,4,4,244,Loyal Customers,3749.0,624.83
+CUST-0549,Donald Rogers,Corporate,East,Massachusetts,Boston,2024-07-01,GEO-0002,347,5,899.55,368.47,8,2024-07-27,2025-07-19,2,3,2,232,At-Risk Customers,899.55,179.91
+CUST-0550,Melissa Gomez,Consumer,West,Nevada,Las Vegas,2023-12-08,GEO-0029,1,4,3714.2,1558.15,6,2025-06-09,2026-06-30,5,3,4,534,Loyal Customers,3714.2,928.55
+CUST-0551,Patricia Morris,Consumer,South,Florida,Orlando,2022-06-25,GEO-0021,137,11,6057.900000000001,2166.73,18,2022-07-22,2026-02-14,3,5,4,354,Loyal Customers,6057.9,550.72
+CUST-0552,Joseph Jackson,Consumer,Central,Michigan,Detroit,2024-07-21,GEO-0024,197,3,1113.6,522.67,8,2025-04-09,2025-12-16,3,2,2,322,Potential Loyalists,1113.6,371.2
+CUST-0553,Tyler Clark,Corporate,Central,Ohio,Columbus,2024-09-02,GEO-0004,136,7,9240.95,3066.62,19,2025-01-10,2026-02-15,3,4,5,345,Loyal Customers,9240.95,1320.14
+CUST-0554,Richard Cruz,Corporate,South,Georgia,Atlanta,2023-10-16,GEO-0010,838,3,2349.25,1128.8799999999999,8,2023-12-19,2024-03-15,1,2,3,123,At-Risk Customers,2349.25,783.08
+CUST-0555,William Hill,Consumer,West,Colorado,Denver,2022-02-16,GEO-0022,14,7,2477.3,966.14,15,2023-06-27,2026-06-17,5,4,3,543,Loyal Customers,2477.3,353.9
+CUST-0556,Nathan Baker,Corporate,East,New York,New York City,2023-05-15,GEO-0014,115,7,1880.75,752.74,15,2024-03-11,2026-03-08,3,4,3,343,Loyal Customers,1880.75,268.68
+CUST-0557,Eric Thompson,Corporate,Central,Michigan,Detroit,2025-02-20,GEO-0024,20,6,3685.65,1592.33,7,2025-04-30,2026-06-11,5,4,4,544,Champions,3685.65,614.28
+CUST-0558,Jason Reyes,Consumer,South,Florida,Miami,2023-01-13,GEO-0012,523,1,42.75,19.95,1,2025-01-24,2025-01-24,1,1,1,111,Low-Value Customers,42.75,42.75
+CUST-0559,Margaret Parker,Consumer,East,Pennsylvania,Philadelphia,2024-07-09,GEO-0006,81,2,128.0,23.04,2,2024-08-07,2026-04-11,4,2,1,421,New Customers,128.0,64.0
+CUST-0560,Pamela Diaz,Consumer,East,Pennsylvania,Pittsburgh,2023-02-26,GEO-0031,985,1,638.0,308.5,2,2023-10-20,2023-10-20,1,1,2,112,Low-Value Customers,638.0,638.0
+CUST-0561,Kimberly Rodriguez,Corporate,East,New York,Buffalo,2024-01-20,GEO-0028,113,6,2690.75,1216.64,21,2024-11-10,2026-03-10,3,4,3,343,Loyal Customers,2690.75,448.46
+CUST-0562,Carol Sanchez,Consumer,Central,Illinois,Chicago,2024-09-29,GEO-0003,190,6,4388.45,1927.32,18,2024-10-18,2025-12-23,3,4,4,344,Loyal Customers,4388.45,731.41
+CUST-0563,Angela Green,Corporate,South,Florida,Miami,2025-04-17,GEO-0012,136,5,1492.9,506.7,10,2025-07-11,2026-02-15,3,3,2,332,Potential Loyalists,1492.9,298.58
+CUST-0564,Joseph Hall,Consumer,South,North Carolina,Charlotte,2025-06-18,GEO-0015,312,1,1598.0,688.75,2,2025-08-23,2025-08-23,2,1,3,213,At-Risk Customers,1598.0,1598.0
+CUST-0565,Daniel Hill,Home Office,West,Washington,Spokane,2022-10-02,GEO-0007,46,9,3782.05,1456.79,16,2023-03-04,2026-05-16,4,5,4,454,Champions,3782.05,420.23
+CUST-0566,Joshua Thomas,Consumer,West,Colorado,Denver,2023-01-10,GEO-0022,58,13,8414.449999999999,3399.75,25,2023-05-18,2026-05-04,4,5,5,455,Champions,8414.45,647.27
+CUST-0567,Melissa Jackson,Consumer,South,Florida,Orlando,2025-05-06,GEO-0021,40,9,9834.2,3765.73,31,2025-05-16,2026-05-22,4,5,5,455,Champions,9834.2,1092.69
+CUST-0568,Sarah Roberts,Consumer,South,Virginia,Richmond,2025-01-05,GEO-0013,70,6,2222.4,721.52,12,2025-07-10,2026-04-22,4,4,3,443,Loyal Customers,2222.4,370.4
+CUST-0569,Alexander Thompson,Corporate,South,Virginia,Richmond,2023-08-15,GEO-0013,70,1,719.1,263.88,1,2026-04-22,2026-04-22,4,1,2,412,New Customers,719.1,719.1
+CUST-0570,Sarah White,Consumer,South,Georgia,Atlanta,2025-06-22,GEO-0010,54,6,3945.05,1688.73,12,2025-07-19,2026-05-08,4,4,4,444,Champions,3945.05,657.51
+CUST-0571,Michael Rivera,Home Office,South,Virginia,Richmond,2022-10-07,GEO-0013,275,3,880.0,440.28,6,2023-10-10,2025-09-29,2,2,2,222,Low-Value Customers,880.0,293.33
+CUST-0572,Matthew Roberts,Home Office,South,Virginia,Richmond,2024-04-17,GEO-0013,39,3,886.8,306.98,10,2025-09-27,2026-05-23,4,2,2,422,New Customers,886.8,295.6
+CUST-0573,Debra Morales,Consumer,South,Georgia,Atlanta,2024-09-27,GEO-0010,145,1,44.0,14.55,2,2026-02-06,2026-02-06,3,1,1,311,Low-Value Customers,44.0,44.0
+CUST-0574,Nancy Hernandez,Corporate,East,Massachusetts,Boston,2023-08-22,GEO-0002,11,3,1074.45,459.58,4,2024-01-31,2026-06-20,5,2,2,522,New Customers,1074.45,358.15
+CUST-0575,Robert Scott,Consumer,Central,Texas,Dallas,2022-12-11,GEO-0019,252,3,652.4,281.67,7,2024-12-19,2025-10-22,2,2,2,222,Low-Value Customers,652.4,217.47
+CUST-0576,Maria Collins,Corporate,South,Virginia,Richmond,2025-01-30,GEO-0013,226,6,2278.9,897.74,12,2025-05-18,2025-11-17,2,4,3,243,Loyal Customers,2278.9,379.82
+CUST-0577,Shirley Anderson,Corporate,Central,Texas,Houston,2025-01-17,GEO-0023,9,6,1087.15,369.64,11,2025-04-20,2026-06-22,5,4,2,542,Potential Loyalists,1087.15,181.19
+CUST-0578,Virginia Campbell,Corporate,West,California,San Diego,2024-06-22,GEO-0005,167,6,3708.45,1279.79,12,2024-07-28,2026-01-15,3,4,4,344,Loyal Customers,3708.45,618.07
+CUST-0579,Helen Ramirez,Home Office,West,Oregon,Portland,2023-05-22,GEO-0016,251,1,716.4,252.57,4,2025-10-23,2025-10-23,2,1,2,212,Low-Value Customers,716.4,716.4
+CUST-0580,Kenneth Jones,Consumer,Central,Ohio,Columbus,2022-06-28,GEO-0004,575,3,941.3000000000001,402.77,5,2023-07-13,2024-12-03,1,2,2,122,Low-Value Customers,941.3,313.77
+CUST-0581,Jeffrey Thomas,Corporate,East,New Jersey,Newark,2023-03-06,GEO-0018,7,5,3640.75,1285.97,16,2023-12-29,2026-06-24,5,3,4,534,Loyal Customers,3640.75,728.15
+CUST-0582,Diane Hall,Home Office,South,Florida,Tampa,2022-12-06,GEO-0009,71,8,1804.6499999999999,679.5300000000001,10,2023-04-16,2026-04-21,4,5,3,453,Loyal Customers,1804.65,225.58
+CUST-0583,Brandon Moore,Corporate,East,Pennsylvania,Pittsburgh,2022-05-02,GEO-0031,175,3,5500.2,2060.66,11,2024-02-15,2026-01-07,3,2,4,324,Potential Loyalists,5500.2,1833.4
+CUST-0584,Larry Hall,Corporate,East,New York,New York City,2023-10-25,GEO-0014,768,1,199.6,-86.6,1,2024-05-24,2024-05-24,1,1,1,111,Low-Value Customers,199.6,199.6
+CUST-0585,Raymond Nguyen,Consumer,Central,Texas,Houston,2024-11-19,GEO-0023,49,15,7974.450000000001,2911.84,30,2024-12-11,2026-05-13,4,5,5,455,Champions,7974.45,531.63
+CUST-0586,Kelly Gonzalez,Consumer,South,Florida,Orlando,2022-05-02,GEO-0021,8,5,1658.35,747.98,7,2023-10-23,2026-06-23,5,3,3,533,Loyal Customers,1658.35,331.67
+CUST-0587,Kimberly Taylor,Corporate,West,Arizona,Phoenix,2023-05-27,GEO-0026,9,4,6164.2,2267.34,8,2024-09-27,2026-06-22,5,3,5,535,Loyal Customers,6164.2,1541.05
+CUST-0588,Charles Adams,Home Office,South,Florida,Miami,2024-09-29,GEO-0012,263,7,1919.0,902.15,15,2024-11-12,2025-10-11,2,4,3,243,Loyal Customers,1919.0,274.14
+CUST-0589,Charles Wright,Corporate,Central,Minnesota,Minneapolis,2024-07-14,GEO-0032,15,5,1873.6,773.0,7,2024-11-23,2026-06-16,5,3,3,533,Loyal Customers,1873.6,374.72
+CUST-0590,Elizabeth Lopez,Consumer,Central,Texas,Houston,2024-01-26,GEO-0023,250,7,6427.85,2912.78,11,2024-07-22,2025-10-24,2,4,5,245,Loyal Customers,6427.85,918.26
+CUST-0591,Ryan Morales,Consumer,West,California,Los Angeles,2022-07-10,GEO-0008,933,4,3146.1,1387.56,9,2022-09-29,2023-12-11,1,3,4,134,Loyal Customers,3146.1,786.52
+CUST-0592,Carolyn Collins,Corporate,Central,Ohio,Columbus,2022-05-10,GEO-0004,29,6,9407.0,3882.9700000000003,12,2023-05-30,2026-06-02,5,4,5,545,Champions,9407.0,1567.83
+CUST-0593,Heather Morgan,Consumer,South,Florida,Tampa,2023-03-10,GEO-0009,545,2,978.25,336.56,2,2023-10-13,2025-01-02,1,2,2,122,Low-Value Customers,978.25,489.12
+CUST-0594,Amy Wright,Consumer,Central,Texas,Dallas,2023-11-23,GEO-0019,296,4,11628.0,4939.820000000001,12,2024-03-05,2025-09-08,2,3,5,235,Loyal Customers,11628.0,2907.0
+CUST-0595,Stephen Taylor,Corporate,South,Virginia,Richmond,2023-12-05,GEO-0013,10,14,4598.35,1952.99,29,2024-02-11,2026-06-21,5,5,4,554,Champions,4598.35,328.45
+CUST-0596,Zachary Miller,Consumer,South,North Carolina,Charlotte,2022-02-03,GEO-0015,254,8,4268.1,1854.74,25,2022-08-16,2025-10-20,2,5,4,254,Loyal Customers,4268.1,533.51
+CUST-0597,Jessica Lee,Consumer,West,California,Los Angeles,2024-05-26,GEO-0008,95,15,10005.15,3126.0299999999997,37,2024-10-21,2026-03-28,4,5,5,455,Champions,10005.15,667.01
+CUST-0598,Lisa Taylor,Home Office,Central,Texas,Austin,2022-11-22,GEO-0027,124,13,7566.8,3380.81,25,2023-01-14,2026-02-27,3,5,5,355,Loyal Customers,7566.8,582.06
+CUST-0599,Victoria Scott,Consumer,Central,Ohio,Cleveland,2023-05-28,GEO-0030,554,1,916.0,453.36,4,2024-12-24,2024-12-24,1,1,2,112,Low-Value Customers,916.0,916.0
+CUST-0600,David Mitchell,Corporate,East,New York,New York City,2022-04-17,GEO-0014,10,5,3999.15,1297.06,9,2024-01-05,2026-06-21,5,3,4,534,Loyal Customers,3999.15,799.83
+CUST-0601,Ronald Flores,Corporate,East,Massachusetts,Boston,2024-05-29,GEO-0002,6,3,198.25,80.62,6,2024-11-09,2026-06-25,5,2,1,521,New Customers,198.25,66.08
+CUST-0602,Katherine Lopez,Corporate,West,California,Los Angeles,2023-03-14,GEO-0008,986,1,758.1,364.84,2,2023-10-19,2023-10-19,1,1,2,112,Low-Value Customers,758.1,758.1
+CUST-0603,Kathleen Martinez,Consumer,East,Massachusetts,Boston,2024-11-29,GEO-0002,256,2,172.2,81.09,3,2025-04-21,2025-10-18,2,2,1,221,Low-Value Customers,172.2,86.1
+CUST-0604,Debra Cruz,Consumer,Central,Michigan,Detroit,2022-09-04,GEO-0024,96,2,477.1,217.55,5,2023-11-26,2026-03-27,4,2,1,421,New Customers,477.1,238.55
+CUST-0605,Henry Diaz,Corporate,South,Tennessee,Nashville,2022-05-26,GEO-0017,3,2,3317.6,1337.44,5,2024-12-14,2026-06-28,5,2,4,524,New Customers,3317.6,1658.8
+CUST-0606,Dorothy Roberts,Consumer,West,Oregon,Portland,2022-07-31,GEO-0016,594,3,4551.7,2008.01,9,2024-02-18,2024-11-14,1,2,4,124,At-Risk Customers,4551.7,1517.23
+CUST-0607,Joshua Mitchell,Home Office,West,Arizona,Phoenix,2024-02-23,GEO-0026,65,6,8083.700000000001,2791.12,15,2024-03-08,2026-04-27,4,4,5,445,Champions,8083.7,1347.28
+CUST-0608,Maria Moore,Corporate,West,Nevada,Las Vegas,2022-05-21,GEO-0029,91,11,11586.7,5172.35,32,2022-09-19,2026-04-01,4,5,5,455,Champions,11586.7,1053.34
+CUST-0609,Angela Johnson,Corporate,East,New York,New York City,2024-06-20,GEO-0014,98,11,8473.05,3268.37,29,2024-09-18,2026-03-25,4,5,5,455,Champions,8473.05,770.28
+CUST-0610,Brian Ramirez,Corporate,West,Nevada,Las Vegas,2024-04-23,GEO-0029,56,4,1466.5500000000002,667.8199999999999,9,2024-08-19,2026-05-06,4,3,2,432,Potential Loyalists,1466.55,366.64
+CUST-0611,Brandon Cruz,Home Office,West,Washington,Spokane,2022-07-25,GEO-0007,354,4,2555.4,1054.32,9,2022-08-26,2025-07-12,2,3,3,233,Loyal Customers,2555.4,638.85
+CUST-0612,Sarah Thomas,Corporate,Central,Minnesota,Minneapolis,2023-12-21,GEO-0032,2,5,2537.0,1079.34,9,2024-06-07,2026-06-29,5,3,3,533,Loyal Customers,2537.0,507.4
+CUST-0613,Jason Green,Corporate,East,New Jersey,Newark,2023-07-22,GEO-0018,372,2,1205.2,606.3,5,2024-07-27,2025-06-24,2,2,2,222,Low-Value Customers,1205.2,602.6
+CUST-0614,Samuel Hernandez,Consumer,Central,Texas,Dallas,2022-02-24,GEO-0019,613,1,160.3,46.39,1,2024-10-26,2024-10-26,1,1,1,111,Low-Value Customers,160.3,160.3
+CUST-0615,Nathan Hill,Consumer,East,Pennsylvania,Philadelphia,2024-03-13,GEO-0006,127,4,407.9,214.96,6,2024-09-13,2026-02-24,3,3,1,331,Potential Loyalists,407.9,101.98
+CUST-0616,Donna Miller,Corporate,East,New Jersey,Newark,2024-10-10,GEO-0018,37,13,7201.400000000001,2863.02,19,2024-12-07,2026-05-25,5,5,5,555,Champions,7201.4,553.95
+CUST-0617,Deborah Anderson,Consumer,West,Washington,Seattle,2024-12-17,GEO-0020,92,12,7971.7,3567.6800000000003,28,2024-12-17,2026-03-31,4,5,5,455,Champions,7971.7,664.31
+CUST-0618,Olivia Johnson,Home Office,Central,Texas,San Antonio,2022-09-28,GEO-0001,410,2,1567.0,707.69,3,2024-06-18,2025-05-17,1,2,3,123,At-Risk Customers,1567.0,783.5
+CUST-0619,Deborah Turner,Consumer,East,New York,Buffalo,2024-08-22,GEO-0028,553,1,1438.2,530.51,2,2024-12-25,2024-12-25,1,1,2,112,Low-Value Customers,1438.2,1438.2
+CUST-0620,Jerry Martinez,Consumer,West,Washington,Seattle,2022-01-29,GEO-0020,249,3,943.8000000000001,396.2,5,2022-08-19,2025-10-25,2,2,2,222,Low-Value Customers,943.8,314.6
+CUST-0621,Ashley Ramirez,Consumer,West,California,San Jose,2024-03-26,GEO-0011,91,6,1809.25,830.05,9,2024-05-06,2026-04-01,4,4,3,443,Loyal Customers,1809.25,301.54
+CUST-0622,Nicholas Torres,Corporate,South,Florida,Orlando,2024-05-17,GEO-0021,23,10,10029.05,3179.8999999999996,29,2024-08-05,2026-06-08,5,5,5,555,Champions,10029.05,1002.9
+CUST-0623,Rachel Phillips,Consumer,West,Nevada,Las Vegas,2023-07-23,GEO-0029,137,3,217.2,101.24,7,2023-07-31,2026-02-14,3,2,1,321,Potential Loyalists,217.2,72.4
+CUST-0624,David Flores,Consumer,East,Pennsylvania,Pittsburgh,2022-11-15,GEO-0031,371,7,2032.5,794.0699999999999,9,2022-12-14,2025-06-25,2,4,3,243,Loyal Customers,2032.5,290.36
+CUST-0625,Jonathan Adams,Consumer,West,Washington,Seattle,2023-09-28,GEO-0020,23,15,9957.300000000001,4182.39,32,2023-11-15,2026-06-08,5,5,5,555,Champions,9957.3,663.82
+CUST-0626,Rachel Parker,Corporate,East,New Jersey,Newark,2022-04-29,GEO-0018,196,11,7391.75,3473.94,27,2023-02-10,2025-12-17,3,5,5,355,Loyal Customers,7391.75,671.98
+CUST-0627,Sandra Lopez,Home Office,West,Colorado,Denver,2024-07-17,GEO-0022,27,10,9939.050000000001,3814.46,23,2024-11-30,2026-06-04,5,5,5,555,Champions,9939.05,993.91
+CUST-0628,Brandon Davis,Consumer,East,New York,Buffalo,2022-09-02,GEO-0028,441,2,161.45,77.28999999999999,4,2024-12-25,2025-04-16,1,2,1,121,Low-Value Customers,161.45,80.72
+CUST-0629,Mary Moore,Corporate,East,New York,New York City,2024-10-13,GEO-0014,239,3,1295.45,551.75,13,2024-11-29,2025-11-04,2,2,2,222,Low-Value Customers,1295.45,431.82
+CUST-0630,Brian Gutierrez,Consumer,Central,Illinois,Chicago,2022-12-08,GEO-0003,186,2,1057.0,458.0,3,2024-10-01,2025-12-27,3,2,2,322,Potential Loyalists,1057.0,528.5
+CUST-0631,Melissa Taylor,Corporate,Central,Texas,Houston,2022-08-30,GEO-0023,1397,1,116.1,67.79,1,2022-09-03,2022-09-03,1,1,1,111,Low-Value Customers,116.1,116.1
+CUST-0632,Jerry Brown,Consumer,South,Florida,Tampa,2023-07-12,GEO-0009,584,5,4628.3,2137.13,10,2023-12-21,2024-11-24,1,3,4,134,Loyal Customers,4628.3,925.66
+CUST-0633,Angela Rodriguez,Consumer,West,Washington,Seattle,2024-10-13,GEO-0020,61,5,3418.25,1435.32,11,2024-11-29,2026-05-01,4,3,4,434,Loyal Customers,3418.25,683.65
+CUST-0634,Ryan Rogers,Consumer,South,Virginia,Richmond,2025-03-06,GEO-0013,243,3,532.85,281.85,4,2025-06-05,2025-10-31,2,2,1,221,Low-Value Customers,532.85,177.62
+CUST-0635,Nancy Mitchell,Consumer,West,Oregon,Portland,2025-03-21,GEO-0016,20,3,4622.15,1107.52,5,2025-05-02,2026-06-11,5,2,4,524,New Customers,4622.15,1540.72
+CUST-0636,Frank Anderson,Consumer,West,California,Los Angeles,2022-04-01,GEO-0008,484,6,3022.15,1301.04,10,2022-04-16,2025-03-04,1,4,3,143,Loyal Customers,3022.15,503.69
+CUST-0637,Joyce Johnson,Consumer,South,Tennessee,Nashville,2024-01-16,GEO-0017,319,1,196.0,98.22,4,2025-08-16,2025-08-16,2,1,1,211,Low-Value Customers,196.0,196.0
+CUST-0638,Deborah Martin,Consumer,West,California,San Diego,2025-02-06,GEO-0005,50,11,11401.0,4396.23,16,2025-02-08,2026-05-12,4,5,5,455,Champions,11401.0,1036.45
+CUST-0639,Aaron Turner,Consumer,East,New Jersey,Newark,2024-05-02,GEO-0018,109,12,10167.95,4357.43,18,2024-10-24,2026-03-14,3,5,5,355,Loyal Customers,10167.95,847.33
+CUST-0640,Christina Green,Consumer,West,Washington,Seattle,2025-03-16,GEO-0020,7,5,8538.6,3604.06,12,2025-06-12,2026-06-24,5,3,5,535,Loyal Customers,8538.6,1707.72
+CUST-0641,Melissa Thomas,Consumer,West,California,San Jose,2023-01-03,GEO-0011,296,5,10340.25,3680.29,14,2023-03-19,2025-09-08,2,3,5,235,Loyal Customers,10340.25,2068.05
+CUST-0642,Donald Gutierrez,Home Office,South,Florida,Miami,2022-05-22,GEO-0012,255,10,4437.15,1965.87,16,2022-09-22,2025-10-19,2,5,4,254,Loyal Customers,4437.15,443.72
+CUST-0643,Douglas Reyes,Home Office,Central,Texas,Austin,2023-11-02,GEO-0027,36,13,11728.75,4470.03,37,2023-12-24,2026-05-26,5,5,5,555,Champions,11728.75,902.21
+CUST-0644,Barbara Peterson,Consumer,Central,Ohio,Cleveland,2023-02-15,GEO-0030,245,2,654.0,352.38,6,2023-12-05,2025-10-29,2,2,2,222,Low-Value Customers,654.0,327.0
+CUST-0645,Donna Hill,Corporate,East,New Jersey,Newark,2024-08-08,GEO-0018,415,1,899.0,374.95,1,2025-05-12,2025-05-12,1,1,2,112,Low-Value Customers,899.0,899.0
+CUST-0646,Melissa Murphy,Home Office,East,Pennsylvania,Philadelphia,2025-01-24,GEO-0006,4,15,4927.8,1875.47,30,2025-03-24,2026-06-27,5,5,4,554,Champions,4927.8,328.52
+CUST-0647,Ruth Young,Consumer,South,Florida,Orlando,2022-02-18,GEO-0021,223,3,5595.2,2473.69,15,2023-01-13,2025-11-20,2,2,4,224,At-Risk Customers,5595.2,1865.07
+CUST-0648,Dorothy Cooper,Consumer,West,California,Los Angeles,2023-11-18,GEO-0008,926,1,129.0,77.5,1,2023-12-18,2023-12-18,1,1,1,111,Low-Value Customers,129.0,129.0
+CUST-0649,James Carter,Home Office,Central,Texas,Austin,2022-08-01,GEO-0027,2,6,9917.25,4188.64,14,2023-11-11,2026-06-29,5,4,5,545,Champions,9917.25,1652.88
+CUST-0650,Anthony Ortiz,Home Office,South,Florida,Orlando,2024-10-04,GEO-0021,115,5,2809.1,952.03,16,2024-12-16,2026-03-08,3,3,3,333,Loyal Customers,2809.1,561.82
+CUST-0651,Linda Jackson,Corporate,West,Washington,Spokane,2022-03-31,GEO-0007,44,10,6456.35,2642.1800000000003,22,2022-04-09,2026-05-18,4,5,5,455,Champions,6456.35,645.64
+CUST-0652,Christina Robinson,Home Office,South,Florida,Orlando,2024-02-02,GEO-0021,110,3,2067.2,994.99,8,2024-12-13,2026-03-13,3,2,3,323,Potential Loyalists,2067.2,689.07
+CUST-0653,Ryan Hernandez,Corporate,West,Arizona,Phoenix,2024-03-18,GEO-0026,158,7,2673.35,1104.6200000000001,20,2024-11-29,2026-01-24,3,4,3,343,Loyal Customers,2673.35,381.91
+CUST-0654,Elizabeth Davis,Consumer,West,Arizona,Phoenix,2023-04-30,GEO-0026,224,3,741.4,328.28999999999996,5,2023-09-28,2025-11-19,2,2,2,222,Low-Value Customers,741.4,247.13
+CUST-0655,Donna King,Home Office,South,Florida,Miami,2023-10-31,GEO-0012,97,2,917.4000000000001,403.22,3,2024-11-30,2026-03-26,4,2,2,422,New Customers,917.4,458.7
+CUST-0656,Joshua Edwards,Consumer,West,Washington,Seattle,2023-02-20,GEO-0020,75,1,567.0,262.77,3,2026-04-17,2026-04-17,4,1,1,411,New Customers,567.0,567.0
+CUST-0657,Sarah Wilson,Consumer,East,New York,New York City,2024-07-09,GEO-0014,8,2,1903.3,726.5,7,2025-10-21,2026-06-23,5,2,3,523,New Customers,1903.3,951.65
+CUST-0658,Cynthia Green,Consumer,Central,Ohio,Columbus,2023-03-02,GEO-0004,93,5,5678.05,2309.34,10,2023-10-27,2026-03-30,4,3,4,434,Loyal Customers,5678.05,1135.61
+CUST-0659,Laura Flores,Consumer,West,Colorado,Denver,2022-07-05,GEO-0022,964,5,5438.8,2068.6,13,2022-12-07,2023-11-10,1,3,4,134,Loyal Customers,5438.8,1087.76
+CUST-0660,Christopher Hill,Home Office,West,California,San Diego,2023-03-17,GEO-0005,46,8,8562.85,3403.9700000000003,15,2023-05-27,2026-05-16,4,5,5,455,Champions,8562.85,1070.36
+CUST-0661,Adam Adams,Consumer,East,New Jersey,Newark,2023-12-30,GEO-0018,188,7,5354.0,2036.08,9,2024-01-07,2025-12-25,3,4,4,344,Loyal Customers,5354.0,764.86
+CUST-0662,Ronald Rogers,Consumer,Central,Texas,Austin,2023-06-17,GEO-0027,201,1,379.05,152.42,1,2025-12-12,2025-12-12,3,1,1,311,Low-Value Customers,379.05,379.05
+CUST-0663,Jose Thompson,Consumer,South,Florida,Miami,2024-07-15,GEO-0012,289,1,123.5,62.35,2,2025-09-15,2025-09-15,2,1,1,211,Low-Value Customers,123.5,123.5
+CUST-0664,Anna Peterson,Consumer,South,North Carolina,Charlotte,2022-07-28,GEO-0015,5,4,1903.2,896.1,8,2024-05-19,2026-06-26,5,3,3,533,Loyal Customers,1903.2,475.8
+CUST-0665,Aaron Moore,Consumer,West,California,San Jose,2023-04-01,GEO-0011,98,4,980.8,455.39,7,2023-08-31,2026-03-25,4,3,2,432,Potential Loyalists,980.8,245.2
+CUST-0666,Thomas Sanchez,Home Office,Central,Ohio,Cleveland,2022-06-22,GEO-0030,33,12,3501.1,1586.12,21,2022-12-14,2026-05-29,5,5,4,554,Champions,3501.1,291.76
+CUST-0667,Justin King,Home Office,West,Washington,Seattle,2022-02-14,GEO-0020,500,2,584.1,239.94,2,2024-12-11,2025-02-16,1,2,2,122,Low-Value Customers,584.1,292.05
+CUST-0668,William Sanchez,Home Office,South,Georgia,Atlanta,2022-09-21,GEO-0010,948,1,598.0,307.22,2,2023-11-26,2023-11-26,1,1,2,112,Low-Value Customers,598.0,598.0
+CUST-0669,Barbara Nelson,Consumer,South,North Carolina,Charlotte,2022-04-14,GEO-0015,179,6,5239.55,2203.7,13,2022-06-23,2026-01-03,3,4,4,344,Loyal Customers,5239.55,873.26
+CUST-0670,Nancy Parker,Home Office,South,Florida,Miami,2024-10-13,GEO-0012,87,2,403.65,180.70999999999998,9,2025-11-04,2026-04-05,4,2,1,421,New Customers,403.65,201.82
+CUST-0671,Patricia Carter,Corporate,East,New York,Buffalo,2023-12-26,GEO-0028,6,14,12476.25,5273.81,30,2024-02-28,2026-06-25,5,5,5,555,Champions,12476.25,891.16
+CUST-0672,Betty White,Consumer,South,Georgia,Atlanta,2022-11-01,GEO-0010,264,3,2355.2,954.36,5,2022-12-12,2025-10-10,2,2,3,223,At-Risk Customers,2355.2,785.07
+CUST-0673,Robert Young,Corporate,South,Virginia,Richmond,2024-04-23,GEO-0013,477,3,632.1,342.32,4,2024-05-03,2025-03-11,1,2,2,122,Low-Value Customers,632.1,210.7
+CUST-0674,Douglas Peterson,Consumer,West,Washington,Spokane,2023-07-27,GEO-0007,90,2,438.4,28.88,2,2026-03-15,2026-04-02,4,2,1,421,New Customers,438.4,219.2
+CUST-0675,Deborah Moore,Consumer,East,New Jersey,Newark,2025-01-18,GEO-0018,193,4,9510.1,4151.83,10,2025-03-11,2025-12-20,3,3,5,335,Loyal Customers,9510.1,2377.52
+CUST-0676,Heather Williams,Home Office,Central,Ohio,Columbus,2024-09-09,GEO-0004,254,7,2097.95,886.51,15,2024-10-16,2025-10-20,2,4,3,243,Loyal Customers,2097.95,299.71
+CUST-0677,Helen Morales,Consumer,Central,Texas,San Antonio,2024-03-06,GEO-0001,84,1,47.6,11.09,2,2026-04-08,2026-04-08,4,1,1,411,New Customers,47.6,47.6
+CUST-0678,Steven White,Consumer,East,Massachusetts,Boston,2022-03-02,GEO-0002,120,4,9996.25,4226.6900000000005,11,2022-05-05,2026-03-03,3,3,5,335,Loyal Customers,9996.25,2499.06
+CUST-0679,Zachary Scott,Consumer,South,Tennessee,Nashville,2024-12-20,GEO-0017,53,9,11501.35,4379.09,26,2025-03-27,2026-05-09,4,5,5,455,Champions,11501.35,1277.93
+CUST-0680,Amanda Robinson,Home Office,West,Oregon,Portland,2023-05-23,GEO-0016,121,2,311.5,178.51999999999998,4,2025-03-13,2026-03-02,3,2,1,321,Potential Loyalists,311.5,155.75
+CUST-0681,Gregory Walker,Consumer,West,California,San Jose,2023-03-26,GEO-0011,667,1,224.1,100.91,1,2024-09-02,2024-09-02,1,1,1,111,Low-Value Customers,224.1,224.1
+CUST-0682,Brenda Roberts,Consumer,East,New York,Buffalo,2022-12-27,GEO-0028,323,2,739.25,195.25,6,2025-08-05,2025-08-12,2,2,2,222,Low-Value Customers,739.25,369.62
+CUST-0683,Mark Green,Corporate,Central,Ohio,Columbus,2025-04-26,GEO-0004,23,15,13192.949999999999,5083.349999999999,25,2025-06-02,2026-06-08,5,5,5,555,Champions,13192.95,879.53
+CUST-0684,Patricia Rivera,Home Office,West,Nevada,Las Vegas,2025-02-27,GEO-0029,387,3,354.7,148.53,10,2025-03-31,2025-06-09,1,2,1,121,Low-Value Customers,354.7,118.23
+CUST-0685,Matthew Murphy,Corporate,East,New York,Buffalo,2024-10-01,GEO-0028,197,2,412.29999999999995,156.94,4,2025-03-13,2025-12-16,3,2,1,321,Potential Loyalists,412.3,206.15
+CUST-0686,Robert Lopez,Consumer,East,Massachusetts,Boston,2022-02-10,GEO-0002,1598,1,949.05,365.76,1,2022-02-14,2022-02-14,1,1,2,112,Low-Value Customers,949.05,949.05
+CUST-0687,Angela Morris,Consumer,East,Pennsylvania,Philadelphia,2022-09-25,GEO-0006,27,7,17337.85,8067.22,24,2022-12-19,2026-06-04,5,4,5,545,Champions,17337.85,2476.84
+CUST-0688,Michelle Thompson,Home Office,Central,Texas,San Antonio,2022-05-02,GEO-0001,993,2,178.5,71.26,4,2022-08-15,2023-10-12,1,2,1,121,Low-Value Customers,178.5,89.25
+CUST-0689,John Jackson,Corporate,West,Nevada,Las Vegas,2022-08-16,GEO-0029,189,5,4995.2,1801.6599999999999,13,2023-10-22,2025-12-24,3,3,4,334,Loyal Customers,4995.2,999.04
+CUST-0690,Nathan Ortiz,Home Office,West,Washington,Seattle,2024-02-05,GEO-0020,392,4,1234.9,527.48,11,2024-10-13,2025-06-04,1,3,2,132,At-Risk Customers,1234.9,308.73
+CUST-0691,Raymond Gomez,Corporate,Central,Michigan,Detroit,2023-09-11,GEO-0024,438,6,5912.7,2586.05,23,2023-11-04,2025-04-19,1,4,4,144,Loyal Customers,5912.7,985.45
+CUST-0692,Carol Moore,Home Office,South,Florida,Tampa,2024-09-24,GEO-0009,9,4,2015.2000000000003,825.6200000000001,10,2024-11-25,2026-06-22,5,3,3,533,Loyal Customers,2015.2,503.8
+CUST-0693,Katherine Green,Consumer,Central,Ohio,Columbus,2023-04-03,GEO-0004,38,9,13945.15,4388.099999999999,29,2024-08-09,2026-05-24,4,5,5,455,Champions,13945.15,1549.46
+CUST-0694,Christine Thompson,Consumer,Central,Texas,Dallas,2022-09-18,GEO-0019,77,7,10072.5,4038.24,23,2022-11-04,2026-04-15,4,4,5,445,Champions,10072.5,1438.93
+CUST-0695,Daniel Smith,Home Office,South,Florida,Miami,2025-03-08,GEO-0012,191,5,818.0500000000001,368.89,7,2025-03-12,2025-12-22,3,3,2,332,Potential Loyalists,818.05,163.61
+CUST-0696,Robert White,Corporate,East,Massachusetts,Boston,2025-03-04,GEO-0002,64,6,850.6,433.87,8,2025-04-05,2026-04-28,4,4,2,442,Potential Loyalists,850.6,141.77
+CUST-0697,Susan Murphy,Consumer,West,Washington,Seattle,2023-05-03,GEO-0020,133,9,5279.5,2190.0099999999998,16,2023-08-14,2026-02-18,3,5,4,354,Loyal Customers,5279.5,586.61
+CUST-0698,Brian Green,Consumer,West,Washington,Spokane,2023-11-19,GEO-0007,63,1,949.05,364.59,1,2026-04-29,2026-04-29,4,1,2,412,New Customers,949.05,949.05
+CUST-0699,Laura Johnson,Consumer,East,New Jersey,Newark,2022-05-19,GEO-0018,211,2,468.3,168.13000000000002,2,2025-09-19,2025-12-02,2,2,1,221,Low-Value Customers,468.3,234.15
+CUST-0700,Brian Allen,Corporate,West,California,Los Angeles,2022-04-09,GEO-0008,3,7,1520.1000000000001,668.17,17,2022-08-18,2026-06-28,5,4,2,542,Potential Loyalists,1520.1,217.16
+CUST-0701,Deborah Cruz,Corporate,East,New York,New York City,2024-04-27,GEO-0014,113,3,545.75,239.72000000000003,6,2025-11-04,2026-03-10,3,2,1,321,Potential Loyalists,545.75,181.92
+CUST-0702,Amy Carter,Consumer,Central,Minnesota,Minneapolis,2022-07-27,GEO-0032,34,5,1615.2,705.87,7,2024-05-14,2026-05-28,5,4,3,543,Loyal Customers,1615.2,323.04
+CUST-0703,Adam Morris,Corporate,East,Massachusetts,Boston,2022-11-30,GEO-0002,1,6,3120.4,1238.1100000000001,7,2022-12-07,2026-06-30,5,4,4,544,Champions,3120.4,520.07
+CUST-0704,Laura Martinez,Corporate,West,California,San Diego,2023-08-27,GEO-0005,50,4,848.7,363.94,8,2025-08-12,2026-05-12,4,3,2,432,Potential Loyalists,848.7,212.18
+CUST-0705,John Green,Consumer,West,Oregon,Portland,2022-06-01,GEO-0016,220,3,2519.9,1112.55,5,2022-06-26,2025-11-23,2,2,3,223,At-Risk Customers,2519.9,839.97
+CUST-0706,Michelle Perez,Home Office,East,New York,New York City,2022-06-03,GEO-0014,528,7,1024.3500000000001,495.37,13,2022-06-03,2025-01-19,1,4,2,142,At-Risk Customers,1024.35,146.34
+CUST-0707,Stephen Lopez,Consumer,South,Tennessee,Nashville,2022-03-05,GEO-0017,35,1,1890.5,742.75,10,2026-05-27,2026-05-27,5,1,3,513,New Customers,1890.5,1890.5
+CUST-0708,Sharon Perez,Corporate,South,Florida,Tampa,2022-11-18,GEO-0009,16,7,4519.7,1931.18,14,2022-12-23,2026-06-15,5,4,4,544,Champions,4519.7,645.67
+CUST-0709,Michael Gonzalez,Consumer,East,Pennsylvania,Philadelphia,2024-04-18,GEO-0006,130,9,6039.1,2512.09,26,2024-10-09,2026-02-21,3,5,4,354,Loyal Customers,6039.1,671.01
+CUST-0710,Rachel Peterson,Corporate,Central,Illinois,Chicago,2023-07-31,GEO-0003,172,7,4886.2,2054.7,10,2023-11-03,2026-01-10,3,4,4,344,Loyal Customers,4886.2,698.03
+CUST-0711,Kenneth Walker,Consumer,South,Florida,Miami,2025-03-16,GEO-0012,18,12,5835.849999999999,1921.6299999999999,27,2025-05-20,2026-06-13,5,5,4,554,Champions,5835.85,486.32
+CUST-0712,Stephen Morales,Consumer,Central,Ohio,Cleveland,2022-01-08,GEO-0030,687,5,2812.6,1384.57,11,2023-06-18,2024-08-13,1,4,3,143,Loyal Customers,2812.6,562.52
+CUST-0713,Jason Lopez,Consumer,South,Tennessee,Nashville,2023-02-13,GEO-0017,981,1,1449.0,595.65,1,2023-10-24,2023-10-24,1,1,2,112,Low-Value Customers,1449.0,1449.0
+CUST-0714,Richard Brown,Consumer,Central,Texas,Dallas,2022-06-17,GEO-0019,1,2,84.8,39.6,2,2022-07-05,2026-06-30,5,2,1,521,New Customers,84.8,42.4
+CUST-0715,Jacob Anderson,Consumer,South,Florida,Miami,2024-08-22,GEO-0012,45,3,3494.45,1434.2099999999998,5,2025-09-02,2026-05-17,4,2,4,424,New Customers,3494.45,1164.82
+CUST-0716,Gary King,Consumer,Central,Minnesota,Minneapolis,2023-01-14,GEO-0032,87,4,662.1,324.56,9,2025-05-01,2026-04-05,4,3,2,432,Potential Loyalists,662.1,165.52
+CUST-0717,Melissa Carter,Consumer,South,Georgia,Atlanta,2022-04-02,GEO-0010,145,3,2828.5,952.97,8,2022-05-02,2026-02-06,3,2,3,323,Potential Loyalists,2828.5,942.83
+CUST-0718,Ashley Cruz,Consumer,East,Massachusetts,Boston,2023-07-05,GEO-0002,44,3,648.2,292.43,6,2023-11-01,2026-05-18,4,2,2,422,New Customers,648.2,216.07
+CUST-0719,Larry Davis,Consumer,West,Oregon,Portland,2022-06-25,GEO-0016,130,4,1765.75,821.8199999999999,10,2023-12-09,2026-02-21,3,3,3,333,Loyal Customers,1765.75,441.44
+CUST-0720,Christine Hall,Corporate,South,Florida,Orlando,2025-04-22,GEO-0021,263,1,950.0,346.69,1,2025-10-11,2025-10-11,2,1,2,212,Low-Value Customers,950.0,950.0
+CUST-0721,Dorothy Peterson,Consumer,Central,Minnesota,Minneapolis,2024-12-06,GEO-0032,210,2,142.0,63.81,3,2024-12-24,2025-12-03,2,2,1,221,Low-Value Customers,142.0,71.0
+CUST-0722,Rebecca Morgan,Corporate,South,Tennessee,Nashville,2025-03-18,GEO-0017,80,3,908.3,476.26,10,2025-06-05,2026-04-12,4,2,2,422,New Customers,908.3,302.77
+CUST-0723,Douglas Walker,Consumer,West,Washington,Spokane,2024-03-19,GEO-0007,204,4,1563.1999999999998,646.81,9,2024-12-06,2025-12-09,3,3,3,333,Loyal Customers,1563.2,390.8
+CUST-0724,Kelly Jones,Consumer,West,Nevada,Las Vegas,2022-09-04,GEO-0029,66,5,2738.4,1367.4,11,2022-11-07,2026-04-26,4,4,3,443,Loyal Customers,2738.4,547.68
+CUST-0725,Dennis Edwards,Consumer,East,New York,New York City,2023-03-10,GEO-0014,1172,2,5996.4,2396.64,4,2023-03-14,2023-04-16,1,2,4,124,At-Risk Customers,5996.4,2998.2
+CUST-0726,Diane Harris,Consumer,South,Florida,Tampa,2022-06-10,GEO-0009,1058,2,1127.8,615.1899999999999,9,2023-06-25,2023-08-08,1,2,2,122,Low-Value Customers,1127.8,563.9
+CUST-0727,Debra Parker,Consumer,West,Nevada,Las Vegas,2025-05-03,GEO-0029,126,9,2903.05,1163.6299999999999,18,2025-05-17,2026-02-25,3,5,3,353,Loyal Customers,2903.05,322.56
+CUST-0728,Ashley Green,Home Office,West,Washington,Seattle,2022-06-28,GEO-0020,2,2,300.0,131.47,6,2023-05-28,2026-06-29,5,2,1,521,New Customers,300.0,150.0
+CUST-0729,Deborah Bailey,Consumer,Central,Texas,San Antonio,2023-07-20,GEO-0001,941,1,1804.05,699.05,1,2023-12-03,2023-12-03,1,1,3,113,At-Risk Customers,1804.05,1804.05
+CUST-0730,Eric Collins,Home Office,West,California,Los Angeles,2025-06-30,GEO-0008,1,2,28.0,6.65,2,2026-02-10,2026-06-30,5,2,1,521,New Customers,28.0,14.0
+CUST-0731,Pamela Gutierrez,Corporate,West,Colorado,Denver,2024-04-28,GEO-0022,239,1,799.0,345.51,1,2025-11-04,2025-11-04,2,1,2,212,Low-Value Customers,799.0,799.0
+CUST-0732,Karen Jackson,Corporate,West,Oregon,Portland,2022-08-05,GEO-0016,50,15,7556.7,3193.74,22,2022-11-22,2026-05-12,4,5,5,455,Champions,7556.7,503.78
+CUST-0733,Larry Gonzalez,Corporate,Central,Ohio,Columbus,2024-04-21,GEO-0004,474,2,433.2,188.45,3,2024-12-31,2025-03-14,1,2,1,121,Low-Value Customers,433.2,216.6
+CUST-0734,Ashley Roberts,Corporate,South,Tennessee,Nashville,2022-03-18,GEO-0017,247,7,6563.0,2711.39,15,2022-06-27,2025-10-27,2,4,5,245,Loyal Customers,6563.0,937.57
+CUST-0735,Daniel Scott,Consumer,South,Florida,Miami,2022-03-21,GEO-0012,84,13,6754.9,2074.67,26,2022-05-20,2026-04-08,4,5,5,455,Champions,6754.9,519.61
+CUST-0736,Ronald Nelson,Corporate,West,California,San Jose,2024-08-31,GEO-0011,543,2,2288.1,748.3199999999999,9,2024-12-16,2025-01-04,1,2,3,123,At-Risk Customers,2288.1,1144.05
+CUST-0737,Christina Wright,Home Office,West,California,San Francisco,2023-11-23,GEO-0025,89,8,9445.15,3491.99,27,2023-12-21,2026-04-03,4,5,5,455,Champions,9445.15,1180.64
+CUST-0738,Jose Hill,Consumer,South,Virginia,Richmond,2022-07-21,GEO-0013,233,3,4696.9,1658.31,6,2023-11-10,2025-11-10,2,2,4,224,At-Risk Customers,4696.9,1565.63
+CUST-0739,Victoria Robinson,Consumer,South,Georgia,Atlanta,2023-10-20,GEO-0010,44,3,363.9,127.06,4,2024-05-23,2026-05-18,4,2,1,421,New Customers,363.9,121.3
+CUST-0740,Steven Turner,Corporate,West,Washington,Spokane,2023-01-20,GEO-0007,586,2,53.6,14.690000000000001,3,2023-10-07,2024-11-22,1,2,1,121,Low-Value Customers,53.6,26.8
+CUST-0741,Jeffrey Ramirez,Home Office,South,Florida,Orlando,2024-09-19,GEO-0021,518,1,490.2,297.65,4,2025-01-29,2025-01-29,1,1,1,111,Low-Value Customers,490.2,490.2
+CUST-0742,Ruth Gutierrez,Home Office,West,California,San Jose,2024-11-21,GEO-0011,36,7,5503.25,2142.29,17,2024-12-14,2026-05-26,5,4,4,544,Champions,5503.25,786.18
+CUST-0743,Heather Lee,Consumer,South,Florida,Miami,2022-10-05,GEO-0012,302,5,1371.1,548.4200000000001,14,2022-11-12,2025-09-02,2,4,2,242,At-Risk Customers,1371.1,274.22
+CUST-0744,Maria Ortiz,Home Office,West,California,San Francisco,2022-12-22,GEO-0025,55,3,1379.3,721.15,7,2023-11-07,2026-05-07,4,2,2,422,New Customers,1379.3,459.77
+CUST-0745,Matthew Sanchez,Home Office,East,New Jersey,Newark,2022-03-09,GEO-0018,40,16,7171.15,3301.37,33,2022-10-22,2026-05-22,4,5,5,455,Champions,7171.15,448.2
+CUST-0746,Ryan Miller,Home Office,East,Pennsylvania,Philadelphia,2023-07-16,GEO-0006,530,2,317.9,158.22,4,2024-04-11,2025-01-17,1,2,1,121,Low-Value Customers,317.9,158.95
+CUST-0747,Melissa Reyes,Consumer,West,Colorado,Denver,2022-03-04,GEO-0022,168,4,3934.9,1559.43,12,2024-06-06,2026-01-14,3,3,4,334,Loyal Customers,3934.9,983.72
+CUST-0748,Mark Mitchell,Consumer,South,Georgia,Atlanta,2022-12-30,GEO-0010,755,2,1480.5,553.49,11,2023-04-03,2024-06-06,1,2,2,122,Low-Value Customers,1480.5,740.25
+CUST-0749,Victoria Stewart,Corporate,Central,Ohio,Columbus,2023-12-07,GEO-0004,91,14,6663.6,2797.7200000000003,33,2023-12-25,2026-04-01,4,5,5,455,Champions,6663.6,475.97
+CUST-0750,Christopher King,Corporate,West,Washington,Spokane,2023-08-07,GEO-0007,22,6,6161.2,2387.04,12,2024-05-21,2026-06-09,5,4,5,545,Champions,6161.2,1026.87
+CUST-0751,Patricia Roberts,Consumer,East,Pennsylvania,Pittsburgh,2023-03-30,GEO-0031,379,2,1697.0,783.62,3,2023-09-08,2025-06-17,1,2,3,123,At-Risk Customers,1697.0,848.5
+CUST-0752,Samuel Lewis,Corporate,Central,Texas,Houston,2024-04-18,GEO-0023,316,1,198.0,45.68,3,2025-08-19,2025-08-19,2,1,1,211,Low-Value Customers,198.0,198.0
+CUST-0753,Shirley Williams,Home Office,West,California,Los Angeles,2024-08-28,GEO-0008,30,15,20158.2,8612.76,37,2024-09-02,2026-06-01,5,5,5,555,Champions,20158.2,1343.88
+CUST-0754,Peter Taylor,Corporate,West,California,Los Angeles,2023-04-04,GEO-0008,356,1,117.0,54.22,2,2025-07-10,2025-07-10,2,1,1,211,Low-Value Customers,117.0,117.0
+CUST-0755,Paul Flores,Corporate,Central,Texas,Houston,2024-05-17,GEO-0023,102,1,59.0,35.53,1,2026-03-21,2026-03-21,4,1,1,411,New Customers,59.0,59.0
+CUST-0756,Zachary Carter,Home Office,South,North Carolina,Charlotte,2023-06-01,GEO-0015,23,10,5860.65,2244.77,21,2023-06-13,2026-06-08,5,5,4,554,Champions,5860.65,586.06
+CUST-0757,Betty Reyes,Consumer,South,Florida,Miami,2025-04-12,GEO-0012,10,5,723.65,346.81,8,2025-07-31,2026-06-21,5,4,2,542,Potential Loyalists,723.65,144.73
+CUST-0758,Susan Smith,Consumer,Central,Ohio,Cleveland,2025-02-23,GEO-0030,27,14,7628.15,3120.42,32,2025-05-25,2026-06-04,5,5,5,555,Champions,7628.15,544.87
+CUST-0759,Samuel Torres,Consumer,West,Oregon,Portland,2024-09-13,GEO-0016,59,10,7635.450000000001,3132.9900000000002,26,2024-09-16,2026-05-03,4,5,5,455,Champions,7635.45,763.54
+CUST-0760,William Baker,Home Office,Central,Texas,San Antonio,2023-07-22,GEO-0001,502,4,615.6,281.45,6,2024-05-14,2025-02-14,1,3,2,132,At-Risk Customers,615.6,153.9
+CUST-0761,Ashley Hill,Consumer,East,New Jersey,Newark,2022-04-27,GEO-0018,351,7,3629.25,1362.28,14,2023-02-22,2025-07-15,2,4,4,244,Loyal Customers,3629.25,518.46
+CUST-0762,Diane Phillips,Corporate,West,Arizona,Phoenix,2022-02-22,GEO-0026,325,4,1204.0,551.28,7,2024-11-14,2025-08-10,2,3,2,232,At-Risk Customers,1204.0,301.0
+CUST-0763,Katherine Murphy,Home Office,Central,Illinois,Chicago,2024-05-07,GEO-0003,66,5,2344.45,861.9399999999999,19,2025-03-07,2026-04-26,4,4,3,443,Loyal Customers,2344.45,468.89
+CUST-0764,Stephanie Roberts,Corporate,East,Pennsylvania,Philadelphia,2023-12-04,GEO-0006,26,13,4872.200000000001,2089.56,23,2023-12-08,2026-06-05,5,5,4,554,Champions,4872.2,374.78
+CUST-0765,Patrick Lewis,Corporate,South,Tennessee,Nashville,2024-01-05,GEO-0017,507,3,1290.0,688.9300000000001,9,2024-02-13,2025-02-09,1,2,2,122,Low-Value Customers,1290.0,430.0
+CUST-0766,Nicholas Hill,Home Office,East,New York,Buffalo,2023-08-25,GEO-0028,28,5,1738.9,795.45,9,2024-10-02,2026-06-03,5,4,3,543,Loyal Customers,1738.9,347.78
+CUST-0767,Richard Stewart,Consumer,Central,Illinois,Chicago,2025-02-18,GEO-0003,29,6,2498.95,1098.54,19,2025-03-30,2026-06-02,5,4,3,543,Loyal Customers,2498.95,416.49
+CUST-0768,Ruth White,Home Office,Central,Michigan,Detroit,2022-07-02,GEO-0024,293,5,4135.0,1368.63,9,2022-08-15,2025-09-11,2,4,4,244,Loyal Customers,4135.0,827.0
+CUST-0769,Donald Rivera,Consumer,Central,Texas,Austin,2024-05-11,GEO-0027,21,7,7749.45,2922.08,22,2024-05-31,2026-06-10,5,4,5,545,Champions,7749.45,1107.06
+CUST-0770,Tyler Nelson,Consumer,Central,Texas,Dallas,2024-08-07,GEO-0019,218,1,223.3,58.52,1,2025-11-25,2025-11-25,2,1,1,211,Low-Value Customers,223.3,223.3
+CUST-0771,Nathan Thomas,Consumer,West,Washington,Seattle,2024-08-25,GEO-0020,22,1,59.0,31.28,1,2026-06-09,2026-06-09,5,1,1,511,New Customers,59.0,59.0
+CUST-0772,Olivia Harris,Consumer,Central,Minnesota,Minneapolis,2024-12-21,GEO-0032,47,4,4744.3,2112.23,16,2025-05-03,2026-05-15,4,3,4,434,Loyal Customers,4744.3,1186.08
+CUST-0773,Kenneth Evans,Consumer,West,Nevada,Las Vegas,2022-10-09,GEO-0029,197,1,18.05,7.65,1,2025-12-16,2025-12-16,3,1,1,311,Low-Value Customers,18.05,18.05
+CUST-0774,Lisa Baker,Consumer,South,North Carolina,Charlotte,2022-10-21,GEO-0015,267,5,6478.45,2305.1,11,2023-05-11,2025-10-07,2,4,5,245,Loyal Customers,6478.45,1295.69
+CUST-0775,Joshua White,Corporate,South,Virginia,Richmond,2023-11-13,GEO-0013,530,2,1118.2,470.01,2,2024-11-06,2025-01-17,1,2,2,122,Low-Value Customers,1118.2,559.1
+CUST-0776,Benjamin Thompson,Consumer,West,California,San Jose,2022-01-10,GEO-0011,1284,1,756.0,372.66,4,2022-12-25,2022-12-25,1,1,2,112,Low-Value Customers,756.0,756.0
+CUST-0777,Laura Scott,Consumer,East,New York,New York City,2025-03-26,GEO-0014,11,6,1817.3999999999999,735.59,11,2025-10-08,2026-06-20,5,4,3,543,Loyal Customers,1817.4,302.9
+CUST-0778,Ruth Lee,Consumer,West,Washington,Spokane,2022-09-23,GEO-0007,38,7,4820.25,1740.7,20,2023-10-20,2026-05-24,4,5,4,454,Champions,4820.25,688.61
+CUST-0779,Brandon Parker,Corporate,South,Florida,Miami,2024-05-28,GEO-0012,52,12,11709.199999999999,4501.86,29,2024-07-16,2026-05-10,4,5,5,455,Champions,11709.2,975.77
+CUST-0780,Kathleen Roberts,Consumer,East,Pennsylvania,Philadelphia,2024-02-04,GEO-0006,487,2,1241.9,426.65,4,2024-02-20,2025-03-01,1,2,2,122,Low-Value Customers,1241.9,620.95
+CUST-0781,Mary Adams,Corporate,East,Pennsylvania,Philadelphia,2022-02-06,GEO-0006,30,6,14878.05,5698.38,18,2022-03-31,2026-06-01,5,4,5,545,Champions,14878.05,2479.67
+CUST-0782,Frank Smith,Corporate,East,New Jersey,Newark,2023-04-09,GEO-0018,109,1,329.0,142.41,1,2026-03-14,2026-03-14,3,1,1,311,Low-Value Customers,329.0,329.0
+CUST-0783,Alexander Hall,Consumer,West,Oregon,Portland,2024-02-25,GEO-0016,752,1,4347.0,1776.36,3,2024-06-09,2024-06-09,1,1,4,114,At-Risk Customers,4347.0,4347.0
+CUST-0784,Nicholas Flores,Consumer,West,California,San Diego,2023-09-03,GEO-0005,971,1,498.0,246.57,2,2023-11-03,2023-11-03,1,1,1,111,Low-Value Customers,498.0,498.0
+CUST-0785,Donna Collins,Corporate,Central,Michigan,Detroit,2024-06-07,GEO-0024,35,6,4222.4,1843.46,20,2024-08-02,2026-05-27,5,4,4,544,Champions,4222.4,703.73
+CUST-0786,Olivia Moore,Consumer,South,Virginia,Richmond,2024-01-06,GEO-0013,637,2,319.05,165.38,4,2024-05-08,2024-10-02,1,2,1,121,Low-Value Customers,319.05,159.52
+CUST-0787,Dennis Harris,Consumer,South,Florida,Miami,2022-02-09,GEO-0012,1095,1,89.1,40.24,1,2023-07-02,2023-07-02,1,1,1,111,Low-Value Customers,89.1,89.1
+CUST-0788,Dorothy Lewis,Corporate,West,Arizona,Phoenix,2023-03-09,GEO-0026,212,13,6485.95,2687.16,22,2024-01-16,2025-12-01,2,5,5,255,Loyal Customers,6485.95,498.92
+CUST-0789,Carolyn Williams,Corporate,East,New York,New York City,2022-09-10,GEO-0014,186,4,2565.1,1121.0,6,2023-02-09,2025-12-27,3,3,3,333,Loyal Customers,2565.1,641.28
+CUST-0790,George Jones,Consumer,Central,Illinois,Chicago,2024-12-31,GEO-0003,489,1,37.05,17.72,1,2025-02-27,2025-02-27,1,1,1,111,Low-Value Customers,37.05,37.05
+CUST-0791,Emma Miller,Corporate,West,California,San Jose,2022-08-10,GEO-0011,165,1,379.05,183.59,1,2026-01-17,2026-01-17,3,1,1,311,Low-Value Customers,379.05,379.05
+CUST-0792,Katherine Williams,Consumer,West,Colorado,Denver,2024-05-03,GEO-0022,9,2,410.4,195.7,10,2024-11-28,2026-06-22,5,2,1,521,New Customers,410.4,205.2
+CUST-0793,Jeffrey Carter,Consumer,Central,Illinois,Chicago,2024-08-29,GEO-0003,59,7,4985.6,1791.3400000000001,16,2024-12-31,2026-05-03,4,5,4,454,Champions,4985.6,712.23
+CUST-0794,Rachel Martin,Consumer,West,California,Los Angeles,2023-09-09,GEO-0008,215,8,3468.8500000000004,1459.15,12,2024-01-18,2025-11-28,2,5,4,254,Loyal Customers,3468.85,433.61
+CUST-0795,Rebecca Gonzalez,Corporate,Central,Texas,Houston,2025-06-29,GEO-0023,119,4,1663.05,694.5699999999999,5,2025-09-13,2026-03-04,3,3,3,333,Loyal Customers,1663.05,415.76
+CUST-0796,Nicole Moore,Consumer,West,Oregon,Portland,2024-11-13,GEO-0016,30,5,2104.2,569.15,7,2025-07-15,2026-06-01,5,4,3,543,Loyal Customers,2104.2,420.84
+CUST-0797,Patrick Thomas,Consumer,West,Oregon,Portland,2024-10-16,GEO-0016,272,4,1171.55,536.11,11,2024-10-23,2025-10-02,2,3,2,232,At-Risk Customers,1171.55,292.89
+CUST-0798,Lisa Sanchez,Corporate,East,Pennsylvania,Philadelphia,2024-01-04,GEO-0006,468,1,106.4,38.26,4,2025-03-20,2025-03-20,1,1,1,111,Low-Value Customers,106.4,106.4
+CUST-0799,Raymond Evans,Consumer,West,California,San Diego,2025-01-27,GEO-0005,23,1,84.55,45.64,1,2026-06-08,2026-06-08,5,1,1,511,New Customers,84.55,84.55
+CUST-0800,Amy Clark,Corporate,South,Tennessee,Nashville,2023-11-09,GEO-0017,707,1,129.2,50.22,4,2024-07-24,2024-07-24,1,1,1,111,Low-Value Customers,129.2,129.2
+CUST-0801,Mark Smith,Consumer,West,Washington,Spokane,2022-08-15,GEO-0007,55,5,9356.15,3715.35,15,2022-11-24,2026-05-07,4,4,5,445,Champions,9356.15,1871.23
+CUST-0802,Adam Murphy,Consumer,West,Washington,Spokane,2024-11-13,GEO-0007,424,1,1596.0,813.47,4,2025-05-03,2025-05-03,1,1,3,113,At-Risk Customers,1596.0,1596.0
+CUST-0803,Elizabeth Gonzalez,Home Office,East,Massachusetts,Boston,2024-07-24,GEO-0002,276,2,4202.1,1724.89,6,2024-10-30,2025-09-28,2,2,4,224,At-Risk Customers,4202.1,2101.05
+CUST-0804,Donna King,Consumer,West,Oregon,Portland,2022-12-24,GEO-0016,303,6,406.55,153.25,15,2023-07-23,2025-09-01,2,4,1,241,At-Risk Customers,406.55,67.76
+CUST-0805,Victoria Garcia,Home Office,Central,Ohio,Cleveland,2023-10-03,GEO-0030,425,5,9040.6,3502.63,14,2024-02-24,2025-05-02,1,4,5,145,Loyal Customers,9040.6,1808.12
+CUST-0806,Jason Anderson,Consumer,West,California,San Diego,2022-01-20,GEO-0005,68,3,3555.3,1361.26,5,2023-10-15,2026-04-24,4,2,4,424,New Customers,3555.3,1185.1
+CUST-0807,Joyce Moore,Corporate,East,New York,New York City,2023-11-05,GEO-0014,207,5,4799.549999999999,1816.22,10,2023-12-16,2025-12-06,3,4,4,344,Loyal Customers,4799.55,959.91
+CUST-0808,Amanda Cruz,Home Office,Central,Texas,Houston,2022-07-10,GEO-0023,258,1,258.0,160.1,2,2025-10-16,2025-10-16,2,1,1,211,Low-Value Customers,258.0,258.0
+CUST-0809,Melissa Baker,Consumer,South,Florida,Miami,2024-03-30,GEO-0012,350,4,1087.4,589.2600000000001,9,2024-06-04,2025-07-16,2,3,2,232,At-Risk Customers,1087.4,271.85
+CUST-0810,Ryan Wright,Home Office,South,Tennessee,Nashville,2024-05-13,GEO-0017,210,5,3248.15,1270.46,10,2024-11-27,2025-12-03,2,4,4,244,Loyal Customers,3248.15,649.63
+CUST-0811,Katherine Perez,Consumer,West,California,San Jose,2022-11-23,GEO-0011,1156,2,2673.65,1120.26,3,2022-12-07,2023-05-02,1,2,3,123,At-Risk Customers,2673.65,1336.82
+CUST-0812,Susan Turner,Home Office,South,Tennessee,Nashville,2025-03-11,GEO-0017,142,3,1075.9,477.41999999999996,6,2025-10-05,2026-02-09,3,2,2,322,Potential Loyalists,1075.9,358.63
+CUST-0813,Frank Cruz,Consumer,Central,Minnesota,Minneapolis,2024-01-05,GEO-0032,201,3,2092.3,708.22,4,2024-07-02,2025-12-12,3,3,3,333,Loyal Customers,2092.3,697.43
+CUST-0814,Brandon Brown,Home Office,West,Arizona,Phoenix,2024-09-16,GEO-0026,218,3,437.90000000000003,194.65,4,2024-11-14,2025-11-25,2,3,1,231,At-Risk Customers,437.9,145.97
+CUST-0815,Christina Morales,Consumer,South,Florida,Orlando,2024-06-21,GEO-0021,346,4,905.5,404.02,10,2024-06-21,2025-07-20,2,3,2,232,At-Risk Customers,905.5,226.38
+CUST-0816,Jennifer Rodriguez,Consumer,Central,Texas,San Antonio,2022-01-26,GEO-0001,63,16,2294.7999999999997,1075.29,26,2022-01-31,2026-04-29,4,5,3,453,Loyal Customers,2294.8,143.42
+CUST-0817,Raymond Ortiz,Corporate,East,Massachusetts,Boston,2023-11-24,GEO-0002,568,2,271.05,135.42,4,2023-12-05,2024-12-10,1,2,1,121,Low-Value Customers,271.05,135.52
+CUST-0818,Eric Gutierrez,Corporate,West,Oregon,Portland,2024-06-05,GEO-0016,81,2,429.0,187.20999999999998,6,2025-10-08,2026-04-11,4,2,1,421,New Customers,429.0,214.5
+CUST-0819,Gregory Young,Consumer,Central,Minnesota,Minneapolis,2022-11-01,GEO-0032,84,6,8201.7,3761.24,12,2023-06-25,2026-04-08,4,4,5,445,Champions,8201.7,1366.95
+CUST-0820,Julie Bailey,Home Office,West,California,San Jose,2022-01-24,GEO-0011,159,5,998.9499999999999,241.26,9,2022-05-11,2026-01-23,3,4,2,342,Potential Loyalists,998.95,199.79
+CUST-0821,Samuel Lee,Consumer,South,Tennessee,Nashville,2024-10-12,GEO-0017,86,5,3097.3,1021.2300000000001,7,2024-10-20,2026-04-06,4,4,3,443,Loyal Customers,3097.3,619.46
+CUST-0822,Victoria Perez,Consumer,South,Virginia,Richmond,2023-10-19,GEO-0013,519,6,1636.6,696.73,15,2023-11-07,2025-01-28,1,4,3,143,Loyal Customers,1636.6,272.77
+CUST-0823,Mark Nelson,Home Office,West,California,San Jose,2024-11-04,GEO-0011,64,6,5844.6,2336.13,11,2025-03-06,2026-04-28,4,4,4,444,Champions,5844.6,974.1
+CUST-0824,Donald Peterson,Corporate,South,Florida,Miami,2023-04-27,GEO-0012,102,10,13774.7,5443.22,27,2023-07-16,2026-03-21,4,5,5,455,Champions,13774.7,1377.47
+CUST-0825,David Collins,Consumer,South,Georgia,Atlanta,2022-06-30,GEO-0010,416,2,286.1,103.38000000000001,9,2024-11-26,2025-05-11,1,2,1,121,Low-Value Customers,286.1,143.05
+CUST-0826,Joyce Murphy,Consumer,West,Colorado,Denver,2024-10-15,GEO-0022,159,3,1618.0,697.84,6,2025-09-04,2026-01-23,3,3,3,333,Loyal Customers,1618.0,539.33
+CUST-0827,Janet Williams,Consumer,South,Florida,Orlando,2022-03-15,GEO-0021,378,4,6354.25,2235.0,9,2022-10-21,2025-06-18,1,3,5,135,Loyal Customers,6354.25,1588.56
+CUST-0828,Anna Peterson,Consumer,West,Washington,Spokane,2025-05-22,GEO-0007,251,2,56.4,23.900000000000002,2,2025-09-16,2025-10-23,2,2,1,221,Low-Value Customers,56.4,28.2
+CUST-0829,Emma Hill,Home Office,East,Pennsylvania,Pittsburgh,2024-07-23,GEO-0031,129,2,864.0,446.39,6,2025-10-21,2026-02-22,3,2,2,322,Potential Loyalists,864.0,432.0
+CUST-0830,Michelle Campbell,Home Office,East,Massachusetts,Boston,2024-07-19,GEO-0002,16,3,4462.55,1620.84,7,2024-12-27,2026-06-15,5,3,4,534,Loyal Customers,4462.55,1487.52
+CUST-0831,Kevin Bailey,Corporate,South,Tennessee,Nashville,2024-01-15,GEO-0017,53,4,1685.7,692.5,18,2024-03-01,2026-05-09,4,3,3,433,Loyal Customers,1685.7,421.42
+CUST-0832,Catherine Edwards,Consumer,East,Massachusetts,Boston,2022-01-05,GEO-0002,564,6,2019.8000000000002,980.8299999999999,17,2023-09-01,2024-12-14,1,4,3,143,Loyal Customers,2019.8,336.63
+CUST-0833,Michelle Rivera,Home Office,Central,Texas,Dallas,2025-01-26,GEO-0019,121,4,2598.8,1153.3,5,2025-07-13,2026-03-02,3,3,3,333,Loyal Customers,2598.8,649.7
+CUST-0834,Eric Mitchell,Corporate,West,California,San Diego,2022-12-03,GEO-0005,45,7,3633.0,1635.78,28,2023-02-07,2026-05-17,4,5,4,454,Champions,3633.0,519.0
+CUST-0835,Amy Moore,Home Office,South,Florida,Orlando,2022-08-08,GEO-0021,1,1,598.0,306.38,2,2026-06-30,2026-06-30,5,1,2,512,New Customers,598.0,598.0
+CUST-0836,Paul Sanchez,Consumer,South,Florida,Miami,2023-03-18,GEO-0012,449,5,5582.25,2326.14,8,2023-04-12,2025-04-08,1,4,4,144,Loyal Customers,5582.25,1116.45
+CUST-0837,Ryan Harris,Corporate,West,Oregon,Portland,2024-04-28,GEO-0016,8,7,4642.7,1819.54,14,2024-06-01,2026-06-23,5,5,4,554,Champions,4642.7,663.24
+CUST-0838,Jennifer Thomas,Corporate,South,Georgia,Atlanta,2024-07-25,GEO-0010,204,9,3110.0,1200.55,20,2024-08-01,2025-12-09,3,5,3,353,Loyal Customers,3110.0,345.56
+CUST-0839,Gregory Cook,Consumer,South,Virginia,Richmond,2022-01-09,GEO-0013,734,3,1325.8,554.84,8,2022-05-25,2024-06-27,1,3,2,132,At-Risk Customers,1325.8,441.93
+CUST-0840,Angela Miller,Corporate,South,Florida,Tampa,2025-04-13,GEO-0009,170,3,286.2,125.19999999999999,7,2025-08-06,2026-01-12,3,3,1,331,Potential Loyalists,286.2,95.4
+CUST-0841,Kathleen Rogers,Corporate,East,New York,Buffalo,2025-03-30,GEO-0028,199,5,3575.4,1475.9899999999998,7,2025-05-20,2025-12-14,3,4,4,344,Loyal Customers,3575.4,715.08
+CUST-0842,Daniel Taylor,Consumer,Central,Texas,San Antonio,2024-10-29,GEO-0001,185,5,7120.45,2823.57,14,2024-11-12,2025-12-28,3,4,5,345,Loyal Customers,7120.45,1424.09
+CUST-0843,Douglas Roberts,Consumer,East,New Jersey,Newark,2023-07-15,GEO-0018,35,3,870.7,337.07000000000005,3,2024-05-26,2026-05-27,5,3,2,532,Potential Loyalists,870.7,290.23
+CUST-0844,Ronald Baker,Home Office,South,Georgia,Atlanta,2022-10-01,GEO-0010,532,3,286.70000000000005,136.26,3,2023-06-17,2025-01-15,1,3,1,131,At-Risk Customers,286.7,95.57
+CUST-0845,Sarah Evans,Corporate,Central,Texas,Austin,2025-01-26,GEO-0027,102,7,2494.2,1105.6599999999999,12,2025-02-22,2026-03-21,4,5,3,453,Loyal Customers,2494.2,356.31
+CUST-0846,Henry Green,Corporate,East,Pennsylvania,Pittsburgh,2023-02-16,GEO-0031,80,10,5501.299999999999,1993.27,20,2023-03-30,2026-04-12,4,5,4,454,Champions,5501.3,550.13
+CUST-0847,Anthony Nguyen,Corporate,West,Arizona,Phoenix,2022-12-31,GEO-0026,343,3,701.7,334.80000000000007,4,2023-10-02,2025-07-23,2,3,2,232,At-Risk Customers,701.7,233.9
+CUST-0848,Nicholas Cooper,Corporate,Central,Texas,San Antonio,2022-08-25,GEO-0001,59,6,3487.95,1525.5700000000002,12,2023-11-02,2026-05-03,4,4,4,444,Champions,3487.95,581.32
+CUST-0849,Ruth Rivera,Corporate,South,Florida,Orlando,2024-12-29,GEO-0021,17,14,24835.85,9284.2,47,2025-01-18,2026-06-14,5,5,5,555,Champions,24835.85,1773.99
+CUST-0850,Andrew Diaz,Corporate,West,Oregon,Portland,2022-02-21,GEO-0016,61,11,17791.9,6329.17,23,2022-09-04,2026-05-01,4,5,5,455,Champions,17791.9,1617.45

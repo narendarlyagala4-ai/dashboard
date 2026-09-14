@@ -1,0 +1,61 @@
+Product ID,Product Name,Category,Sub-Category,Cost,Selling Price
+PROD-0001,Apex Pro Smartphone 128GB,Technology,Phones,450.0,799.0
+PROD-0002,Horizon 5G Mobile 256GB,Technology,Phones,520.0,899.0
+PROD-0003,Vortex Lite Phone 64GB,Technology,Phones,220.0,399.0
+PROD-0004,Nova Flagship 512GB,Technology,Phones,680.0,1099.0
+PROD-0005,Echo Flip Smartphone,Technology,Phones,600.0,950.0
+PROD-0006,TitanBook Pro 15-inch,Technology,Laptops,750.0,1299.0
+PROD-0007,UltraSlim Laptop 13-inch,Technology,Laptops,580.0,999.0
+PROD-0008,Spectra Gaming Rig 17-inch,Technology,Laptops,1100.0,1899.0
+PROD-0009,CoreBook Student Edition,Technology,Laptops,320.0,549.0
+PROD-0010,Zenith Carbon Touch 14-inch,Technology,Laptops,850.0,1449.0
+PROD-0011,Quantum Wireless Earbuds,Technology,Accessories,45.0,129.0
+PROD-0012,HyperCharge 100W GaN Block,Technology,Accessories,18.0,59.0
+PROD-0013,ErgoTrack Bluetooth Mouse,Technology,Accessories,22.0,69.0
+PROD-0014,MechStrike RGB Keyboard,Technology,Accessories,55.0,149.0
+PROD-0015,4K Ultra-Wide USB-C Hub,Technology,Accessories,35.0,89.0
+PROD-0016,Canon ImageRunner Multi-function,Technology,Copiers & Printers,900.0,1699.0
+PROD-0017,HP Color LaserJet Pro Office,Technology,Copiers & Printers,380.0,699.0
+PROD-0018,Brother Compact Monochrome Laser,Technology,Copiers & Printers,110.0,199.0
+PROD-0019,Epson EcoTank Wireless All-in-One,Technology,Copiers & Printers,180.0,329.0
+PROD-0020,ErgoComfort Mesh Executive Chair,Furniture,Chairs,160.0,349.0
+PROD-0021,HighBack Leather Swivel Chair,Furniture,Chairs,190.0,399.0
+PROD-0022,ErgoFlex Lumbar Task Chair,Furniture,Chairs,95.0,219.0
+PROD-0023,Minimalist Wooden Dining Chair Set,Furniture,Chairs,120.0,249.0
+PROD-0024,AeroGamer Ergonomic Recliner,Furniture,Chairs,140.0,299.0
+PROD-0025,Nordic Solid Oak Dining Table,Furniture,Tables,380.0,649.0
+PROD-0026,Dual-Motor Electric Standing Desk,Furniture,Tables,280.0,499.0
+PROD-0027,Compact Folding Coffee Table,Furniture,Tables,75.0,139.0
+PROD-0028,Industrial Steel Frame Meeting Table,Furniture,Tables,450.0,799.0
+PROD-0029,Modern Minimalist Workstation Desk,Furniture,Tables,180.0,319.0
+PROD-0030,Scandinavian 5-Tier Bookshelf,Furniture,Bookcases,110.0,229.0
+PROD-0031,Modular Floating Wall Shelf Unit,Furniture,Bookcases,45.0,99.0
+PROD-0032,Heavy Duty Industrial Bookcase,Furniture,Bookcases,160.0,319.0
+PROD-0033,Corner Display Bookcase,Furniture,Bookcases,85.0,169.0
+PROD-0034,Architect LED Task Lamp,Furniture,Furnishings,25.0,65.0
+PROD-0035,Acoustic Foam Soundproof Panels,Furniture,Furnishings,30.0,75.0
+PROD-0036,Anti-Fatigue Standing Mat,Furniture,Furnishings,20.0,49.0
+PROD-0037,Luxury Wool Area Rug 5x7,Furniture,Furnishings,90.0,210.0
+PROD-0038,Lockable 3-Drawer Steel Cabinet,Office Supplies,Storage,95.0,189.0
+PROD-0039,Clear Acrylic Desktop Organizer,Office Supplies,Storage,12.0,32.0
+PROD-0040,Heavy Duty Storage Totes 4-Pack,Office Supplies,Storage,28.0,69.0
+PROD-0041,Stackable Document File Boxes,Office Supplies,Storage,15.0,39.0
+PROD-0042,Premium Sketch & Marker Set 80pc,Office Supplies,Art,18.0,49.0
+PROD-0043,Precision Guillotine Paper Cutter,Office Supplies,Art,24.0,59.0
+PROD-0044,Magnetic Whiteboard 36x24 with Marker Kit,Office Supplies,Art,32.0,79.0
+PROD-0045,Heavy-Duty Metal Drafting Easel,Office Supplies,Art,45.0,110.0
+PROD-0046,Premium Multipurpose Copy Paper 5 Reams,Office Supplies,Paper,14.0,34.0
+PROD-0047,Recycled Glossy Photo Paper 100pk,Office Supplies,Paper,9.0,24.0
+PROD-0048,Heavy Cardstock 250 Sheets,Office Supplies,Paper,11.0,28.0
+PROD-0049,Dot-Grid Executive Notebooks 3-Pack,Office Supplies,Paper,8.0,22.0
+PROD-0050,Heavy Duty D-Ring Binder 3-inch 6pk,Office Supplies,Binders,16.0,42.0
+PROD-0051,Presentation Display Book 40 Pockets,Office Supplies,Binders,6.0,18.0
+PROD-0052,Clear Sheet Protectors 200pk,Office Supplies,Binders,7.0,19.0
+PROD-0053,Color-Coded Tab Dividers 12-Set,Office Supplies,Binders,4.0,12.0
+PROD-0054,Office Espresso & Coffee Machine,Office Supplies,Appliances,140.0,299.0
+PROD-0055,Compact Countertop Microwave Oven,Office Supplies,Appliances,65.0,139.0
+PROD-0056,Mini Fridge with Freezer 3.2 Cu Ft,Office Supplies,Appliances,110.0,229.0
+PROD-0057,Personal Ceramic Space Heater,Office Supplies,Appliances,18.0,45.0
+PROD-0058,High-Capacity Heavy Duty Stapler,Office Supplies,Fasteners,12.0,29.0
+PROD-0059,Assorted Binder Clips & Paper Clips Tub,Office Supplies,Fasteners,4.0,11.0
+PROD-0060,Velcro Cable Management Straps 50pk,Office Supplies,Fasteners,5.0,14.0
