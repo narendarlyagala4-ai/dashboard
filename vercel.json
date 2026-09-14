@@ -1,0 +1,13 @@
+{
+  "cleanUrls": true,
+  "rewrites": [
+    {
+      "source": "/",
+      "destination": "/dashboard_app/index.html"
+    },
+    {
+      "source": "/(.*)",
+      "destination": "/dashboard_app/$1"
+    }
+  ]
+}
